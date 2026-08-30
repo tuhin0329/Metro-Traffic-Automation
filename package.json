@@ -1,0 +1,10 @@
+{
+  "name": "kolkata-metro-bus-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "puppeteer": "^22.0.0"
+  }
+}

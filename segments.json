@@ -1,0 +1,352 @@
+[
+  {
+    "id": "MC-01",
+    "line": "Blue",
+    "from": "Dakshineswar",
+    "to": "Esplanade",
+    "is_master": true,
+    "primary_bus": "S57",
+    "backup_buses": [],
+    "from_metro": "22.65408622426736, 88.3638931615659",
+    "to_metro": "22.56332388578194, 88.35097323696145",
+    "from_bus": "22.653470631102078, 88.36329672160596",
+    "to_bus": "22.565526630304912, 88.35191115008645"
+  },
+  {
+    "id": "MC-02",
+    "line": "Blue",
+    "from": "Shahid Khudiram",
+    "to": "Esplanade",
+    "is_master": true,
+    "primary_bus": "80A",
+    "backup_buses": [],
+    "from_metro": "22.465946339146456, 88.39148389484731",
+    "to_metro": "22.563407258913113, 88.35082136993195",
+    "from_bus": "22.465770952297937, 88.39125459325328",
+    "to_bus": "22.565704822386092, 88.34815657385649"
+  },
+  {
+    "id": "MC-03",
+    "line": "Blue",
+    "from": "Dum Dum",
+    "to": "Shyambazar",
+    "is_master": false,
+    "primary_bus": "S57",
+    "backup_buses": [
+      "78",
+      "230",
+      "234"
+    ],
+    "from_metro": "22.60114409409769, 88.37174418710362",
+    "to_metro": "22.62108882812566, 88.39289358960224",
+    "from_bus": "22.619692296367923, 88.39237928408745",
+    "to_bus": "22.601239886030164, 88.3721488561424"
+  },
+  {
+    "id": "MC-04",
+    "line": "Blue",
+    "from": "Shyambazar",
+    "to": "Esplanade",
+    "is_master": false,
+    "primary_bus": "S57",
+    "backup_buses": [
+      "78",
+      "34B"
+    ],
+    "from_metro": "22.601141185212022, 88.37174505111712",
+    "to_metro": "22.56331766455275, 88.35096535327409",
+    "from_bus": "22.60124264043918, 88.37214562837053",
+    "to_bus": "22.56277475918881, 88.35123017998633"
+  },
+  {
+    "id": "MC-05",
+    "line": "Blue",
+    "from": "Kalighat",
+    "to": "Esplanade",
+    "is_master": false,
+    "primary_bus": "80A",
+    "backup_buses": [
+      "SD-8"
+    ],
+    "from_metro": "22.517906901451177, 88.34590869606276",
+    "to_metro": "22.56340531436999, 88.35082531524556",
+    "from_bus": "22.51769869506588, 88.34577944660832",
+    "to_bus": "22.56310259775771, 88.35081410441231"
+  },
+  {
+    "id": "MC-06",
+    "line": "Blue",
+    "from": "Dakshineswar",
+    "to": "Dum Dum",
+    "is_master": false,
+    "primary_bus": "S57",
+    "backup_buses": [],
+    "from_metro": "22.6540923709464, 88.36389061652439",
+    "to_metro": "22.621089600101637, 88.3928950448739",
+    "from_bus": "22.65347920625951, 88.36329287332482",
+    "to_bus": "22.620263585465377, 88.39507060497814"
+  },
+  {
+    "id": "MC-07",
+    "line": "Blue",
+    "from": "Esplanade",
+    "to": "Mahanayak Uttam Kumar (Tollygunge)",
+    "is_master": false,
+    "primary_bus": "S57",
+    "backup_buses": [],
+    "from_metro": "22.563314553082982, 88.35096327476117",
+    "to_metro": "22.49445430617675, 88.34501604298909",
+    "from_bus": "22.562779408035617, 88.35122852665252",
+    "to_bus": "22.49353449492922, 88.34552701463664"
+  },
+  {
+    "id": "MC-08",
+    "line": "Blue",
+    "from": "Mahanayak Uttam Kumar (Tollygunge)",
+    "to": "Kavi Subhash",
+    "is_master": false,
+    "primary_bus": "S57",
+    "backup_buses": [],
+    "from_metro": "22.494457266465602, 88.34501768725092",
+    "to_metro": "22.46599521858262, 88.39161942984246",
+    "from_bus": "22.49353226917245, 88.34552508357254",
+    "to_bus": "22.46577477054952, 88.39125178068097"
+  },
+  {
+    "line": "Blue",
+    "from": "Dum Dum",
+    "to": "Esplanade",
+    "is_master": false,
+    "primary_bus": "S57",
+    "backup_buses": [],
+    "id": "MC-09",
+    "from_metro": "22.621090279595965, 88.39289769356166",
+    "to_metro": "22.563313637513502, 88.35096585729522",
+    "from_bus": "22.619691373499503, 88.39238432779209",
+    "to_bus": "22.562776551520415, 88.35122934709021"
+  },
+  {
+    "id": "MC-10",
+    "line": "Green",
+    "from": "Howrah",
+    "to": "Salt Lake Sector V",
+    "is_master": true,
+    "primary_bus": "S173",
+    "backup_buses": [
+      "S59"
+    ],
+    "from_metro": "22.583152752317375, 88.34091086734904",
+    "to_metro": "22.580802736862815, 88.42874609052866",
+    "from_bus": "22.585481422882026, 88.34319081340925",
+    "to_bus": "22.578834644187985, 88.4268771983489"
+  },
+  {
+    "id": "MC-11",
+    "line": "Green",
+    "from": "Sealdah",
+    "to": "Salt Lake Sector V",
+    "is_master": false,
+    "primary_bus": "S173",
+    "backup_buses": [
+      "S59"
+    ],
+    "from_metro": "22.56653537205136, 88.37084434265347",
+    "to_metro": "22.580802736862815, 88.42874609052866",
+    "from_bus": "22.565377208618216, 88.37030316255107",
+    "to_bus": "22.578834644187985, 88.4268771983489"
+  },
+  {
+    "id": "MC-12",
+    "line": "Green",
+    "from": "Howrah",
+    "to": "Sealdah",
+    "is_master": false,
+    "primary_bus": "S3W",
+    "backup_buses": [],
+    "from_metro": "22.582442927650266, 88.33313796469778",
+    "to_metro": "22.566534983735075, 88.37084715512108",
+    "from_bus": "22.582167992741827, 88.3331488434324",
+    "to_bus": "22.56574548556829, 88.369518172247"
+  },
+  {
+    "id": "MC-13",
+    "line": "Green",
+    "from": "Phoolbagan",
+    "to": "Salt Lake Sector V",
+    "is_master": false,
+    "primary_bus": "S3W",
+    "backup_buses": [],
+    "from_metro": "22.572130242856794, 88.3897622674801",
+    "to_metro": "22.580799830051962, 88.42874387831765",
+    "from_bus": "22.571589178210772, 88.3894765190681",
+    "to_bus": "22.578830665755323, 88.42687785497624"
+  },
+  {
+    "line": "Green",
+    "from": "Howrah",
+    "to": "Phoolbagan",
+    "is_master": false,
+    "primary_bus": "S173",
+    "backup_buses": [],
+    "id": "MC-14",
+    "from_metro": "22.583152752317375, 88.34091086734904",
+    "to_metro": "22.572130242856794, 88.3897622674801",
+    "from_bus": "22.585481422882026, 88.34319081340925",
+    "to_bus": "22.571589178210772, 88.3894765190681"
+  },
+  {
+    "line": "Green",
+    "from": "Esplanade",
+    "to": "Salt Lake Sector V",
+    "is_master": false,
+    "primary_bus": "S173",
+    "backup_buses": [],
+    "id": "MC-15",
+    "from_metro": "22.564398133282292, 88.35007160028867",
+    "to_metro": "22.580794807015604, 88.42874703867051",
+    "from_bus": "22.563105542137805, 88.3508118930178",
+    "to_bus": "22.578831922251144, 88.42688091884848"
+  },
+  {
+    "id": "MC-16",
+    "line": "Orange",
+    "from": "Kavi Subhash",
+    "to": "Beleghata",
+    "is_master": true,
+    "primary_bus": "VS8",
+    "backup_buses": [
+      "DN16",
+      "1"
+    ],
+    "from_metro": "22.47134553029003, 88.3978339101017",
+    "to_metro": "22.550801932905372, 88.4040759837804",
+    "from_bus": "22.466529112047052, 88.3923298323585",
+    "to_bus": "22.55271234100067, 88.40642740885869"
+  },
+  {
+    "id": "MC-17",
+    "line": "Orange",
+    "from": "Hemanta Mukhopadhyay",
+    "to": "Beleghata",
+    "is_master": false,
+    "primary_bus": "S3W",
+    "backup_buses": [],
+    "from_metro": "22.514765724446157, 88.40151226942459",
+    "to_metro": "22.550800220762877, 88.40407512639263",
+    "from_bus": "22.515013202633927, 88.40120872050655",
+    "to_bus": "22.55270800627558, 88.40643063087872"
+  },
+  {
+    "line": "Orange",
+    "from": "Kavi Subhash",
+    "to": "Science City",
+    "is_master": false,
+    "primary_bus": "VS8",
+    "backup_buses": [],
+    "id": "MC-18",
+    "from_metro": "22.471346745636218, 88.39783163475008",
+    "to_metro": "22.543944515548635, 88.3993365002901",
+    "from_bus": "22.472492064825044, 88.39849488474746",
+    "to_bus": "22.542893346222687, 88.39599200882743"
+  },
+  {
+    "id": "MC-19",
+    "line": "Purple",
+    "from": "Joka",
+    "to": "Majerhat",
+    "is_master": true,
+    "primary_bus": "12C",
+    "backup_buses": [
+      "SD-9",
+      "ST-28"
+    ],
+    "from_metro": "22.452369346896695, 88.3017432615993",
+    "to_metro": "22.5189673942612, 88.32359331435742",
+    "from_bus": "22.453879493605825, 88.30275306256371",
+    "to_bus": "22.516032604109817, 88.32303168206566"
+  },
+  {
+    "id": "MC-20",
+    "line": "Purple",
+    "from": "Behala Chowrasta",
+    "to": "Majerhat",
+    "is_master": false,
+    "primary_bus": "S3W",
+    "backup_buses": [
+      "21",
+      "M7D"
+    ],
+    "from_metro": "22.487288176391885, 88.31326471961394",
+    "to_metro": "22.518971458105636, 88.32359358279975",
+    "from_bus": "22.487163187221842, 88.31312993894156",
+    "to_bus": "22.51603367798206, 88.32303353230114"
+  },
+  {
+    "id": "MC-21",
+    "line": "Purple",
+    "from": "Joka",
+    "to": "Behala Chowrasta",
+    "is_master": false,
+    "primary_bus": "S3W",
+    "backup_buses": [
+      "21",
+      "M7D"
+    ],
+    "from_metro": "22.452370763334823, 88.30174336683984",
+    "to_metro": "22.487288803465557, 88.3132628757258",
+    "from_bus": "22.45387821278064, 88.30274744366243",
+    "to_bus": "22.48715622848314, 88.31313648553518"
+  },
+  {
+    "line": "Purple",
+    "from": "Joka",
+    "to": "Taratala",
+    "is_master": false,
+    "primary_bus": "12C",
+    "backup_buses": [],
+    "id": "MC-22",
+    "from_metro": "22.452373436340444, 88.30176228287105",
+    "to_metro": "22.507786306934225, 88.3203666234805",
+    "from_bus": "22.453880713408275, 88.30274925427354",
+    "to_bus": "22.50627365452455, 88.31967568410107"
+  },
+  {
+    "line": "Purple",
+    "from": "Behala Chowrasta",
+    "to": "Taratala",
+    "is_master": false,
+    "primary_bus": "12C",
+    "backup_buses": [],
+    "id": "MC-23",
+    "from_metro": "22.487286915489214, 88.31326067292652",
+    "to_metro": "22.50778347102492, 88.32036818128597",
+    "from_bus": "22.487157449743197, 88.31313808447086",
+    "to_bus": "22.506274067874003, 88.31967929205393"
+  },
+  {
+    "line": "Purple",
+    "from": "Taratala",
+    "to": "Majerhat",
+    "is_master": false,
+    "primary_bus": "12C",
+    "backup_buses": [],
+    "id": "MC-24",
+    "from_metro": "22.507780024731918, 88.32036690889919",
+    "to_metro": "22.51896546245904, 88.32359299718703",
+    "from_bus": "22.50627753733853, 88.31967542380255",
+    "to_bus": "22.51603591499858, 88.32303195506724"
+  },
+  {
+    "line": "Yellow",
+    "from": "Dum Dum Cantonment",
+    "to": "Biman Bandar",
+    "is_master": false,
+    "primary_bus": "L238",
+    "backup_buses": [],
+    "id": "MC-25",
+    "from_metro": "22.636739547122552, 88.41197461754481",
+    "to_metro": "22.647460982063567, 88.43736175920124",
+    "from_bus": "22.636893038740002, 88.41273209899836",
+    "to_bus": "22.64926985559004, 88.43628282179719"
+  }
+]
