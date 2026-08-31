@@ -2,10 +2,10 @@ name: Automated 4x Daily Traffic Data Collection
 
 on:
   schedule:
-    - cron: '30 18 * * *'   # 12:00 AM IST (Midnight Free-Flow)
-    - cron: '30 4 * * *'    # 10:00 AM IST (Morning Peak)
-    - cron: '30 7 * * *'    # 1:00 PM IST (Midday Inter-Peak)
-    - cron: '30 13 * * *'   # 7:00 PM IST (Evening Peak)
+    - cron: '30 18 * * *'   # 12:00 AM IST
+    - cron: '30 4 * * *'    # 10:00 AM IST
+    - cron: '30 7 * * *'    # 1:00 PM IST
+    - cron: '30 13 * * *'   # 7:00 PM IST
 
   workflow_dispatch:
     inputs:
@@ -80,11 +80,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-          git add -f output/ || true
-          if git diff --staged --quiet; then
-            echo "No new files to commit."
-          else
-            git commit -m "🤖 Auto-collect traffic data: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')"
-            git push origin main
-          fi
+          git add -A output/
+          git commit -m "?? Auto-collect traffic data: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')" || exit 0
+          git pull --rebase --autostash origin main || true
+          git push origin main
