@@ -65,11 +65,11 @@ jobs:
             if [ "$HOUR" -ge 22 ] || [ "$HOUR" -lt 4 ]; then
               TARGET_SLOT="12:00 AM"
             elif [ "$HOUR" -ge 4 ] && [ "$HOUR" -lt 12 ]; then
-              TARGET_SLOT="10:07 AM"
+              TARGET_SLOT="10:00 AM"
             elif [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 16 ]; then
-              TARGET_SLOT="1:51 PM"
+              TARGET_SLOT="1:00 PM"
             else
-              TARGET_SLOT="7:54 PM"
+              TARGET_SLOT="7:00 PM"
             fi
           fi
           
