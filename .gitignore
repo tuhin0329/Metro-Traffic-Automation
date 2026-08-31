@@ -1,6 +1,2 @@
 node_modules/
-output/
-*.png
-*.jpg
 *.log
-*.xlsx
