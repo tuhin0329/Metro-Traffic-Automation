@@ -17,9 +17,9 @@ on:
         options:
           - 'auto'
           - '12:00 AM'
-          - '10:07 AM'
-          - '1:51 PM'
-          - '7:54 PM'
+          - '10:00 AM'
+          - '1:00 PM'
+          - '7:00 PM'
 
 permissions:
   contents: write
