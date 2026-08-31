@@ -1,10 +1,12 @@
 name: Automated 4x Daily Traffic Data Collection
+
 on:
   schedule:
-    - cron: '30 18 * * *'   # 12:00 AM IST
-    - cron: '30 4 * * *'    # 10:00 AM IST
-    - cron: '30 7 * * *'    # 1:00 PM IST
-    - cron: '30 13 * * *'   # 7:00 PM IST
+    - cron: '30 18 * * *'   # 12:00 AM IST (Midnight Free-Flow)
+    - cron: '30 4 * * *'    # 10:00 AM IST (Morning Peak)
+    - cron: '30 7 * * *'    # 1:00 PM IST (Midday Inter-Peak)
+    - cron: '30 13 * * *'   # 7:00 PM IST (Evening Peak)
+
   workflow_dispatch:
     inputs:
       slot:
@@ -15,26 +17,32 @@ on:
         options:
           - 'auto'
           - '12:00 AM'
-          - '10:00 AM'
-          - '1:00 PM'
-          - '7:00 PM'
+          - '10:07 AM'
+          - '1:51 PM'
+          - '7:54 PM'
+
 permissions:
   contents: write
+
 jobs:
   scrape-traffic:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
       - name: Install Dependencies
-        run: npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth node-cron exceljs
+        run: npm install
+
       - name: Install Chrome & Virtual Display
         run: |
           sudo apt-get update
@@ -43,19 +51,40 @@ jobs:
           sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
+
       - name: Run Traffic Scraper
         env:
           HEADLESS: "new"
-          CI: "true"
+          INPUT_SLOT: ${{ github.event.inputs.slot }}
         run: |
           mkdir -p output
-          echo "Running scraper..."
-          xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" node scraper.js run
+          if [ -n "$INPUT_SLOT" ] && [ "$INPUT_SLOT" != "auto" ]; then
+            TARGET_SLOT="$INPUT_SLOT"
+          else
+            HOUR=$(TZ='Asia/Kolkata' date +%H)
+            if [ "$HOUR" -ge 22 ] || [ "$HOUR" -lt 4 ]; then
+              TARGET_SLOT="12:00 AM"
+            elif [ "$HOUR" -ge 4 ] && [ "$HOUR" -lt 12 ]; then
+              TARGET_SLOT="10:07 AM"
+            elif [ "$HOUR" -ge 12 ] && [ "$HOUR" -lt 16 ]; then
+              TARGET_SLOT="1:51 PM"
+            else
+              TARGET_SLOT="7:54 PM"
+            fi
+          fi
+          
+          echo "Executing Slot: $TARGET_SLOT"
+          xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" node scheduled_4times_scraper.js all "$TARGET_SLOT"
+
       - name: Save & Commit Results
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Auto-collect traffic data: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')" || exit 0
           git pull --rebase origin main || true
-          git push origin main
+          git add -f output/*.xlsx output/*.json || true
+          if git diff --staged --quiet; then
+            echo "No new files to commit."
+          else
+            git commit -m "🤖 Auto-collect traffic data: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')"
+            git push origin main
+          fi
