@@ -56,10 +56,19 @@ jobs:
         env:
           HEADLESS: "new"
           INPUT_SLOT: ${{ github.event.inputs.slot }}
+          TRIGGER_CRON: ${{ github.event.schedule }}
         run: |
           mkdir -p output
           if [ -n "$INPUT_SLOT" ] && [ "$INPUT_SLOT" != "auto" ]; then
             TARGET_SLOT="$INPUT_SLOT"
+          elif [ "$TRIGGER_CRON" = "30 18 * * *" ]; then
+            TARGET_SLOT="12:00 AM"
+          elif [ "$TRIGGER_CRON" = "30 4 * * *" ]; then
+            TARGET_SLOT="10:00 AM"
+          elif [ "$TRIGGER_CRON" = "30 7 * * *" ]; then
+            TARGET_SLOT="1:00 PM"
+          elif [ "$TRIGGER_CRON" = "30 13 * * *" ]; then
+            TARGET_SLOT="7:00 PM"
           else
             HOUR=$(TZ='Asia/Kolkata' date +%H)
             if [ "$HOUR" -ge 22 ] || [ "$HOUR" -lt 4 ]; then
@@ -81,6 +90,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A output/
-          git commit -m "?? Auto-collect traffic data: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')" || exit 0
+          git commit -m "🔄 Auto-collect traffic data: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %I:%M %p IST')" || exit 0
           git pull --rebase --autostash origin main || true
           git push origin main
