@@ -5,10 +5,18 @@ const ExcelJS = require('exceljs');
 const { getTravelTime, randomDelay } = require('./scraper');
 
 const outDir = path.join(__dirname, "output");
-if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+
+// Create organized subdirectories
+const excelDir = path.join(outDir, "excel");
+const checkpointDir = path.join(outDir, "checkpoints");
+const screenshotDir = path.join(outDir, "screenshots");
+const logDir = path.join(outDir, "logs");
+[outDir, excelDir, checkpointDir, screenshotDir, logDir].forEach(d => {
+  if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
+});
 
 // Setup a scraper.txt file to log all console output
-const logFile = fs.createWriteStream(path.join(outDir, 'scraper.txt'), { flags: 'a' });
+const logFile = fs.createWriteStream(path.join(logDir, 'scraper.txt'), { flags: 'a' });
 const originalLog = console.log;
 const originalError = console.error;
 console.log = function (...args) {
@@ -60,6 +68,14 @@ function getPeakClassification(slotStr) {
   return `${dayName} (${dayType}) - ${slotStr}`;
 }
 
+// Helper: get organized screenshot directory for a given date and time slot
+function getScreenshotDir(dateIST, slotStr) {
+  const slotFolder = slotStr.replace(/[:\\/\s]/g, '_');
+  const ssDir = path.join(screenshotDir, dateIST, slotFolder);
+  if (!fs.existsSync(ssDir)) fs.mkdirSync(ssDir, { recursive: true });
+  return ssDir;
+}
+
 (async () => {
   const segments = loadSegments();
   let targetSlots = [];
@@ -75,7 +91,7 @@ function getPeakClassification(slotStr) {
     targetSlots = [`${h12}:${String(m).padStart(2, '0')} ${ampm}`];
   } else if (!customTimeArg || customTimeArg.toLowerCase() === "4times") {
     targetSlots = ["10:00 AM", "1:00 PM", "7:00 PM", "12:00 AM"];
-    customTimeArg = "4times"; // to prevent isNow logic
+    customTimeArg = "4times";
   } else {
     targetSlots = [customTimeArg];
   }
@@ -116,8 +132,8 @@ function getPeakClassification(slotStr) {
 
   const dateStamp = `${dateIST}_${dayName}`; 
 
-  const checkpointPath = path.join(outDir, `checkpoint_${dateStamp}.json`);
-  const filePath = path.join(outDir, `Bus_vs_Metro_Data_${dateStamp}.xlsx`);
+  const checkpointPath = path.join(checkpointDir, `checkpoint_${dateStamp}.json`);
+  const filePath = path.join(excelDir, `Bus_vs_Metro_Data_${dateStamp}.xlsx`);
 
   let resultsByRoute = {};
   if (fs.existsSync(checkpointPath)) {
@@ -155,16 +171,18 @@ function getPeakClassification(slotStr) {
           if (route.primary_bus) allowedBuses.push(route.primary_bus);
           if (route.backup_buses && route.backup_buses.length) allowedBuses.push(...route.backup_buses);
 
+          // Organized screenshot paths: output/screenshots/YYYY-MM-DD/slot/ss_bus_MC-01.jpg
+          const ssDir = getScreenshotDir(dateIST, targetTime);
+          const busSsPath = path.join(ssDir, `ss_bus_${route.id}.jpg`);
+          const metroSsPath = path.join(ssDir, `ss_metro_${route.id}.jpg`);
+          const carSsPath = path.join(ssDir, `ss_car_${route.id}.jpg`);
+
           const busFrom = route.from_bus || route.from;
           const busTo = route.to_bus || route.to;
-          const busSsPath = path.join(outDir, `ss_bus_${route.id}_${targetTime.replace(/[:\/\s]/g, '_')}.jpg`);
           const isNow = customTimeArg && customTimeArg.toLowerCase() === "now";
 
           const metroFrom = route.from_metro || route.from;
           const metroTo = route.to_metro || route.to;
-          const metroSsPath = path.join(outDir, `ss_metro_${route.id}_${targetTime.replace(/[:\/\s]/g, '_')}.jpg`);
-
-          const carSsPath = path.join(outDir, `ss_car_${route.id}_${targetTime.replace(/[:\/\s]/g, '_')}.jpg`);
 
           // Fetch Bus, Metro, and Car in PARALLEL for maximum speed
           const [busResult, metroResult, carResult] = await Promise.all([
@@ -281,7 +299,7 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
 
   // 1. Create or Replace Individual Sheets for Each Time Period
   effectiveSlots.forEach(slot => {
-    const sheetName = slot.replace(/[:\/]/g, "_");
+    const sheetName = slot.replace(/[:\\/]/g, "_");
     let sheet = workbook.getWorksheet(sheetName);
     if (sheet) {
       workbook.removeWorksheet(sheetName);
@@ -388,22 +406,22 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
       sheet.getColumn(31).width = 35;
       sheet.getColumn(32).width = 35;
       addedRow.eachCell((cell, colNumber) => {
-        if (colNumber === 23 || colNumber === 25) { // Time Difference or Winning Mode
+        if (colNumber === 23 || colNumber === 25) {
           const val = String(cell.value || "");
           if (val.includes("Metro Faster") || val === "Metro") {
-            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFC6E0B4" } }; // light green
+            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFC6E0B4" } };
           } else if (val.includes("Bus Faster") || val === "Bus") {
-            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFFCE4D6" } }; // light orange
+            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFFCE4D6" } };
           } else if (val === "Car") {
-            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFD9E1F2" } }; // light blue
+            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFD9E1F2" } };
           }
         }
       });
     }
 
-    sheet.getColumn(30).width = 30; // Bus Screenshot Column width
-    sheet.getColumn(31).width = 30; // Metro Screenshot Column width
-    sheet.getColumn(32).width = 30; // Car Screenshot Column width
+    sheet.getColumn(30).width = 30;
+    sheet.getColumn(31).width = 30;
+    sheet.getColumn(32).width = 30;
 
     sheet.views = [{ state: 'frozen', ySplit: 1 }];
     sheet.autoFilter = { from: 'A1', to: sheet.getColumn(sheet.columnCount).letter + '1' };
@@ -416,14 +434,12 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
   }
   const summarySheet = workbook.addWorksheet(summarySheetName);
   
-  // Gather all unique slots from resultsByRoute
   const allSlotsSet = new Set();
   for (const routeId in resultsByRoute) {
     for (const slot in resultsByRoute[routeId]) {
       allSlotsSet.add(slot);
     }
   }
-  // Sort slots by time if possible, or just keep insertion order. For simplicity, convert to Array
   const allSlots = Array.from(allSlotsSet);
 
   const sumHeaders = ["Corridor ID", "Metro Line", "From", "To"];
@@ -498,17 +514,15 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
     });
     const addedRow = summarySheet.addRow(rowData);
     
-    // Highlight Faster Mode columns
-      addedRow.eachCell((cell, colNumber) => {
-      // Faster Mode column is at 17, 31, 45... so (colNumber - 17) % 14 === 0
+    addedRow.eachCell((cell, colNumber) => {
       if (colNumber >= 17 && (colNumber - 17) % 14 === 0) { 
         const val = String(cell.value || "");
         if (val === "Metro") {
-          cell.font = { bold: true, color: { argb: "FF38761D" } }; // dark green
+          cell.font = { bold: true, color: { argb: "FF38761D" } };
         } else if (val === "Bus") {
-          cell.font = { bold: true, color: { argb: "FFA64D79" } }; // dark pink/purple
+          cell.font = { bold: true, color: { argb: "FFA64D79" } };
         } else if (val === "Car") {
-          cell.font = { bold: true, color: { argb: "FF2F5597" } }; // dark blue
+          cell.font = { bold: true, color: { argb: "FF2F5597" } };
         }
       }
     });
@@ -519,6 +533,3 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
 
   await workbook.xlsx.writeFile(filePath);
 }
-
-
-
