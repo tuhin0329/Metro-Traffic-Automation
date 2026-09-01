@@ -4,6 +4,12 @@
  * Core scraping function: given an origin and destination place name,
  * opens Google Maps directions in headless Chrome and extracts the
  * duration shown for a given travel mode.
+ * 
+ * Features:
+ * - Direct Car travel time query (bypasses statistical ranges)
+ * - Priority for 1-leg direct continuous transit routes
+ * - Automatic deduction of intermediate transfer/stoppage waiting times
+ * - Full HD 1080p WebGL map screenshot capture
  */
 
 const puppeteer = require("puppeteer");
@@ -112,6 +118,7 @@ function randomDelay(minMs, maxMs) {
 async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
   return await page.evaluate((expected, allowed) => {
     const trips = document.querySelectorAll('div[id^="section-directions-trip-"], div[data-trip-index]');
+    let candidateTrips = [];
     
     for (let index = 0; index < trips.length; index++) {
       const trip = trips[index];
@@ -121,24 +128,31 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
       
       let hasBusText = false;
       let hasMetroText = false;
+      let busBadgesCount = 0;
 
       for (const t of texts) {
          if (/Line/i.test(t) || /Blue/i.test(t) || /Green/i.test(t) || /Purple/i.test(t) || /Orange/i.test(t) || /Yellow/i.test(t)) {
             hasMetroText = true;
          } else if (allowed && allowed.length > 0 && allowed.includes(t)) {
             hasBusText = true;
+            busBadgesCount++;
          } else if (/^[A-Z]+\d+[A-Z]*(\-\d+)?$/.test(t) || /^\d+[A-Z]+(\-\d+)?$/.test(t) || /^\d{2,3}$/.test(t) || /^[A-Z]+\-\d+$/.test(t)) {
             hasBusText = true;
+            busBadgesCount++;
          }
       }
 
       let hasBusIcon = false;
       let hasMetroIcon = false;
+      let busIconsCount = 0;
       const icons = Array.from(trip.querySelectorAll('img')).map(img => (img.src || '').toLowerCase());
       for (const src of icons) {
          if (src.includes('mapfiles/transit/')) {
             if (src.includes('subway') || src.includes('metro') || src.includes('train')) hasMetroIcon = true;
-            if (src.includes('bus')) hasBusIcon = true;
+            if (src.includes('bus')) {
+               hasBusIcon = true;
+               busIconsCount++;
+            }
          }
       }
 
@@ -200,6 +214,32 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
                }
             }
 
+            // Check for intermediate transfer stoppage/layover gaps (e.g. 9:18 AM to 9:22 AM = 4 min wait)
+            let stoppageWaitMins = 0;
+            const rawText = trip.innerText || "";
+            const timePairs = rawText.match(/(\d{1,2}:\d{2}\s*(?:AM|PM))\s*\n\s*(\d{1,2}:\d{2}\s*(?:AM|PM))/gi);
+            if (timePairs) {
+              timePairs.forEach(pair => {
+                const times = pair.match(/(\d{1,2}:\d{2}\s*(?:AM|PM))/gi);
+                if (times && times.length === 2) {
+                  const parseM = (s) => {
+                    const match = s.match(/(\d+):(\d+)\s*(AM|PM)/i);
+                    if (!match) return 0;
+                    let h = parseInt(match[1], 10);
+                    const mn = parseInt(match[2], 10);
+                    const ap = match[3].toUpperCase();
+                    if (ap === 'PM' && h < 12) h += 12;
+                    if (ap === 'AM' && h === 12) h = 0;
+                    return h * 60 + mn;
+                  };
+                  const diff = parseM(times[1]) - parseM(times[0]);
+                  if (diff > 0 && diff < 60) {
+                    stoppageWaitMins += diff;
+                  }
+                }
+              });
+            }
+
             const fullRouteArr = Array.from(trip.querySelectorAll('img, [class*="fontBodyMedium"] span, .ivN21e span, [class*="badge"], span[style*="background"]')).map(el => {
                 if(el.tagName === 'IMG') {
                     const alt = el.getAttribute('aria-label')||el.alt||'';
@@ -212,7 +252,7 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
                     const text = el.textContent.trim();
                     return (/min|hr|:|km|walk|from|to|\\?|^\\d+[hm]$/i.test(text)) ? '' : text;
                 }
-            }).filter(t => t.length > 0 && t !== '');
+            }).filter(t => t.length > 0 && t !== '');
             let fullRoute = "";
             for(let i=0; i<fullRouteArr.length; i++) {
                 if (i>0 && (fullRouteArr[i-1] === 'Bus' || fullRouteArr[i-1] === 'Metro' || fullRouteArr[i-1] === 'Train')) {
@@ -226,26 +266,29 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
                fullRoute += ` (Total Walk: ${walkTime})`;
             }
 
-            let rawTripText = trip.innerText || "";
-            rawTripText = rawTripText.replace(/\n+/g, ' | ').trim();
+            let rawTripText = rawText.replace(/\n+/g, ' | ').trim();
+            const isDirectSingleLeg = (expected === 'bus' && (busBadgesCount <= 1 && busIconsCount <= 1));
 
-            return {
+            candidateTrips.push({
                tripIndex: index,
                durationText: candidates[0],
                actualBus: actualBus,
                actualMetro: actualMetro,
                walkTime: walkTime,
                fullRoute: fullRoute || (expected === 'driving' ? 'Driving' : ''),
-               rawDetails: rawTripText
-            };
-         } else {
-            console.log(`[Trip Reject] Valid but no duration found.`);
+               rawDetails: rawTripText,
+               isDirectSingleLeg: isDirectSingleLeg,
+               stoppageWaitMins: stoppageWaitMins
+            });
          }
-      } else {
-         console.log(`[Trip Reject] expected=${expected} isBus=${isBus} hasMetroIcon=${hasMetroIcon} hasMetroText=${hasMetroText} hasBusIcon=${hasBusIcon} hasBusText=${hasBusText} texts=[${texts.join(',')}] icons=[${icons.join(',')}]`);
       }
     }
-    return null;
+
+    if (candidateTrips.length === 0) return null;
+
+    // Priority 1: Pick direct single-leg continuous route if available
+    const directTrip = candidateTrips.find(t => t.isDirectSingleLeg);
+    return directTrip || candidateTrips[0];
   }, expectedMode, allowedBuses);
 }
 
@@ -285,11 +328,8 @@ async function getTravelTime(
       await page.bringToFront(); 
       try {
         await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-      } catch (navErr) {
-        // Google Maps often throws net::ERR_ABORTED due to Service Workers or History API redirects. 
-        // We ignore this and rely on waitForSelector("body").
-      }
-      // Attempt to wait for the body to show up
+      } catch (navErr) {}
+      
       await page.waitForSelector("body", { timeout: 10000 }).catch(() => {});
       await new Promise(r => setTimeout(r, 400));
       
@@ -371,7 +411,7 @@ async function getTravelTime(
             baseTime = `${h12}:${String(m).padStart(2, '0')} ${ampm}`;
          }
          
-         const windowTimes = getWindowTimes(baseTime).slice(1); // Skip the first element which is the baseTime itself
+         const windowTimes = getWindowTimes(baseTime).slice(1);
          for (const t of windowTimes) {
            const setOk = await setArriveByTime(page, t);
            if (setOk) {
@@ -409,10 +449,17 @@ async function getTravelTime(
       if (!keepPageOpen) await page.close();
 
       if (tripData) {
+        let parsedMins = parseDurationToMinutes(tripData.durationText);
+        // Deduct intermediate stoppage/layover waiting time if applicable
+        if (tripData.stoppageWaitMins && tripData.stoppageWaitMins > 0) {
+           parsedMins = Math.max(1, parsedMins - tripData.stoppageWaitMins);
+           tripData.durationText = `${parsedMins} min (excl. ${tripData.stoppageWaitMins}m wait)`;
+        }
+
         return {
           success: true,
           ...tripData,
-          minutes: parseDurationToMinutes(tripData.durationText),
+          minutes: parsedMins,
           url: finalUrl,
           page: keepPageOpen ? page : null,
           screenshotPath: screenshotPath || null
@@ -448,4 +495,3 @@ function parseDurationToMinutes(text) {
 }
 
 module.exports = { getTravelTime, randomDelay };
-
