@@ -376,35 +376,12 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
         sData.busUrl ? { text: "Open Maps", hyperlink: sData.busUrl } : "",
         sData.metroUrl ? { text: "Open Maps", hyperlink: sData.metroUrl } : "",
         sData.carUrl ? { text: "Open Maps", hyperlink: sData.carUrl } : "",
-        "", "", ""
+        sData.busSsPath || "",
+        sData.metroSsPath || "",
+        sData.carSsPath || ""
       ];
       const addedRow = sheet.addRow(rowData);
-      addedRow.height = 135;
-      const rowIndex = addedRow.number;
 
-      const modes = [
-        { path: sData.busSsPath, colIdx: 29 }, 
-        { path: sData.metroSsPath, colIdx: 30 }, 
-        { path: sData.carSsPath, colIdx: 31 }  
-      ];
-
-      for (const mode of modes) {
-        if (mode.path && fs.existsSync(mode.path)) {
-            try {
-                const imgId = workbook.addImage({ filename: mode.path, extension: 'jpeg' });
-                sheet.addImage(imgId, { 
-                    tl: { col: mode.colIdx, row: rowIndex - 1 },
-                    ext: { width: 240, height: 135 }
-                });
-            } catch(e) {
-                console.log("Failed to add image", mode.path);
-            }
-        }
-      }
-
-      sheet.getColumn(30).width = 35;
-      sheet.getColumn(31).width = 35;
-      sheet.getColumn(32).width = 35;
       addedRow.eachCell((cell, colNumber) => {
         if (colNumber === 23 || colNumber === 25) {
           const val = String(cell.value || "");
@@ -418,10 +395,6 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
         }
       });
     }
-
-    sheet.getColumn(30).width = 30;
-    sheet.getColumn(31).width = 30;
-    sheet.getColumn(32).width = 30;
 
     sheet.views = [{ state: 'frozen', ySplit: 1 }];
     sheet.autoFilter = { from: 'A1', to: sheet.getColumn(sheet.columnCount).letter + '1' };
