@@ -68,10 +68,10 @@ function getPeakClassification(slotStr) {
   return `${dayName} (${dayType}) - ${slotStr}`;
 }
 
-// Helper: get organized screenshot directory for a given date and time slot
-function getScreenshotDir(dateIST, slotStr) {
+// Helper: get organized screenshot directory for a given date, time slot, and corridor
+function getScreenshotDir(dateIST, slotStr, routeId) {
   const slotFolder = slotStr.replace(/[:\\/\s]/g, '_');
-  const ssDir = path.join(screenshotDir, dateIST, slotFolder);
+  const ssDir = path.join(screenshotDir, dateIST, slotFolder, routeId);
   if (!fs.existsSync(ssDir)) fs.mkdirSync(ssDir, { recursive: true });
   return ssDir;
 }
@@ -171,11 +171,11 @@ function getScreenshotDir(dateIST, slotStr) {
           if (route.primary_bus) allowedBuses.push(route.primary_bus);
           if (route.backup_buses && route.backup_buses.length) allowedBuses.push(...route.backup_buses);
 
-          // Organized screenshot paths: output/screenshots/YYYY-MM-DD/slot/ss_bus_MC-01.jpg
-          const ssDir = getScreenshotDir(dateIST, targetTime);
-          const busSsPath = path.join(ssDir, `ss_bus_${route.id}.jpg`);
-          const metroSsPath = path.join(ssDir, `ss_metro_${route.id}.jpg`);
-          const carSsPath = path.join(ssDir, `ss_car_${route.id}.jpg`);
+          // Organized screenshot paths: output/screenshots/YYYY-MM-DD/slot/MC-01/bus.jpg
+          const ssDir = getScreenshotDir(dateIST, targetTime, route.id);
+          const busSsPath = path.join(ssDir, `bus.jpg`);
+          const metroSsPath = path.join(ssDir, `metro.jpg`);
+          const carSsPath = path.join(ssDir, `car.jpg`);
 
           const busFrom = route.from_bus || route.from;
           const busTo = route.to_bus || route.to;
