@@ -7184,3 +7184,403 @@ Mode: bus, TargetTime: 10:00 AM, Initial valid duration: 25 min
 
 🎉 SUCCESS! All routes completed and saved to: /home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/excel/Bus_vs_Metro_Data_2026-09-05_Sat.xlsx
 
+
+==============================================================================
+ ⏰ METRO SCRAPER ENGINE (1:00 PM)
+==============================================================================
+🛣️ Routes to process: 25 corridors
+🎯 Time Slots:        1:00 PM
+==============================================================================
+
+✅ Loaded existing checkpoint with 25 completed routes.
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-01]: Blue | Dakshineswar -> Esplanade
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 54 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 31 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 1 hr 6 min
+      🚌 Bus: 1 hr 6 min | Bus Used: 34B | Walk: N/A 
+      🚇 Metro: 31 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 54 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-01]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-02]: Blue | Shahid Khudiram -> Esplanade
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 38 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 30 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 51 min
+      🚌 Bus: 51 min | Bus Used: S-112 | Walk: N/A 
+      🚇 Metro: 30 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 38 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-02]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-03]: Blue | Dum Dum -> Shyambazar
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 17 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 53 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 1 hr 25 min
+      🚌 Bus: 1 hr 25 min | Bus Used: 201 | Walk: N/A 
+      🚇 Metro: 53 min | Metro Used: N/A | Walk: N/A 
+      🚗 Car: 17 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-03]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-04]: Blue | Shyambazar -> Esplanade
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 27 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 11 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 29 min
+      🚌 Bus: 29 min | Bus Used: 30D | Walk: N/A 
+      🚇 Metro: 11 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 27 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-04]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-05]: Blue | Kalighat -> Esplanade
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 24 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 11 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 18 min
+      🚌 Bus: 18 min | Bus Used: 47B | Walk: N/A 
+      🚇 Metro: 11 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 24 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-05]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-06]: Blue | Dakshineswar -> Dum Dum
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 30 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 15 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 24 min
+      🚌 Bus: 24 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 15 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 30 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-06]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-07]: Blue | Esplanade -> Mahanayak Uttam Kumar (Tollygunge)
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 30 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 23 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 28 min
+      🚌 Bus: 28 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 23 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 30 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-07]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-08]: Blue | Mahanayak Uttam Kumar (Tollygunge) -> Kavi Subhash
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 27 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 17 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 22 min
+      🚌 Bus: 22 min | Bus Used: S-112 | Walk: N/A 
+      🚇 Metro: 17 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 27 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-08]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-09]: Blue | Dum Dum -> Esplanade
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 45 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 16 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 45 min
+      🚌 Bus: 45 min | Bus Used: 79D | Walk: N/A 
+      🚇 Metro: 16 min | Metro Used: Blue Line | Walk: N/A 
+      🚗 Car: 45 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-09]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-10]: Green | Howrah -> Salt Lake Sector V
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 46 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 30 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 42 min
+      🚌 Bus: 42 min | Bus Used: 215A | Walk: N/A 
+      🚇 Metro: 30 min | Metro Used: Green Line | Walk: N/A 
+      🚗 Car: 46 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-10]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-11]: Green | Sealdah -> Salt Lake Sector V
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 25 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 22 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 25 min
+      🚌 Bus: 25 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 22 min | Metro Used: Green Line | Walk: N/A 
+      🚗 Car: 25 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-11]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-12]: Green | Howrah -> Sealdah
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 35 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 10 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 17 min
+      🚌 Bus: 17 min | Bus Used: 28 | Walk: N/A 
+      🚇 Metro: 10 min | Metro Used: Green Line | Walk: N/A 
+      🚗 Car: 35 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-12]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-13]: Green | Phoolbagan -> Salt Lake Sector V
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 18 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 19 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 31 min
+      🚌 Bus: 31 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 19 min | Metro Used: Green Line | Walk: N/A 
+      🚗 Car: 18 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-13]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-14]: Green | Howrah -> Phoolbagan
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 35 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 11 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 23 min
+      🚌 Bus: 23 min | Bus Used: 44 | Walk: N/A 
+      🚇 Metro: 11 min | Metro Used: Green Line | Walk: N/A 
+      🚗 Car: 35 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-14]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-15]: Green | Esplanade -> Salt Lake Sector V
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 29 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 25 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 34 min
+      🚌 Bus: 34 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 25 min | Metro Used: Green Line | Walk: N/A 
+      🚗 Car: 29 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-15]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-16]: Orange | Kavi Subhash -> Beleghata
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 22 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 45 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+      🚌 Bus: 45 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: N/A | Metro Used: N/A | Walk: N/A (Failed)
+      🚗 Car: 22 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-16]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-17]: Orange | Hemanta Mukhopadhyay -> Beleghata
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 10 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 17 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+      🚌 Bus: 17 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: N/A | Metro Used: N/A | Walk: N/A (Failed)
+      🚗 Car: 10 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-17]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-18]: Orange | Kavi Subhash -> Science City
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 20 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 47 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: null
+      🚌 Bus: 47 min | Bus Used: S-24 | Walk: N/A 
+      🚇 Metro: N/A | Metro Used: N/A | Walk: N/A (Failed)
+      🚗 Car: 20 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-18]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-19]: Purple | Joka -> Majerhat
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 24 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 19 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 26 min
+      🚌 Bus: 26 min | Bus Used: S-131 | Walk: N/A 
+      🚇 Metro: 19 min | Metro Used: Purple Line | Walk: N/A 
+      🚗 Car: 24 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-19]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-20]: Purple | Behala Chowrasta -> Majerhat
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 11 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 51 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 12 min
+      🚌 Bus: 12 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 51 min | Metro Used: N/A | Walk: N/A 
+      🚗 Car: 11 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-20]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-21]: Purple | Joka -> Behala Chowrasta
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 13 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 57 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 14 min
+      🚌 Bus: 14 min | Bus Used: S-131 | Walk: N/A 
+      🚇 Metro: 57 min | Metro Used: N/A | Walk: N/A 
+      🚗 Car: 13 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-21]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-22]: Purple | Joka -> Taratala
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 22 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: null
+Mode: metro, TargetTime: 1:30 PM, Fallback valid duration: null
+Mode: metro, TargetTime: 12:30 PM, Fallback valid duration: 14 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 22 min
+      🚌 Bus: 22 min | Bus Used: S-131 | Walk: N/A 
+      🚇 Metro: 14 min | Metro Used: Purple Line | Walk: N/A 
+      🚗 Car: 22 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-22]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-23]: Purple | Behala Chowrasta -> Taratala
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 9 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 33 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 8 min
+      🚌 Bus: 8 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 33 min | Metro Used: N/A | Walk: N/A 
+      🚗 Car: 9 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-23]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-24]: Purple | Taratala -> Majerhat
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 3 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 18 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 4 min
+      🚌 Bus: 4 min | Bus Used: Bus | Walk: N/A 
+      🚇 Metro: 18 min | Metro Used: N/A | Walk: N/A 
+      🚗 Car: 3 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-24]...
+
+──────────────────────────────────────────────────────────────────────────────
+🚀 PROCESSING CORRIDOR [MC-25]: Yellow | Dum Dum Cantonment -> Biman Bandar
+──────────────────────────────────────────────────────────────────────────────
+
+   ⏰ Slot: [1:00 PM] — Searching synchronized Bus vs Metro data...
+Mode: driving, TargetTime: direct, Initial valid duration: 16 min
+Mode: metro, TargetTime: 1:00 PM, Initial valid duration: 49 min
+Mode: bus, TargetTime: 1:00 PM, Initial valid duration: 36 min
+      🚌 Bus: 36 min | Bus Used: 91 | Walk: N/A 
+      🚇 Metro: 49 min | Metro Used: N/A | Walk: N/A 
+      🚗 Car: 16 min 
+
+  💾 Saved checkpoint & updated Excel file for Route [MC-25]...
+
+🎉 SUCCESS! All routes completed and saved to: /home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/excel/Bus_vs_Metro_Data_2026-09-05_Sat.xlsx
+
