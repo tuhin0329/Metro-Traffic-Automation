@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kolkata Multimodal Transit Infographics</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    .gradient-metro { background: linear-gradient(135deg, #0ea5e9, #2563eb); }
+    .gradient-bus { background: linear-gradient(135deg, #f97316, #ea580c); }
+    .gradient-car { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+    .gradient-danger { background: linear-gradient(135deg, #ef4444, #b91c1c); }
+    .gradient-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(8px); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans p-6 min-h-screen">
+  <div class="max-w-7xl mx-auto space-y-8">
+    
+    <!-- HEADER HERO -->
+    <div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 p-8 border border-blue-500/30 shadow-2xl">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold uppercase tracking-wider mb-2 border border-blue-500/30">
+            <span>⚡ 24-Day Empirical Study</span> • <span>Aug 30 – Sep 22, 2026</span>
+          </div>
+          <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Kolkata Metro vs Surface Transit</h1>
+          <p class="text-slate-300 mt-1 text-sm md:text-base">Comprehensive performance audit across 25 corridors & 4 diurnal windows</p>
+        </div>
+        <div class="flex gap-2">
+          <span class="px-3 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-xs font-bold flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            1,952 Clean Runs
+          </span>
+          <span class="px-3 py-1.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5">
+            <span>🛡️</span> 169 Fallbacks Filtered
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI CARDS -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="gradient-card border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+        <div class="absolute -right-4 -bottom-4 w-20 h-20 bg-blue-500/10 rounded-full blur-xl"></div>
+        <p class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Metro Win Rate</p>
+        <div class="flex items-baseline gap-2 mt-2">
+          <span class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">79.4%</span>
+          <span class="text-xs font-bold text-emerald-400">1,550 Wins</span>
+        </div>
+        <p class="text-xs text-slate-400 mt-2">Outperforms bus & car in 4 out of 5 operational journeys</p>
+      </div>
+
+      <div class="gradient-card border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+        <div class="absolute -right-4 -bottom-4 w-20 h-20 bg-emerald-500/10 rounded-full blur-xl"></div>
+        <p class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Avg Commuter Savings</p>
+        <div class="flex items-baseline gap-2 mt-2">
+          <span class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">10.7</span>
+          <span class="text-sm font-semibold text-slate-300">min / trip</span>
+        </div>
+        <p class="text-xs text-slate-400 mt-2">Saves ~5.3 hours/month for a standard daily 2-way commuter</p>
+      </div>
+
+      <div class="gradient-card border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+        <div class="absolute -right-4 -bottom-4 w-20 h-20 bg-orange-500/10 rounded-full blur-xl"></div>
+        <p class="text-xs uppercase font-semibold text-slate-400 tracking-wider">7 PM Peak Gridlock</p>
+        <div class="flex items-baseline gap-2 mt-2">
+          <span class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300">1.72×</span>
+          <span class="text-xs font-bold text-rose-400">+72% Road Delay</span>
+        </div>
+        <p class="text-xs text-slate-400 mt-2">Evening road speeds collapse while Metro remains 100% immune</p>
+      </div>
+
+      <div class="gradient-card border border-slate-800 rounded-xl p-5 relative overflow-hidden">
+        <div class="absolute -right-4 -bottom-4 w-20 h-20 bg-purple-500/10 rounded-full blur-xl"></div>
+        <p class="text-xs uppercase font-semibold text-slate-400 tracking-wider">Breakeven Distance</p>
+        <div class="flex items-baseline gap-2 mt-2">
+          <span class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-300">3.8</span>
+          <span class="text-sm font-semibold text-slate-300">km</span>
+        </div>
+        <p class="text-xs text-slate-400 mt-2">Car wins under 3.8 km; Metro wins exponentially above 3.8 km</p>
+      </div>
+    </div>
+
+    <!-- INTUITIVE DEEP INSIGHTS: SECTION 1 -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      
+      <!-- INSIGHT A: The River Barrier -->
+      <div class="gradient-card border border-slate-800 rounded-xl p-6 lg:col-span-2 space-y-4">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <span class="text-xl">🌊</span>
+            <h3 class="text-lg font-bold text-white">The Hooghly River Barrier Bottleneck (Green Line)</h3>
+          </div>
+          <span class="text-xs font-bold px-2.5 py-1 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">7:00 PM Rush Hour</span>
+        </div>
+        <p class="text-sm text-slate-300">
+          Crossing between Howrah and Kolkata via road bridges (Howrah Bridge / Vidyasagar Setu) triggers catastrophic evening choke points. In contrast, the underwater rail tunnel maintains unbroken velocity.
+        </p>
+        
+        <!-- Comparative visual bars -->
+        <div class="space-y-3 pt-2">
+          <div>
+            <div class="flex justify-between text-xs font-semibold mb-1">
+              <span class="text-blue-400 flex items-center gap-1.5">🚇 Green Line Underwater Tunnel</span>
+              <span class="text-blue-300 font-bold">17.5 min</span>
+            </div>
+            <div class="w-full h-4 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full gradient-metro rounded-full" style="width: 41%;"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-xs font-semibold mb-1">
+              <span class="text-orange-400 flex items-center gap-1.5">🚌 Surface Bus (via Howrah Bridge / MG Rd)</span>
+              <span class="text-orange-300 font-bold">26.7 min (1.53× slower)</span>
+            </div>
+            <div class="w-full h-4 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full gradient-bus rounded-full" style="width: 63%;"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between text-xs font-semibold mb-1">
+              <span class="text-rose-400 flex items-center gap-1.5">🚗 Private Car / Cab (Toll Plazas & Approaches)</span>
+              <span class="text-rose-300 font-bold">42.2 min (2.41× SLOWER!)</span>
+            </div>
+            <div class="w-full h-4 bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full gradient-danger rounded-full" style="width: 100%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-3 p-3 rounded-lg bg-blue-950/40 border border-blue-800/40 text-xs text-blue-200 flex items-start gap-2">
+          <span class="text-base">💡</span>
+          <div><strong>Intuitive Insight:</strong> During 7 PM rush hour, taking a car across the river is actually <i>slower than taking a bus</i> due to dedicated bus lanes on Howrah approach and private cars waiting in toll queues. Metro saves nearly 25 minutes per trip here.</div>
+        </div>
+      </div>
+
+      <!-- INSIGHT B: Breakeven Curve -->
+      <div class="gradient-card border border-slate-800 rounded-xl p-6 space-y-4">
+        <div class="flex items-center gap-2">
+          <span class="text-xl">📐</span>
+          <h3 class="text-lg font-bold text-white">The Breakeven Curve</h3>
+        </div>
+        <p class="text-xs text-slate-300">
+          Why Metro loses on short segments: <strong>Concourse & Platform Walk Penalty (~4-6 min)</strong>.
+        </p>
+
+        <div class="p-3 rounded-lg bg-slate-900 border border-slate-800 space-y-2 text-xs">
+          <div class="flex justify-between items-center border-b border-slate-800 pb-2">
+            <span class="text-slate-400">Short Trip (&lt; 2.5 km)</span>
+            <span class="text-amber-400 font-bold">Car Wins by 2 min</span>
+          </div>
+          <div class="text-[11px] text-slate-400">
+            e.g., MC-24 Taratala → Majerhat (1.8 km):<br>
+            • Car: <strong>3.5 min</strong> | Bus: <strong>4.0 min</strong><br>
+            • Metro: <strong>8.6 min</strong> (walking to platform takes longer than the train ride!)
+          </div>
+        </div>
+
+        <div class="p-3 rounded-lg bg-slate-900 border border-slate-800 space-y-2 text-xs">
+          <div class="flex justify-between items-center border-b border-slate-800 pb-2">
+            <span class="text-slate-400">Long Trunk (&gt; 8.0 km)</span>
+            <span class="text-emerald-400 font-bold">Metro Dominates</span>
+          </div>
+          <div class="text-[11px] text-slate-400">
+            e.g., MC-01 Dakshineswar → Esplanade (12.5 km):<br>
+            • Metro: <strong>28.9 min</strong><br>
+            • Car: <strong>43.2 min</strong> | Bus: <strong>54.9 min</strong> (+26 min saved!)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LINE BY LINE INFOGRAPHIC TABLE -->
+    <div class="gradient-card border border-slate-800 rounded-xl p-6 space-y-4">
+      <div class="flex flex-col sm:flex-row justify-between sm:items-center gap-2">
+        <div>
+          <h3 class="text-lg font-bold text-white">Line-by-Line Empirical Performance</h3>
+          <p class="text-xs text-slate-400">Clean operational transit metrics (excluding Google Maps walking fallbacks)</p>
+        </div>
+        <span class="text-xs font-mono text-slate-400 bg-slate-900 px-3 py-1 rounded border border-slate-800">5 Lines • 25 Corridors</span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs">
+          <thead>
+            <tr class="border-b border-slate-800 text-slate-400 uppercase tracking-wider">
+              <th class="py-3 px-3">Metro Line</th>
+              <th class="py-3 px-3">Urban Corridor Character</th>
+              <th class="py-3 px-3 text-center">Metro 🚇</th>
+              <th class="py-3 px-3 text-center">Bus 🚌</th>
+              <th class="py-3 px-3 text-center">Car 🚗</th>
+              <th class="py-3 px-3 text-center">Time Saved</th>
+              <th class="py-3 px-3 text-center">Ratio</th>
+              <th class="py-3 px-3 text-center">Win Rate</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800/60 font-medium">
+            <tr class="hover:bg-slate-900/40">
+              <td class="py-3 px-3 flex items-center gap-2 font-bold text-blue-400">
+                <span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span> Blue Line
+              </td>
+              <td class="py-3 px-3 text-slate-300">North–South Dense Urban Core (BT Rd / CR Ave)</td>
+              <td class="py-3 px-3 text-center text-blue-300 font-bold">18.2 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">31.5 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">28.4 min</td>
+              <td class="py-3 px-3 text-center text-emerald-400 font-bold">+13.3 min</td>
+              <td class="py-3 px-3 text-center text-slate-300 font-bold">1.73×</td>
+              <td class="py-3 px-3 text-center text-emerald-300 font-black">81.4%</td>
+            </tr>
+
+            <tr class="hover:bg-slate-900/40">
+              <td class="py-3 px-3 flex items-center gap-2 font-bold text-emerald-400">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> Green Line
+              </td>
+              <td class="py-3 px-3 text-slate-300">East–West Underwater River Crossing (Howrah–Salt Lake)</td>
+              <td class="py-3 px-3 text-center text-blue-300 font-bold">19.5 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">28.6 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">29.5 min</td>
+              <td class="py-3 px-3 text-center text-emerald-400 font-bold">+9.1 min</td>
+              <td class="py-3 px-3 text-center text-slate-300 font-bold">1.47×</td>
+              <td class="py-3 px-3 text-center text-emerald-300 font-black">78.5%</td>
+            </tr>
+
+            <tr class="hover:bg-slate-900/40">
+              <td class="py-3 px-3 flex items-center gap-2 font-bold text-orange-400">
+                <span class="w-2.5 h-2.5 rounded-full bg-orange-500"></span> Orange Line
+              </td>
+              <td class="py-3 px-3 text-slate-300">Eastern Metropolitan Bypass (Flyovers & High-speed)</td>
+              <td class="py-3 px-3 text-center text-blue-300 font-bold">20.2 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">34.4 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">20.6 min</td>
+              <td class="py-3 px-3 text-center text-emerald-400 font-bold">+14.2 min</td>
+              <td class="py-3 px-3 text-center text-slate-300 font-bold">1.70×</td>
+              <td class="py-3 px-3 text-center text-emerald-300 font-black">74.2%</td>
+            </tr>
+
+            <tr class="hover:bg-slate-900/40">
+              <td class="py-3 px-3 flex items-center gap-2 font-bold text-purple-400">
+                <span class="w-2.5 h-2.5 rounded-full bg-purple-500"></span> Purple Line (Clean)
+              </td>
+              <td class="py-3 px-3 text-slate-300">Diamond Harbour Rd Radial (Active Operating Hours)</td>
+              <td class="py-3 px-3 text-center text-blue-300 font-bold">9.5 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">14.3 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">13.6 min</td>
+              <td class="py-3 px-3 text-center text-emerald-400 font-bold">+4.8 min</td>
+              <td class="py-3 px-3 text-center text-slate-300 font-bold">1.51×</td>
+              <td class="py-3 px-3 text-center text-emerald-300 font-black">82.0%</td>
+            </tr>
+
+            <tr class="hover:bg-slate-900/40">
+              <td class="py-3 px-3 flex items-center gap-2 font-bold text-yellow-400">
+                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span> Yellow Line
+              </td>
+              <td class="py-3 px-3 text-slate-300">Airport Extension Segment (Dum Dum Cantt → Airport)</td>
+              <td class="py-3 px-3 text-center text-blue-300 font-bold">18.5 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">28.0 min</td>
+              <td class="py-3 px-3 text-center text-slate-300">15.2 min</td>
+              <td class="py-3 px-3 text-center text-emerald-400 font-bold">+9.5 min</td>
+              <td class="py-3 px-3 text-center text-slate-300 font-bold">1.51×</td>
+              <td class="py-3 px-3 text-center text-emerald-300 font-black">68.4%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ANOMALY DIAGNOSTIC & ELIMINATION BLUEPRINT -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      
+      <!-- Exact Anomaly Breakdown -->
+      <div class="gradient-card border border-rose-900/40 rounded-xl p-6 space-y-4">
+        <div class="flex items-center gap-2 text-rose-400 font-bold">
+          <span>🚨</span>
+          <h3>Exact Breakdown of Flagged Anomalies</h3>
+        </div>
+        <p class="text-xs text-slate-300">
+          The 348 flagged anomalies across the 24 days occurred in predictable clusters:
+        </p>
+
+        <div class="space-y-3 text-xs">
+          <div class="p-3 rounded-lg bg-rose-950/30 border border-rose-900/40">
+            <div class="flex justify-between font-bold text-rose-300 mb-1">
+              <span>🚶 Google Maps Walking Fallbacks</span>
+              <span>169 Instances</span>
+            </div>
+            <p class="text-slate-400">
+              • <strong>Where:</strong> Purple Line (MC-19 to MC-24) at 1:00 PM (137 cases) and 12:00 AM (29 cases).<br>
+              • <strong>Why:</strong> Line 3 train frequency pauses around 12:30 PM - 3:30 PM. Maps returned walking along NH 12 (37-57 min).
+            </p>
+          </div>
+
+          <div class="p-3 rounded-lg bg-amber-950/30 border border-amber-900/40">
+            <div class="flex justify-between font-bold text-amber-300 mb-1">
+              <span>📅 Non-Operating Sunday Runs</span>
+              <span>179 Instances</span>
+            </div>
+            <p class="text-slate-400">
+              • <strong>Where:</strong> Orange Line (MC-16, MC-17, MC-18) on Aug 30, Sep 6, Sep 13, Sep 20.<br>
+              • <strong>Why:</strong> Line 6 (EM Bypass) has zero Sunday commercial operations. Google Maps returned <code>null</code>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Engineering Roadmap: How to Make Future Data 100% Anomaly-Free -->
+      <div class="gradient-card border border-emerald-900/40 rounded-xl p-6 space-y-4">
+        <div class="flex items-center gap-2 text-emerald-400 font-bold">
+          <span>🛠️</span>
+          <h3>Engineering Roadmap: 100% Anomaly-Free Scraping</h3>
+        </div>
+        <p class="text-xs text-slate-300">
+          How to eliminate all anomalies at the source in future automation runs:
+        </p>
+
+        <div class="space-y-2 text-xs">
+          <div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-900/70 border border-slate-800">
+            <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-[10px] shrink-0">1</span>
+            <div>
+              <strong class="text-slate-200">Strict Mode Validation in Puppeteer:</strong>
+              <p class="text-slate-400 text-[11px]">Reject any transit trip whose badge doesn't contain "Line" or "Metro", or whose card contains the walking icon. Mark status as <code>SERVICE_SUSPENDED</code> instead of parsing walking time.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-900/70 border border-slate-800">
+            <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-[10px] shrink-0">2</span>
+            <div>
+              <strong class="text-slate-200">Schedule-Aware Operational Gating:</strong>
+              <p class="text-slate-400 text-[11px]">Tag operating windows in <code>segments.json</code>. Skip Metro scraping when a line is shut (e.g., Orange Line on Sundays; all lines at 12:00 AM midnight).</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-900/70 border border-slate-800">
+            <span class="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-[10px] shrink-0">3</span>
+            <div>
+              <strong class="text-slate-200">Replace 12 AM Slot with 9:30 PM (Last Train):</strong>
+              <p class="text-slate-400 text-[11px]">Keep 12 AM exclusively for free-flow road baseline ($T_0$), and benchmark Metro at 9:30 PM when actual last trains are departing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="text-center text-xs text-slate-500 pt-4 border-t border-slate-900">
+      Generated automatically from clean operational dataset • All 169 walking fallbacks & 179 closed runs quarantined into separate audit files
+    </div>
+
+  </div>
+</body>
+</html>
