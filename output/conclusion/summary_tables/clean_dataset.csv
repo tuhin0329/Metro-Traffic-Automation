@@ -1,0 +1,2121 @@
+Date,Day,RouteId,Line,From,To,IsMaster,Slot,BusMin,MetroMin,CarMin,BusMetroRatio,CarMetroRatio,Winner,TimeSavedVsBus
+2026-08-30,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,32,1.79,1.14,Metro,22
+2026-08-30,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-08-30,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,12,1.71,1.71,Metro,5
+2026-08-30,Sun,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-08-30,Sun,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-08-30,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,65,12,18,5.42,1.50,Metro,53
+2026-08-30,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,34,17,19,2.00,1.12,Metro,17
+2026-08-30,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,17,1.47,1.13,Metro,7
+2026-08-30,Sun,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,27,2.25,1.69,Metro,20
+2026-08-30,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,42,30,32,1.40,1.07,Metro,12
+2026-08-30,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,22,19,1.18,0.86,Car,4
+2026-08-30,Sun,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,16,1.70,1.60,Metro,7
+2026-08-30,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,15,1.26,0.79,Car,5
+2026-08-30,Sun,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,19,2.64,1.73,Metro,18
+2026-08-30,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,26,1.36,1.04,Metro,9
+2026-08-30,Sun,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,6,0.24,0.18,Car,-25
+2026-08-30,Sun,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,3,0.22,0.17,Car,-14
+2026-08-30,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,39,7,12,5.57,1.71,Metro,32
+2026-08-31,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,28,1.79,1.00,Metro,22
+2026-08-31,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,7:54 PM,47,29,48,1.62,1.66,Metro,18
+2026-08-31,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,42,1.79,1.50,Metro,22
+2026-08-31,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,27,1.82,0.96,Car,23
+2026-08-31,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:54 PM,51,28,43,1.82,1.54,Metro,23
+2026-08-31,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,36,1.76,1.24,Metro,22
+2026-08-31,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,10,1.71,1.43,Metro,5
+2026-08-31,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,7:54 PM,12,7,16,1.71,2.29,Metro,5
+2026-08-31,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,16,1.50,2.00,Metro,4
+2026-08-31,Mon,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,14,1.64,1.27,Metro,7
+2026-08-31,Mon,MC-04,Blue,Shyambazar,Esplanade,false,7:54 PM,18,11,26,1.64,2.36,Metro,7
+2026-08-31,Mon,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,20,1.64,1.82,Metro,7
+2026-08-31,Mon,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,10,1.64,0.91,Car,7
+2026-08-31,Mon,MC-05,Blue,Kalighat,Esplanade,false,7:54 PM,18,11,21,1.64,1.91,Metro,7
+2026-08-31,Mon,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,16,1.64,1.45,Metro,7
+2026-08-31,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,15,17,1.60,1.13,Metro,9
+2026-08-31,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,7:54 PM,24,13,26,1.85,2.00,Metro,11
+2026-08-31,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,25,2.00,2.08,Metro,12
+2026-08-31,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,34,17,16,2.00,0.94,Car,17
+2026-08-31,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:54 PM,27,17,31,1.59,1.82,Metro,10
+2026-08-31,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,27,1.50,1.50,Metro,9
+2026-08-31,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,13,1.47,0.87,Car,7
+2026-08-31,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:54 PM,22,15,25,1.47,1.67,Metro,7
+2026-08-31,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,28,1.47,1.87,Metro,7
+2026-08-31,Mon,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,22,2.25,1.38,Metro,20
+2026-08-31,Mon,MC-09,Blue,Dum Dum,Esplanade,false,7:54 PM,30,16,43,1.88,2.69,Metro,14
+2026-08-31,Mon,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,35,1.88,2.19,Metro,14
+2026-08-31,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,26,1.33,0.87,Car,10
+2026-08-31,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,7:54 PM,40,30,52,1.33,1.73,Metro,10
+2026-08-31,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,43,1.33,1.43,Metro,10
+2026-08-31,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,22,15,1.14,0.68,Car,3
+2026-08-31,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:54 PM,26,21,27,1.24,1.29,Metro,5
+2026-08-31,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,25,1.19,1.19,Metro,4
+2026-08-31,Mon,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,14,1.70,1.40,Metro,7
+2026-08-31,Mon,MC-12,Green,Howrah,Sealdah,false,7:54 PM,23,11,39,2.09,3.55,Metro,12
+2026-08-31,Mon,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,24,1.55,2.18,Metro,6
+2026-08-31,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,31,19,13,1.63,0.68,Car,12
+2026-08-31,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:54 PM,27,18,19,1.50,1.06,Metro,9
+2026-08-31,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,19,1.39,1.06,Metro,7
+2026-08-31,Mon,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,23,11,15,2.09,1.36,Metro,12
+2026-08-31,Mon,MC-14,Green,Howrah,Phoolbagan,false,7:54 PM,29,12,39,2.42,3.25,Metro,17
+2026-08-31,Mon,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,31,1.92,2.58,Metro,11
+2026-08-31,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,21,1.36,0.84,Car,9
+2026-08-31,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:54 PM,34,25,31,1.36,1.24,Metro,9
+2026-08-31,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,28,1.36,1.12,Metro,9
+2026-08-31,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,7:54 PM,36,23,26,1.57,1.13,Metro,13
+2026-08-31,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,22,1.29,0.79,Car,8
+2026-08-31,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:54 PM,16,12,10,1.33,0.83,Car,4
+2026-08-31,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,9,0.94,0.53,Car,-1
+2026-08-31,Mon,MC-18,Orange,Kavi Subhash,Science City,false,7:54 PM,35,19,22,1.84,1.16,Metro,16
+2026-08-31,Mon,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,35,23,21,1.52,0.91,Car,12
+2026-08-31,Mon,MC-19,Purple,Joka,Majerhat,true,7:54 PM,26,17,23,1.53,1.35,Metro,9
+2026-08-31,Mon,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,21,1.53,1.24,Metro,9
+2026-08-31,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,51,6,0.24,0.12,Car,-39
+2026-08-31,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:54 PM,12,9,11,1.33,1.22,Metro,3
+2026-08-31,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,10,1.33,1.11,Metro,3
+2026-08-31,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,7:54 PM,14,8,12,1.75,1.50,Metro,6
+2026-08-31,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,11,1.75,1.38,Metro,6
+2026-08-31,Mon,MC-22,Purple,Joka,Taratala,false,7:54 PM,22,14,20,1.57,1.43,Metro,8
+2026-08-31,Mon,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,19,1.57,1.36,Metro,8
+2026-08-31,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,4,0.24,0.12,Car,-25
+2026-08-31,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,7:54 PM,8,6,8,1.33,1.33,Metro,2
+2026-08-31,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,7,1.17,1.17,Metro,1
+2026-08-31,Mon,MC-24,Purple,Taratala,Majerhat,false,7:54 PM,4,3,3,1.33,1.00,Metro,1
+2026-08-31,Mon,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-08-31,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,9,3.43,1.29,Metro,17
+2026-08-31,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:54 PM,18,7,16,2.57,2.29,Metro,11
+2026-08-31,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,20,2.89,2.22,Metro,17
+2026-09-01,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,28,1.79,1.00,Metro,22
+2026-09-01,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,27,1.79,0.96,Car,22
+2026-09-01,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,48,2.13,1.55,Metro,35
+2026-09-01,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,33,1.79,1.18,Metro,22
+2026-09-01,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,30,1.82,1.07,Metro,23
+2026-09-01,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,27,1.82,0.96,Car,23
+2026-09-01,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,47,1.70,1.57,Metro,21
+2026-09-01,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,32,1.76,1.10,Metro,22
+2026-09-01,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-01,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,10,1.71,1.43,Metro,5
+2026-09-01,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-01,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,14,1.50,1.75,Metro,4
+2026-09-01,Tue,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,14,1.64,1.27,Metro,7
+2026-09-01,Tue,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,13,1.64,1.18,Metro,7
+2026-09-01,Tue,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,25,2.64,2.27,Metro,18
+2026-09-01,Tue,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,17,1.64,1.55,Metro,7
+2026-09-01,Tue,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-01,Tue,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,10,1.64,0.91,Car,7
+2026-09-01,Tue,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-01,Tue,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,12,1.64,1.09,Metro,7
+2026-09-01,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,16,2.00,1.33,Metro,12
+2026-09-01,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-01,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,26,1.60,1.73,Metro,9
+2026-09-01,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,20,2.00,1.67,Metro,12
+2026-09-01,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,34,17,17,2.00,1.00,Metro,17
+2026-09-01,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,16,1.59,0.94,Car,10
+2026-09-01,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,35,1.22,1.52,Metro,5
+2026-09-01,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,22,1.50,1.22,Metro,9
+2026-09-01,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,14,1.47,0.93,Car,7
+2026-09-01,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-01,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,28,1.29,1.65,Metro,5
+2026-09-01,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,19,1.47,1.27,Metro,7
+2026-09-01,Tue,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,25,2.25,1.56,Metro,20
+2026-09-01,Tue,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,22,2.25,1.38,Metro,20
+2026-09-01,Tue,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,42,3.50,2.63,Metro,40
+2026-09-01,Tue,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,30,1.88,1.88,Metro,14
+2026-09-01,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,28,1.33,0.93,Car,10
+2026-09-01,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,28,1.33,0.93,Car,10
+2026-09-01,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,61,1.40,2.03,Metro,12
+2026-09-01,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,33,1.33,1.10,Metro,10
+2026-09-01,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,17,1.19,0.81,Car,4
+2026-09-01,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,17,1.24,0.81,Car,5
+2026-09-01,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,29,1.19,1.38,Metro,4
+2026-09-01,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,20,1.19,0.95,Car,4
+2026-09-01,Tue,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,15,1.55,1.36,Metro,6
+2026-09-01,Tue,MC-12,Green,Howrah,Sealdah,false,10:00 AM,23,11,16,2.09,1.45,Metro,12
+2026-09-01,Tue,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,36,1.55,3.27,Metro,6
+2026-09-01,Tue,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,17,1.55,1.55,Metro,6
+2026-09-01,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-01,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,13,1.44,0.72,Car,8
+2026-09-01,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,23,1.72,1.28,Metro,13
+2026-09-01,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,16,1.39,0.89,Car,7
+2026-09-01,Tue,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-01,Tue,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-01,Tue,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,40,1.92,3.33,Metro,11
+2026-09-01,Tue,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,21,1.92,1.75,Metro,11
+2026-09-01,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,21,1.36,0.84,Car,9
+2026-09-01,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,20,1.36,0.80,Car,9
+2026-09-01,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,38,1.36,1.52,Metro,9
+2026-09-01,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,24,1.36,0.96,Car,9
+2026-09-01,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,28,19,1.29,0.68,Car,8
+2026-09-01,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,17,1.57,0.74,Car,13
+2026-09-01,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,28,1.61,1.00,Metro,17
+2026-09-01,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,21,1.29,0.75,Car,8
+2026-09-01,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,143,12,8,11.92,0.67,Car,131
+2026-09-01,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,7,1.33,0.58,Car,4
+2026-09-01,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-01,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,9,0.94,0.53,Car,-1
+2026-09-01,Tue,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,37,23,18,1.61,0.78,Car,14
+2026-09-01,Tue,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,67,19,16,3.53,0.84,Car,48
+2026-09-01,Tue,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,27,2.04,1.17,Metro,24
+2026-09-01,Tue,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,20,2.04,0.87,Car,24
+2026-09-01,Tue,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,16,1.53,0.94,Car,9
+2026-09-01,Tue,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,14,1.53,0.82,Car,9
+2026-09-01,Tue,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,22,1.53,1.29,Metro,9
+2026-09-01,Tue,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,22,1.53,1.29,Metro,9
+2026-09-01,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,51,8,0.24,0.16,Car,-39
+2026-09-01,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,7,1.33,0.78,Car,3
+2026-09-01,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-01,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,12,1.33,1.33,Metro,3
+2026-09-01,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,8,1.75,1.00,Metro,6
+2026-09-01,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,7,1.75,0.88,Car,6
+2026-09-01,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-01,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,10,1.75,1.25,Metro,6
+2026-09-01,Tue,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,13,1.57,0.93,Car,8
+2026-09-01,Tue,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,11,1.57,0.79,Car,8
+2026-09-01,Tue,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-01,Tue,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,18,1.57,1.29,Metro,8
+2026-09-01,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,5,1.33,0.83,Car,2
+2026-09-01,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,4,1.33,0.67,Car,2
+2026-09-01,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,8,0.24,0.24,Bus,-25
+2026-09-01,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,7,1.17,1.17,Metro,1
+2026-09-01,Tue,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,2,0.22,0.11,Car,-14
+2026-09-01,Tue,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,2,1.33,0.67,Car,1
+2026-09-01,Tue,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-01,Tue,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,4,1.33,1.33,Metro,1
+2026-09-01,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,10,3.43,1.43,Metro,17
+2026-09-01,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,29,7,10,4.14,1.43,Metro,22
+2026-09-01,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,20,0.73,0.41,Car,-13
+2026-09-01,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,13,2.89,1.44,Metro,17
+2026-09-02,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,31,26,1.61,0.84,Car,19
+2026-09-02,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,67,1.79,2.39,Metro,22
+2026-09-02,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,56,2.13,1.81,Metro,35
+2026-09-02,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,39,1.79,1.39,Metro,22
+2026-09-02,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,28,1.82,1.00,Metro,23
+2026-09-02,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,68,1.82,2.43,Metro,23
+2026-09-02,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,62,1.70,2.07,Metro,21
+2026-09-02,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,39,1.76,1.34,Metro,22
+2026-09-02,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,115,7,11,16.43,1.57,Metro,108
+2026-09-02,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,17,1.71,2.43,Metro,5
+2026-09-02,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-02,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,17,1.50,2.13,Metro,4
+2026-09-02,Wed,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,14,1.64,1.27,Metro,7
+2026-09-02,Wed,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,41,1.64,3.73,Metro,7
+2026-09-02,Wed,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,33,2.64,3.00,Metro,18
+2026-09-02,Wed,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,19,1.64,1.73,Metro,7
+2026-09-02,Wed,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-02,Wed,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,44,1.64,4.00,Metro,7
+2026-09-02,Wed,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,31,1.64,2.82,Metro,7
+2026-09-02,Wed,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,18,1.64,1.64,Metro,7
+2026-09-02,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,15,2.00,1.25,Metro,12
+2026-09-02,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,28,2.00,2.33,Metro,12
+2026-09-02,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,27,1.60,1.80,Metro,9
+2026-09-02,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,25,2.00,2.08,Metro,12
+2026-09-02,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,16,2.53,0.94,Car,26
+2026-09-02,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,49,1.59,2.88,Metro,10
+2026-09-02,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,36,1.22,1.57,Metro,5
+2026-09-02,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,38,1.50,2.11,Metro,9
+2026-09-02,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,17,14,1.29,0.82,Car,5
+2026-09-02,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,26,1.47,1.73,Metro,7
+2026-09-02,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,29,1.29,1.71,Metro,5
+2026-09-02,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,28,1.47,1.87,Metro,7
+2026-09-02,Wed,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,23,2.25,1.44,Metro,20
+2026-09-02,Wed,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,53,2.25,3.31,Metro,20
+2026-09-02,Wed,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,52,3.50,3.25,Metro,40
+2026-09-02,Wed,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,35,1.88,2.19,Metro,14
+2026-09-02,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,27,1.33,0.90,Car,10
+2026-09-02,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,56,1.33,1.87,Metro,10
+2026-09-02,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,61,1.40,2.03,Metro,12
+2026-09-02,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,43,1.33,1.43,Metro,10
+2026-09-02,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,17,1.19,0.81,Car,4
+2026-09-02,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,29,1.24,1.38,Metro,5
+2026-09-02,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,26,1.19,1.24,Metro,4
+2026-09-02,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,26,1.19,1.24,Metro,4
+2026-09-02,Wed,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,14,1.55,1.27,Metro,6
+2026-09-02,Wed,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,39,2.45,3.55,Metro,16
+2026-09-02,Wed,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,38,1.55,3.45,Metro,6
+2026-09-02,Wed,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,23,1.55,2.09,Metro,6
+2026-09-02,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,13,1.33,0.72,Car,6
+2026-09-02,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,22,1.44,1.22,Metro,8
+2026-09-02,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,22,1.72,1.22,Metro,13
+2026-09-02,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,21,1.39,1.17,Metro,7
+2026-09-02,Wed,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,16,2.42,1.33,Metro,17
+2026-09-02,Wed,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,37,2.42,3.08,Metro,17
+2026-09-02,Wed,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,42,1.92,3.50,Metro,11
+2026-09-02,Wed,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,30,1.92,2.50,Metro,11
+2026-09-02,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,20,1.36,0.80,Car,9
+2026-09-02,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,45,1.36,1.80,Metro,9
+2026-09-02,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,36,1.36,1.44,Metro,9
+2026-09-02,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,29,1.36,1.16,Metro,9
+2026-09-02,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,17,1.57,0.74,Car,13
+2026-09-02,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,27,1.57,1.17,Metro,13
+2026-09-02,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,27,1.61,0.96,Car,17
+2026-09-02,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,24,1.29,0.86,Car,8
+2026-09-02,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,17,12,7,1.42,0.58,Car,5
+2026-09-02,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,12,1.33,1.00,Metro,4
+2026-09-02,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-02,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,11,0.94,0.65,Car,-1
+2026-09-02,Wed,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,19,15,2.53,0.79,Car,29
+2026-09-02,Wed,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,24,2.47,1.26,Metro,28
+2026-09-02,Wed,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,25,2.04,1.09,Metro,24
+2026-09-02,Wed,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,22,2.04,0.96,Car,24
+2026-09-02,Wed,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,14,1.53,0.82,Car,9
+2026-09-02,Wed,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,27,1.53,1.59,Metro,9
+2026-09-02,Wed,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,27,1.53,1.59,Metro,9
+2026-09-02,Wed,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-02,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,6,1.33,0.67,Car,3
+2026-09-02,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,15,1.33,1.67,Metro,3
+2026-09-02,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,14,0.24,0.27,Bus,-39
+2026-09-02,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,13,1.33,1.44,Metro,3
+2026-09-02,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,7,1.75,0.88,Car,6
+2026-09-02,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,11,1.75,1.38,Metro,6
+2026-09-02,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-02,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,12,1.75,1.50,Metro,6
+2026-09-02,Wed,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,11,1.57,0.79,Car,8
+2026-09-02,Wed,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-02,Wed,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,26,1.57,1.86,Metro,8
+2026-09-02,Wed,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-02,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,4,1.33,0.67,Car,2
+2026-09-02,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,10,1.33,1.67,Metro,2
+2026-09-02,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,15,0.24,0.45,Bus,-25
+2026-09-02,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-02,Wed,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,2,0.22,0.11,Car,-14
+2026-09-02,Wed,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,5,1.33,1.67,Metro,1
+2026-09-02,Wed,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-02,Wed,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-02,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,9,3.43,1.29,Metro,17
+2026-09-02,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,18,3.57,2.57,Metro,18
+2026-09-02,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,21,0.73,0.43,Car,-13
+2026-09-02,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,21,2.89,2.33,Metro,17
+2026-09-03,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,31,1.79,1.11,Metro,22
+2026-09-03,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,44,1.79,1.57,Metro,22
+2026-09-03,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,52,2.13,1.68,Metro,35
+2026-09-03,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,51,1.79,1.82,Metro,22
+2026-09-03,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-03,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,55,1.82,1.96,Metro,23
+2026-09-03,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,45,1.70,1.50,Metro,21
+2026-09-03,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,59,1.76,2.03,Metro,22
+2026-09-03,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,53,12,0.23,0.23,Bus,-41
+2026-09-03,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,16,1.71,2.29,Metro,5
+2026-09-03,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-03,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,25,1.50,3.13,Metro,4
+2026-09-03,Thu,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,29,11,16,2.64,1.45,Metro,18
+2026-09-03,Thu,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,20,1.64,1.82,Metro,7
+2026-09-03,Thu,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,27,2.64,2.45,Metro,18
+2026-09-03,Thu,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,27,1.64,2.45,Metro,7
+2026-09-03,Thu,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-03,Thu,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,17,1.64,1.55,Metro,7
+2026-09-03,Thu,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,25,1.64,2.27,Metro,7
+2026-09-03,Thu,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,32,1.64,2.91,Metro,7
+2026-09-03,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,15,19,1.60,1.27,Metro,9
+2026-09-03,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,27,2.00,2.25,Metro,12
+2026-09-03,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,30,1.60,2.00,Metro,9
+2026-09-03,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,28,2.00,2.33,Metro,12
+2026-09-03,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,23,18,1.87,0.78,Car,20
+2026-09-03,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,28,1.59,1.65,Metro,10
+2026-09-03,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,33,1.22,1.43,Metro,5
+2026-09-03,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,43,1.50,2.39,Metro,9
+2026-09-03,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-03,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,30,1.47,2.00,Metro,7
+2026-09-03,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-03,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,33,1.47,2.20,Metro,7
+2026-09-03,Thu,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-03,Thu,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,37,2.25,2.31,Metro,20
+2026-09-03,Thu,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,42,3.50,2.63,Metro,40
+2026-09-03,Thu,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,48,1.88,3.00,Metro,14
+2026-09-03,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,42,30,29,1.40,0.97,Car,12
+2026-09-03,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,49,1.33,1.63,Metro,10
+2026-09-03,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,48,1.40,1.60,Metro,12
+2026-09-03,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,61,1.33,2.03,Metro,10
+2026-09-03,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,18,1.19,0.86,Car,4
+2026-09-03,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,32,1.24,1.52,Metro,5
+2026-09-03,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,28,1.19,1.33,Metro,4
+2026-09-03,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,30,1.19,1.43,Metro,4
+2026-09-03,Thu,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,15,1.55,1.36,Metro,6
+2026-09-03,Thu,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,26,2.45,2.36,Metro,16
+2026-09-03,Thu,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,30,1.55,2.73,Metro,6
+2026-09-03,Thu,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,37,1.55,3.36,Metro,6
+2026-09-03,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-03,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,23,1.44,1.28,Metro,8
+2026-09-03,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,21,1.72,1.17,Metro,13
+2026-09-03,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,25,1.39,1.39,Metro,7
+2026-09-03,Thu,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,18,2.42,1.50,Metro,17
+2026-09-03,Thu,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,28,2.42,2.33,Metro,17
+2026-09-03,Thu,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,31,1.92,2.58,Metro,11
+2026-09-03,Thu,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,42,1.92,3.50,Metro,11
+2026-09-03,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-03,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,45,1.36,1.80,Metro,9
+2026-09-03,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,33,1.36,1.32,Metro,9
+2026-09-03,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,38,1.36,1.52,Metro,9
+2026-09-03,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,19,1.57,0.83,Car,13
+2026-09-03,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,31,1.57,1.35,Metro,13
+2026-09-03,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-03,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,32,1.29,1.14,Metro,8
+2026-09-03,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-03,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,16,1.33,1.33,Metro,4
+2026-09-03,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-03,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,14,0.94,0.82,Car,-1
+2026-09-03,Thu,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,47,23,18,2.04,0.78,Car,24
+2026-09-03,Thu,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,46,19,29,2.42,1.53,Metro,27
+2026-09-03,Thu,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,23,2.04,1.00,Metro,24
+2026-09-03,Thu,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,29,2.04,1.26,Metro,24
+2026-09-03,Thu,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,18,1.53,1.06,Metro,9
+2026-09-03,Thu,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,27,1.53,1.59,Metro,9
+2026-09-03,Thu,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,28,1.53,1.65,Metro,9
+2026-09-03,Thu,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,26,1.53,1.53,Metro,9
+2026-09-03,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,9,1.33,1.00,Metro,3
+2026-09-03,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,16,1.33,1.78,Metro,3
+2026-09-03,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,15,0.24,0.29,Bus,-39
+2026-09-03,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-03,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-03,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,12,1.75,1.50,Metro,6
+2026-09-03,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-03,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,15,1.75,1.88,Metro,6
+2026-09-03,Thu,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-03,Thu,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-03,Thu,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-03,Thu,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,24,1.57,1.71,Metro,8
+2026-09-03,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-03,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-03,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,8,0.24,0.24,Bus,-25
+2026-09-03,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,8,1.17,1.33,Metro,1
+2026-09-03,Thu,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-03,Thu,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,13,1.33,4.33,Metro,1
+2026-09-03,Thu,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,7,0.22,0.39,Bus,-14
+2026-09-03,Thu,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-03,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,36,7,11,5.14,1.57,Metro,29
+2026-09-03,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,17,3.57,2.43,Metro,18
+2026-09-03,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,19,0.73,0.39,Car,-13
+2026-09-03,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,22,2.89,2.44,Metro,17
+2026-09-04,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,31,1.79,1.11,Metro,22
+2026-09-04,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,36,1.79,1.29,Metro,22
+2026-09-04,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,42,2.13,1.35,Metro,35
+2026-09-04,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,45,1.79,1.61,Metro,22
+2026-09-04,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,30,31,1.70,1.03,Metro,21
+2026-09-04,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,35,1.82,1.25,Metro,23
+2026-09-04,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,36,1.70,1.20,Metro,21
+2026-09-04,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,48,1.76,1.66,Metro,22
+2026-09-04,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,53,12,0.23,0.23,Bus,-41
+2026-09-04,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,14,1.71,2.00,Metro,5
+2026-09-04,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,16,0.66,0.30,Car,-18
+2026-09-04,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,16,1.50,2.00,Metro,4
+2026-09-04,Fri,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-04,Fri,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-04,Fri,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,20,2.64,1.82,Metro,18
+2026-09-04,Fri,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,24,1.64,2.18,Metro,7
+2026-09-04,Fri,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-04,Fri,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-04,Fri,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,17,1.64,1.55,Metro,7
+2026-09-04,Fri,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,18,1.64,1.64,Metro,7
+2026-09-04,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,16,17,1.50,1.06,Metro,8
+2026-09-04,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,24,2.00,2.00,Metro,12
+2026-09-04,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,24,1.60,1.60,Metro,9
+2026-09-04,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,26,2.00,2.17,Metro,12
+2026-09-04,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,23,19,1.87,0.83,Car,20
+2026-09-04,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,25,1.59,1.47,Metro,10
+2026-09-04,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,28,1.22,1.22,Metro,5
+2026-09-04,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,33,1.50,1.83,Metro,9
+2026-09-04,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-04,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,22,1.47,1.47,Metro,7
+2026-09-04,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,24,1.29,1.41,Metro,5
+2026-09-04,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,32,1.47,2.13,Metro,7
+2026-09-04,Fri,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,27,2.25,1.69,Metro,20
+2026-09-04,Fri,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,30,2.25,1.88,Metro,20
+2026-09-04,Fri,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,36,3.50,2.25,Metro,40
+2026-09-04,Fri,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,39,1.88,2.44,Metro,14
+2026-09-04,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-04,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,41,1.33,1.37,Metro,10
+2026-09-04,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,41,1.40,1.37,Metro,12
+2026-09-04,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,53,1.33,1.77,Metro,10
+2026-09-04,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,21,18,1.24,0.86,Car,5
+2026-09-04,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,24,1.24,1.14,Metro,5
+2026-09-04,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,24,1.19,1.14,Metro,4
+2026-09-04,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,27,1.19,1.29,Metro,4
+2026-09-04,Fri,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-04,Fri,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,23,2.45,2.09,Metro,16
+2026-09-04,Fri,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,28,1.55,2.55,Metro,6
+2026-09-04,Fri,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,28,1.55,2.55,Metro,6
+2026-09-04,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,15,1.33,0.83,Car,6
+2026-09-04,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,20,1.44,1.11,Metro,8
+2026-09-04,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,18,1.72,1.00,Metro,13
+2026-09-04,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,27,18,20,1.50,1.11,Metro,9
+2026-09-04,Fri,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-04,Fri,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,25,2.42,2.08,Metro,17
+2026-09-04,Fri,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,30,1.92,2.50,Metro,11
+2026-09-04,Fri,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,35,1.92,2.92,Metro,11
+2026-09-04,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,25,1.36,1.00,Metro,9
+2026-09-04,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,29,1.36,1.16,Metro,9
+2026-09-04,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,27,1.36,1.08,Metro,9
+2026-09-04,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,39,1.36,1.56,Metro,9
+2026-09-04,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,20,1.57,0.87,Car,13
+2026-09-04,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,22,1.57,0.96,Car,13
+2026-09-04,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,22,1.61,0.79,Car,17
+2026-09-04,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,29,1.29,1.04,Metro,8
+2026-09-04,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-04,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,10,1.33,0.83,Car,4
+2026-09-04,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-04,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,11,0.94,0.65,Car,-1
+2026-09-04,Fri,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,23,19,2.09,0.83,Car,25
+2026-09-04,Fri,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,20,2.47,1.05,Metro,28
+2026-09-04,Fri,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,21,2.04,0.91,Car,24
+2026-09-04,Fri,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,26,2.04,1.13,Metro,24
+2026-09-04,Fri,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,19,1.53,1.12,Metro,9
+2026-09-04,Fri,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,23,1.53,1.35,Metro,9
+2026-09-04,Fri,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-04,Fri,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-04,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,11,1.33,1.22,Metro,3
+2026-09-04,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,11,1.33,1.22,Metro,3
+2026-09-04,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-04,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,12,1.33,1.33,Metro,3
+2026-09-04,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-04,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,11,1.75,1.38,Metro,6
+2026-09-04,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,11,0.25,0.19,Car,-43
+2026-09-04,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,12,1.75,1.50,Metro,6
+2026-09-04,Fri,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-04,Fri,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,19,1.57,1.36,Metro,8
+2026-09-04,Fri,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-04,Fri,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-04,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,7,0.24,0.21,Car,-25
+2026-09-04,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-04,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-04,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-04,Fri,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,8,1.33,2.67,Metro,1
+2026-09-04,Fri,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,4,1.33,1.33,Metro,1
+2026-09-04,Fri,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-04,Fri,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-04,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,36,15,0.67,0.42,Car,-12
+2026-09-04,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,15,3.57,2.14,Metro,18
+2026-09-04,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,13,0.73,0.27,Car,-13
+2026-09-04,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,20,2.89,2.22,Metro,17
+2026-09-05,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,32,1.79,1.14,Metro,22
+2026-09-05,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,42,1.79,1.50,Metro,22
+2026-09-05,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,54,2.13,1.74,Metro,35
+2026-09-05,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,51,1.79,1.82,Metro,22
+2026-09-05,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,30,32,1.70,1.07,Metro,21
+2026-09-05,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,37,1.82,1.32,Metro,23
+2026-09-05,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,38,1.70,1.27,Metro,21
+2026-09-05,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,58,1.76,2.00,Metro,22
+2026-09-05,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-05,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-05,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,85,53,17,1.60,0.32,Car,32
+2026-09-05,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,18,1.50,2.25,Metro,4
+2026-09-05,Sat,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-05,Sat,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,20,1.64,1.82,Metro,7
+2026-09-05,Sat,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,27,2.64,2.45,Metro,18
+2026-09-05,Sat,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,30,1.64,2.73,Metro,7
+2026-09-05,Sat,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-05,Sat,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-05,Sat,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,24,1.64,2.18,Metro,7
+2026-09-05,Sat,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,38,1.64,3.45,Metro,7
+2026-09-05,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,15,19,1.60,1.27,Metro,9
+2026-09-05,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,26,2.00,2.17,Metro,12
+2026-09-05,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,30,1.60,2.00,Metro,9
+2026-09-05,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,28,2.00,2.33,Metro,12
+2026-09-05,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-05,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,27,1.59,1.59,Metro,10
+2026-09-05,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,30,1.22,1.30,Metro,5
+2026-09-05,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,38,1.50,2.11,Metro,9
+2026-09-05,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-05,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,24,1.47,1.60,Metro,7
+2026-09-05,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-05,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,31,1.47,2.07,Metro,7
+2026-09-05,Sat,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,27,2.25,1.69,Metro,20
+2026-09-05,Sat,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,34,2.25,2.13,Metro,20
+2026-09-05,Sat,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,45,16,45,2.81,2.81,Metro,29
+2026-09-05,Sat,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,49,1.88,3.06,Metro,14
+2026-09-05,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-05,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,39,1.33,1.30,Metro,10
+2026-09-05,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,46,1.40,1.53,Metro,12
+2026-09-05,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,57,1.33,1.90,Metro,10
+2026-09-05,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,18,1.19,0.86,Car,4
+2026-09-05,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,22,25,1.18,1.14,Metro,4
+2026-09-05,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,22,25,1.14,1.14,Metro,3
+2026-09-05,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,22,30,1.14,1.36,Metro,3
+2026-09-05,Sat,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-05,Sat,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,10,25,2.70,2.50,Metro,17
+2026-09-05,Sat,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,10,35,1.70,3.50,Metro,7
+2026-09-05,Sat,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,10,34,1.70,3.40,Metro,7
+2026-09-05,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-05,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,19,19,1.37,1.00,Metro,7
+2026-09-05,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,19,18,1.63,0.95,Car,12
+2026-09-05,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,19,25,1.32,1.32,Metro,6
+2026-09-05,Sat,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-05,Sat,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,11,27,2.64,2.45,Metro,18
+2026-09-05,Sat,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,11,35,2.09,3.18,Metro,12
+2026-09-05,Sat,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,11,44,2.09,4.00,Metro,12
+2026-09-05,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-05,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,28,1.36,1.12,Metro,9
+2026-09-05,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,29,1.36,1.16,Metro,9
+2026-09-05,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,39,1.36,1.56,Metro,9
+2026-09-05,Sat,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,20,1.57,0.87,Car,13
+2026-09-05,Sat,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-05,Sat,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,19,18,2.53,0.95,Car,29
+2026-09-05,Sat,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,20,1.53,1.18,Metro,9
+2026-09-05,Sat,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,19,24,1.37,1.26,Metro,7
+2026-09-05,Sat,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-05,Sat,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-05,Sat,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-05,Sat,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,13,0.25,0.23,Car,-43
+2026-09-05,Sat,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-05,Sat,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-05,Sat,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,14,1.33,2.33,Metro,2
+2026-09-05,Sat,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-05,Sat,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,6,1.33,2.00,Metro,1
+2026-09-05,Sat,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-05,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,36,7,11,5.14,1.57,Metro,29
+2026-09-05,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,14,3.57,2.00,Metro,18
+2026-09-05,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,16,0.73,0.33,Car,-13
+2026-09-05,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,18,2.89,2.00,Metro,17
+2026-09-06,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,31,1.79,1.11,Metro,22
+2026-09-06,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,33,1.79,1.18,Metro,22
+2026-09-06,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,28,38,2.36,1.36,Metro,38
+2026-09-06,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,31,41,1.61,1.32,Metro,19
+2026-09-06,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,32,1.82,1.14,Metro,23
+2026-09-06,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-06,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,34,1.70,1.13,Metro,21
+2026-09-06,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,30,39,1.70,1.30,Metro,21
+2026-09-06,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-06,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-06,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,16,0.66,0.30,Car,-18
+2026-09-06,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,15,16,0.80,1.07,Bus,-3
+2026-09-06,Sun,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-06,Sun,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-06,Sun,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,17,2.64,1.55,Metro,18
+2026-09-06,Sun,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-06,Sun,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-06,Sun,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,14,1.64,1.27,Metro,7
+2026-09-06,Sun,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,15,1.64,1.36,Metro,7
+2026-09-06,Sun,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,18,1.64,1.64,Metro,7
+2026-09-06,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-06,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,23,2.00,1.92,Metro,12
+2026-09-06,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,24,1.60,1.60,Metro,9
+2026-09-06,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,17,26,1.41,1.53,Metro,7
+2026-09-06,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,20,2.53,1.18,Metro,26
+2026-09-06,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,23,1.59,1.35,Metro,10
+2026-09-06,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,17,26,1.65,1.53,Metro,11
+2026-09-06,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,23,32,1.17,1.39,Metro,4
+2026-09-06,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-06,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-06,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,23,1.29,1.35,Metro,5
+2026-09-06,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-06,Sun,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-06,Sun,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,29,2.25,1.81,Metro,20
+2026-09-06,Sun,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,32,3.50,2.00,Metro,40
+2026-09-06,Sun,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,36,1.88,2.25,Metro,14
+2026-09-06,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-06,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,37,1.33,1.23,Metro,10
+2026-09-06,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,39,1.40,1.30,Metro,12
+2026-09-06,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,41,1.33,1.37,Metro,10
+2026-09-06,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,22,18,1.14,0.82,Car,3
+2026-09-06,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,22,22,1.18,1.00,Metro,4
+2026-09-06,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,22,23,1.14,1.05,Metro,3
+2026-09-06,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,22,26,1.14,1.18,Metro,3
+2026-09-06,Sun,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,16,1.70,1.60,Metro,7
+2026-09-06,Sun,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,10,21,2.70,2.10,Metro,17
+2026-09-06,Sun,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,10,23,1.70,2.30,Metro,7
+2026-09-06,Sun,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,10,23,1.70,2.30,Metro,7
+2026-09-06,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,14,1.26,0.74,Car,5
+2026-09-06,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,19,17,1.37,0.89,Car,7
+2026-09-06,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,19,18,1.63,0.95,Car,12
+2026-09-06,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,19,19,1.32,1.00,Metro,6
+2026-09-06,Sun,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,18,2.64,1.64,Metro,18
+2026-09-06,Sun,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,11,22,2.64,2.00,Metro,18
+2026-09-06,Sun,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,11,24,2.09,2.18,Metro,12
+2026-09-06,Sun,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,11,27,2.09,2.45,Metro,12
+2026-09-06,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-06,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,25,1.36,1.00,Metro,9
+2026-09-06,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,25,1.36,1.00,Metro,9
+2026-09-06,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,30,1.36,1.20,Metro,9
+2026-09-06,Sun,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,19,17,1.37,0.89,Car,7
+2026-09-06,Sun,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,11,9,1.09,0.82,Car,1
+2026-09-06,Sun,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,13,0.24,0.25,Bus,-39
+2026-09-06,Sun,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,8,1.75,1.00,Metro,6
+2026-09-06,Sun,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,11,0.25,0.19,Car,-43
+2026-09-06,Sun,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,14,1.57,1.00,Metro,8
+2026-09-06,Sun,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,11,0.24,0.33,Bus,-25
+2026-09-06,Sun,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-06,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-06,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,12,3.57,1.71,Metro,18
+2026-09-06,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,13,0.73,0.27,Car,-13
+2026-09-06,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,14,2.89,1.56,Metro,17
+2026-09-07,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,66,28,31,2.36,1.11,Metro,38
+2026-09-07,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,50,1.79,1.79,Metro,22
+2026-09-07,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,55,2.13,1.77,Metro,35
+2026-09-07,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,50,1.79,1.79,Metro,22
+2026-09-07,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,30,1.82,1.07,Metro,23
+2026-09-07,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,53,1.82,1.89,Metro,23
+2026-09-07,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,53,1.70,1.77,Metro,21
+2026-09-07,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,63,1.76,2.17,Metro,22
+2026-09-07,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-07,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,19,1.71,2.71,Metro,5
+2026-09-07,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,18,0.66,0.34,Car,-18
+2026-09-07,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,18,1.50,2.25,Metro,4
+2026-09-07,Mon,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-07,Mon,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,22,1.64,2.00,Metro,7
+2026-09-07,Mon,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,29,2.64,2.64,Metro,18
+2026-09-07,Mon,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,26,1.64,2.36,Metro,7
+2026-09-07,Mon,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-07,Mon,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,20,1.64,1.82,Metro,7
+2026-09-07,Mon,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,28,1.64,2.55,Metro,7
+2026-09-07,Mon,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-07,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,20,2.00,1.67,Metro,12
+2026-09-07,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,31,2.00,2.58,Metro,12
+2026-09-07,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,28,1.60,1.87,Metro,9
+2026-09-07,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,26,2.00,2.17,Metro,12
+2026-09-07,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-07,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,30,1.59,1.76,Metro,10
+2026-09-07,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,33,1.22,1.43,Metro,5
+2026-09-07,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,35,1.50,1.94,Metro,9
+2026-09-07,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-07,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,26,1.47,1.73,Metro,7
+2026-09-07,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,26,1.29,1.53,Metro,5
+2026-09-07,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,31,1.47,2.07,Metro,7
+2026-09-07,Mon,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,27,2.25,1.69,Metro,20
+2026-09-07,Mon,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,40,2.25,2.50,Metro,20
+2026-09-07,Mon,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,47,3.50,2.94,Metro,40
+2026-09-07,Mon,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,43,1.88,2.69,Metro,14
+2026-09-07,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-07,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,53,1.33,1.77,Metro,10
+2026-09-07,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,47,1.40,1.57,Metro,12
+2026-09-07,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,57,1.33,1.90,Metro,10
+2026-09-07,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,22,17,1.18,0.77,Car,4
+2026-09-07,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,33,1.24,1.57,Metro,5
+2026-09-07,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,26,1.19,1.24,Metro,4
+2026-09-07,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,30,1.19,1.43,Metro,4
+2026-09-07,Mon,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,16,1.70,1.60,Metro,7
+2026-09-07,Mon,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,31,2.45,2.82,Metro,16
+2026-09-07,Mon,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,34,1.55,3.09,Metro,6
+2026-09-07,Mon,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,36,1.55,3.27,Metro,6
+2026-09-07,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,14,1.26,0.74,Car,5
+2026-09-07,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,24,1.44,1.33,Metro,8
+2026-09-07,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,20,1.72,1.11,Metro,13
+2026-09-07,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,24,1.39,1.33,Metro,7
+2026-09-07,Mon,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,17,2.64,1.55,Metro,18
+2026-09-07,Mon,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,31,2.42,2.58,Metro,17
+2026-09-07,Mon,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,35,1.92,2.92,Metro,11
+2026-09-07,Mon,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,39,1.92,3.25,Metro,11
+2026-09-07,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-07,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,43,1.36,1.72,Metro,9
+2026-09-07,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,31,1.36,1.24,Metro,9
+2026-09-07,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,43,1.36,1.72,Metro,9
+2026-09-07,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,30,1.57,1.30,Metro,13
+2026-09-07,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,27,1.61,0.96,Car,17
+2026-09-07,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,41,1.29,1.46,Metro,8
+2026-09-07,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,16,1.33,1.33,Metro,4
+2026-09-07,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-07,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,34,0.94,2.00,Bus,-1
+2026-09-07,Mon,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,44,19,28,2.32,1.47,Metro,25
+2026-09-07,Mon,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,24,2.04,1.04,Metro,24
+2026-09-07,Mon,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,36,2.04,1.57,Metro,24
+2026-09-07,Mon,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,24,1.53,1.41,Metro,9
+2026-09-07,Mon,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,25,1.53,1.47,Metro,9
+2026-09-07,Mon,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-07,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,51,8,0.24,0.16,Car,-39
+2026-09-07,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,11,1.33,1.22,Metro,3
+2026-09-07,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,13,0.24,0.25,Bus,-39
+2026-09-07,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-07,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,12,1.75,1.50,Metro,6
+2026-09-07,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-07,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,12,1.75,1.50,Metro,6
+2026-09-07,Mon,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,20,1.57,1.43,Metro,8
+2026-09-07,Mon,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-07,Mon,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-07,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-07,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-07,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,8,1.17,1.33,Metro,1
+2026-09-07,Mon,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,3,0.22,0.17,Car,-14
+2026-09-07,Mon,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-07,Mon,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-07,Mon,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-07,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-07,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,19,3.57,2.71,Metro,18
+2026-09-07,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,17,0.73,0.35,Car,-13
+2026-09-07,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,25,2.89,2.78,Metro,17
+2026-09-08,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,66,31,30,2.13,0.97,Car,35
+2026-09-08,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,50,1.79,1.79,Metro,22
+2026-09-08,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,54,2.13,1.74,Metro,35
+2026-09-08,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,53,1.79,1.89,Metro,22
+2026-09-08,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,30,31,1.70,1.03,Metro,21
+2026-09-08,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,53,1.82,1.89,Metro,23
+2026-09-08,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,46,1.70,1.53,Metro,21
+2026-09-08,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,57,1.76,1.97,Metro,22
+2026-09-08,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-08,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-08,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-08,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,18,1.50,2.25,Metro,4
+2026-09-08,Tue,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-08,Tue,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,23,1.64,2.09,Metro,7
+2026-09-08,Tue,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,28,2.64,2.55,Metro,18
+2026-09-08,Tue,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,27,1.64,2.45,Metro,7
+2026-09-08,Tue,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-08,Tue,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,19,1.64,1.73,Metro,7
+2026-09-08,Tue,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,28,1.64,2.55,Metro,7
+2026-09-08,Tue,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-08,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,17,2.00,1.42,Metro,12
+2026-09-08,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,30,2.00,2.50,Metro,12
+2026-09-08,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,27,1.60,1.80,Metro,9
+2026-09-08,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,29,2.00,2.42,Metro,12
+2026-09-08,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,19,2.53,1.12,Metro,26
+2026-09-08,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,31,1.59,1.82,Metro,10
+2026-09-08,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,32,1.22,1.39,Metro,5
+2026-09-08,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,38,1.50,2.11,Metro,9
+2026-09-08,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-08,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,26,1.47,1.73,Metro,7
+2026-09-08,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,29,1.29,1.71,Metro,5
+2026-09-08,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,32,1.47,2.13,Metro,7
+2026-09-08,Tue,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,25,2.25,1.56,Metro,20
+2026-09-08,Tue,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,38,2.25,2.38,Metro,20
+2026-09-08,Tue,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,47,3.50,2.94,Metro,40
+2026-09-08,Tue,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,45,1.88,2.81,Metro,14
+2026-09-08,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-08,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,53,1.33,1.77,Metro,10
+2026-09-08,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,52,1.40,1.73,Metro,12
+2026-09-08,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,62,1.33,2.07,Metro,10
+2026-09-08,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,18,1.19,0.86,Car,4
+2026-09-08,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,33,1.24,1.57,Metro,5
+2026-09-08,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,30,1.19,1.43,Metro,4
+2026-09-08,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,37,1.19,1.76,Metro,4
+2026-09-08,Tue,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-08,Tue,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,29,2.45,2.64,Metro,16
+2026-09-08,Tue,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,37,1.55,3.36,Metro,6
+2026-09-08,Tue,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,41,1.55,3.73,Metro,6
+2026-09-08,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,31,18,14,1.72,0.78,Car,13
+2026-09-08,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,25,1.44,1.39,Metro,8
+2026-09-08,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,21,1.72,1.17,Metro,13
+2026-09-08,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,25,1.39,1.39,Metro,7
+2026-09-08,Tue,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-08,Tue,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,30,2.42,2.50,Metro,17
+2026-09-08,Tue,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,35,1.92,2.92,Metro,11
+2026-09-08,Tue,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,41,1.92,3.42,Metro,11
+2026-09-08,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,22,1.36,0.88,Car,9
+2026-09-08,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,44,1.36,1.76,Metro,9
+2026-09-08,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,41,1.36,1.64,Metro,9
+2026-09-08,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,51,1.36,2.04,Metro,9
+2026-09-08,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,28,19,1.29,0.68,Car,8
+2026-09-08,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,31,1.57,1.35,Metro,13
+2026-09-08,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,28,1.61,1.00,Metro,17
+2026-09-08,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,37,1.29,1.32,Metro,8
+2026-09-08,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-08,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,15,1.33,1.25,Metro,4
+2026-09-08,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,13,1.42,1.08,Metro,5
+2026-09-08,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,18,0.94,1.06,Bus,-1
+2026-09-08,Tue,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,23,18,2.09,0.78,Car,25
+2026-09-08,Tue,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,44,19,28,2.32,1.47,Metro,25
+2026-09-08,Tue,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,24,2.04,1.04,Metro,24
+2026-09-08,Tue,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,32,2.04,1.39,Metro,24
+2026-09-08,Tue,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,17,1.53,1.00,Metro,9
+2026-09-08,Tue,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,25,1.53,1.47,Metro,9
+2026-09-08,Tue,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-08,Tue,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-08,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,8,1.33,0.89,Car,3
+2026-09-08,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-08,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-08,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-08,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-08,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,13,1.75,1.63,Metro,6
+2026-09-08,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-08,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-08,Tue,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-08,Tue,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,22,1.57,1.57,Metro,8
+2026-09-08,Tue,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-08,Tue,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-08,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-08,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-08,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-08,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-08,Tue,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-08,Tue,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-08,Tue,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-08,Tue,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-08,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-08,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,19,3.57,2.71,Metro,18
+2026-09-08,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,15,0.73,0.31,Car,-13
+2026-09-08,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,19,2.89,2.11,Metro,17
+2026-09-09,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,31,1.79,1.11,Metro,22
+2026-09-09,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,49,1.79,1.75,Metro,22
+2026-09-09,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,56,2.13,1.81,Metro,35
+2026-09-09,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,49,1.79,1.75,Metro,22
+2026-09-09,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-09,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,54,1.82,1.93,Metro,23
+2026-09-09,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,49,1.70,1.63,Metro,21
+2026-09-09,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,63,1.76,2.17,Metro,22
+2026-09-09,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-09,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,16,1.71,2.29,Metro,5
+2026-09-09,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,20,0.66,0.38,Car,-18
+2026-09-09,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,19,1.50,2.38,Metro,4
+2026-09-09,Wed,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-09,Wed,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,22,1.64,2.00,Metro,7
+2026-09-09,Wed,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,31,2.64,2.82,Metro,18
+2026-09-09,Wed,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,28,1.64,2.55,Metro,7
+2026-09-09,Wed,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-09,Wed,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-09,Wed,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,27,1.64,2.45,Metro,7
+2026-09-09,Wed,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,23,1.64,2.09,Metro,7
+2026-09-09,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-09,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,31,2.00,2.58,Metro,12
+2026-09-09,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,28,1.60,1.87,Metro,9
+2026-09-09,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,28,2.00,2.33,Metro,12
+2026-09-09,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-09,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,31,1.59,1.82,Metro,10
+2026-09-09,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,31,1.22,1.35,Metro,5
+2026-09-09,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,40,1.50,2.22,Metro,9
+2026-09-09,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-09,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,26,1.47,1.73,Metro,7
+2026-09-09,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,29,1.29,1.71,Metro,5
+2026-09-09,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,33,1.47,2.20,Metro,7
+2026-09-09,Wed,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,25,2.25,1.56,Metro,20
+2026-09-09,Wed,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,39,2.25,2.44,Metro,20
+2026-09-09,Wed,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,49,3.50,3.06,Metro,40
+2026-09-09,Wed,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,46,1.88,2.88,Metro,14
+2026-09-09,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-09,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,48,1.33,1.60,Metro,10
+2026-09-09,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,51,1.40,1.70,Metro,12
+2026-09-09,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,65,1.33,2.17,Metro,10
+2026-09-09,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,21,18,1.24,0.86,Car,5
+2026-09-09,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,33,1.24,1.57,Metro,5
+2026-09-09,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,25,1.19,1.19,Metro,4
+2026-09-09,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,30,1.19,1.43,Metro,4
+2026-09-09,Wed,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-09,Wed,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,29,2.45,2.64,Metro,16
+2026-09-09,Wed,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,36,1.55,3.27,Metro,6
+2026-09-09,Wed,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,39,1.55,3.55,Metro,6
+2026-09-09,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-09,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,24,1.44,1.33,Metro,8
+2026-09-09,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,25,18,20,1.39,1.11,Metro,7
+2026-09-09,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,24,1.39,1.33,Metro,7
+2026-09-09,Wed,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-09,Wed,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,29,2.42,2.42,Metro,17
+2026-09-09,Wed,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,39,1.92,3.25,Metro,11
+2026-09-09,Wed,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,44,1.92,3.67,Metro,11
+2026-09-09,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,22,1.36,0.88,Car,9
+2026-09-09,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,39,1.36,1.56,Metro,9
+2026-09-09,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,32,1.36,1.28,Metro,9
+2026-09-09,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,44,1.36,1.76,Metro,9
+2026-09-09,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,28,19,1.29,0.68,Car,8
+2026-09-09,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,31,1.57,1.35,Metro,13
+2026-09-09,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-09,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,32,1.29,1.14,Metro,8
+2026-09-09,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-09,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,18,1.33,1.50,Metro,4
+2026-09-09,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-09,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,13,0.94,0.76,Car,-1
+2026-09-09,Wed,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,19,18,2.53,0.95,Car,29
+2026-09-09,Wed,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,45,19,28,2.37,1.47,Metro,26
+2026-09-09,Wed,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,24,2.04,1.04,Metro,24
+2026-09-09,Wed,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,30,2.04,1.30,Metro,24
+2026-09-09,Wed,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,18,1.53,1.06,Metro,9
+2026-09-09,Wed,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,24,1.53,1.41,Metro,9
+2026-09-09,Wed,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-09,Wed,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-09,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,10,1.33,1.11,Metro,3
+2026-09-09,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-09,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-09,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-09,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-09,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,12,1.75,1.50,Metro,6
+2026-09-09,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,11,0.25,0.19,Car,-43
+2026-09-09,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-09,Wed,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-09,Wed,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-09,Wed,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-09,Wed,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-09,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,6,0.24,0.18,Car,-25
+2026-09-09,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-09,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-09,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-09,Wed,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,4,1.33,1.33,Metro,1
+2026-09-09,Wed,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-09,Wed,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-09,Wed,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-09,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,10,3.43,1.43,Metro,17
+2026-09-09,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,16,3.57,2.29,Metro,18
+2026-09-09,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,16,0.73,0.33,Car,-13
+2026-09-09,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,26,2.89,2.89,Metro,17
+2026-09-10,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,31,31,1.61,1.00,Metro,19
+2026-09-10,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,47,1.79,1.68,Metro,22
+2026-09-10,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,55,2.13,1.77,Metro,35
+2026-09-10,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,48,1.79,1.71,Metro,22
+2026-09-10,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,30,31,1.70,1.03,Metro,21
+2026-09-10,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,50,1.82,1.79,Metro,23
+2026-09-10,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,48,1.70,1.60,Metro,21
+2026-09-10,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,52,1.76,1.79,Metro,22
+2026-09-10,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,12,1.71,1.71,Metro,5
+2026-09-10,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,16,1.71,2.29,Metro,5
+2026-09-10,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-10,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,19,1.50,2.38,Metro,4
+2026-09-10,Thu,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-10,Thu,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,21,1.64,1.91,Metro,7
+2026-09-10,Thu,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,28,2.64,2.55,Metro,18
+2026-09-10,Thu,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,25,1.64,2.27,Metro,7
+2026-09-10,Thu,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-10,Thu,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-10,Thu,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,24,1.64,2.18,Metro,7
+2026-09-10,Thu,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,23,1.64,2.09,Metro,7
+2026-09-10,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,17,2.00,1.42,Metro,12
+2026-09-10,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,28,2.00,2.33,Metro,12
+2026-09-10,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,70,15,28,4.67,1.87,Metro,55
+2026-09-10,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,27,2.00,2.25,Metro,12
+2026-09-10,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-10,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,30,1.59,1.76,Metro,10
+2026-09-10,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,30,1.22,1.30,Metro,5
+2026-09-10,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,36,1.50,2.00,Metro,9
+2026-09-10,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-10,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,26,1.47,1.73,Metro,7
+2026-09-10,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-10,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,32,1.47,2.13,Metro,7
+2026-09-10,Thu,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,27,2.25,1.69,Metro,20
+2026-09-10,Thu,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,37,2.25,2.31,Metro,20
+2026-09-10,Thu,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,46,3.50,2.88,Metro,40
+2026-09-10,Thu,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,46,1.88,2.88,Metro,14
+2026-09-10,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-10,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,50,1.33,1.67,Metro,10
+2026-09-10,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,49,1.40,1.63,Metro,12
+2026-09-10,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,62,1.33,2.07,Metro,10
+2026-09-10,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,18,1.19,0.86,Car,4
+2026-09-10,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,31,1.24,1.48,Metro,5
+2026-09-10,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,27,1.19,1.29,Metro,4
+2026-09-10,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,32,1.19,1.52,Metro,4
+2026-09-10,Thu,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-10,Thu,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,28,2.45,2.55,Metro,16
+2026-09-10,Thu,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,33,1.55,3.00,Metro,6
+2026-09-10,Thu,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,38,1.55,3.45,Metro,6
+2026-09-10,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-10,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,22,1.44,1.22,Metro,8
+2026-09-10,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,21,1.72,1.17,Metro,13
+2026-09-10,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,26,1.39,1.44,Metro,7
+2026-09-10,Thu,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-10,Thu,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,29,2.42,2.42,Metro,17
+2026-09-10,Thu,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,32,1.92,2.67,Metro,11
+2026-09-10,Thu,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,42,1.92,3.50,Metro,11
+2026-09-10,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,23,1.36,0.92,Car,9
+2026-09-10,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,39,1.36,1.56,Metro,9
+2026-09-10,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,32,1.36,1.28,Metro,9
+2026-09-10,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,41,1.36,1.64,Metro,9
+2026-09-10,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,19,1.57,0.83,Car,13
+2026-09-10,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,27,1.57,1.17,Metro,13
+2026-09-10,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-10,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,29,1.29,1.04,Metro,8
+2026-09-10,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-10,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,13,1.33,1.08,Metro,4
+2026-09-10,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-10,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,13,0.94,0.76,Car,-1
+2026-09-10,Thu,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,23,18,2.09,0.78,Car,25
+2026-09-10,Thu,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,24,2.47,1.26,Metro,28
+2026-09-10,Thu,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,22,2.04,0.96,Car,24
+2026-09-10,Thu,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,26,2.04,1.13,Metro,24
+2026-09-10,Thu,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,18,1.53,1.06,Metro,9
+2026-09-10,Thu,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,24,1.53,1.41,Metro,9
+2026-09-10,Thu,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-10,Thu,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-10,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,9,1.33,1.00,Metro,3
+2026-09-10,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,11,1.33,1.22,Metro,3
+2026-09-10,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-10,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,10,1.33,1.11,Metro,3
+2026-09-10,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-10,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,13,1.75,1.63,Metro,6
+2026-09-10,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,11,0.25,0.19,Car,-43
+2026-09-10,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-10,Thu,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-10,Thu,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-10,Thu,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,19,1.57,1.36,Metro,8
+2026-09-10,Thu,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-10,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-10,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-10,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,8,0.24,0.24,Bus,-25
+2026-09-10,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,7,1.17,1.17,Metro,1
+2026-09-10,Thu,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-10,Thu,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-10,Thu,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-10,Thu,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-10,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,10,3.43,1.43,Metro,17
+2026-09-10,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,15,3.57,2.14,Metro,18
+2026-09-10,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,14,0.73,0.29,Car,-13
+2026-09-10,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,24,2.89,2.67,Metro,17
+2026-09-11,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,30,1.79,1.07,Metro,22
+2026-09-11,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,49,1.79,1.75,Metro,22
+2026-09-11,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,52,2.13,1.68,Metro,35
+2026-09-11,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,51,1.79,1.82,Metro,22
+2026-09-11,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-11,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,51,1.82,1.82,Metro,23
+2026-09-11,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,51,1.70,1.70,Metro,21
+2026-09-11,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,64,1.76,2.21,Metro,22
+2026-09-11,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-11,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,16,1.71,2.29,Metro,5
+2026-09-11,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-11,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,18,1.50,2.25,Metro,4
+2026-09-11,Fri,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-11,Fri,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,23,1.64,2.09,Metro,7
+2026-09-11,Fri,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,30,2.64,2.73,Metro,18
+2026-09-11,Fri,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,33,1.64,3.00,Metro,7
+2026-09-11,Fri,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-11,Fri,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,17,1.64,1.55,Metro,7
+2026-09-11,Fri,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,24,1.64,2.18,Metro,7
+2026-09-11,Fri,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,23,1.64,2.09,Metro,7
+2026-09-11,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,70,12,17,5.83,1.42,Metro,58
+2026-09-11,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,30,2.00,2.50,Metro,12
+2026-09-11,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,28,1.60,1.87,Metro,9
+2026-09-11,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,31,2.00,2.58,Metro,12
+2026-09-11,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-11,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,30,1.59,1.76,Metro,10
+2026-09-11,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,31,1.22,1.35,Metro,5
+2026-09-11,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,38,1.50,2.11,Metro,9
+2026-09-11,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-11,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,25,1.47,1.67,Metro,7
+2026-09-11,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-11,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,33,1.47,2.20,Metro,7
+2026-09-11,Fri,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-11,Fri,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,39,2.25,2.44,Metro,20
+2026-09-11,Fri,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,47,3.50,2.94,Metro,40
+2026-09-11,Fri,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,47,1.88,2.94,Metro,14
+2026-09-11,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,42,30,29,1.40,0.97,Car,12
+2026-09-11,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,50,1.33,1.67,Metro,10
+2026-09-11,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,51,1.40,1.70,Metro,12
+2026-09-11,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,64,1.33,2.13,Metro,10
+2026-09-11,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,21,17,1.24,0.81,Car,5
+2026-09-11,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,32,1.24,1.52,Metro,5
+2026-09-11,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,28,1.19,1.33,Metro,4
+2026-09-11,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,31,1.19,1.48,Metro,4
+2026-09-11,Fri,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-11,Fri,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,28,2.45,2.55,Metro,16
+2026-09-11,Fri,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,34,1.55,3.09,Metro,6
+2026-09-11,Fri,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,48,1.55,4.36,Metro,6
+2026-09-11,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-11,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,24,1.44,1.33,Metro,8
+2026-09-11,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,25,18,21,1.39,1.17,Metro,7
+2026-09-11,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,26,1.39,1.44,Metro,7
+2026-09-11,Fri,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-11,Fri,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,30,2.42,2.50,Metro,17
+2026-09-11,Fri,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,34,1.92,2.83,Metro,11
+2026-09-11,Fri,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,52,1.92,4.33,Metro,11
+2026-09-11,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-11,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,40,1.36,1.60,Metro,9
+2026-09-11,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,36,1.36,1.44,Metro,9
+2026-09-11,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,40,1.36,1.60,Metro,9
+2026-09-11,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,28,19,1.29,0.68,Car,8
+2026-09-11,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,30,1.57,1.30,Metro,13
+2026-09-11,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,25,1.61,0.89,Car,17
+2026-09-11,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,34,1.29,1.21,Metro,8
+2026-09-11,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,17,12,8,1.42,0.67,Car,5
+2026-09-11,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,14,1.33,1.17,Metro,4
+2026-09-11,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-11,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,13,0.94,0.76,Car,-1
+2026-09-11,Fri,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,47,19,18,2.47,0.95,Car,28
+2026-09-11,Fri,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,26,2.47,1.37,Metro,28
+2026-09-11,Fri,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,24,2.04,1.04,Metro,24
+2026-09-11,Fri,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,31,2.04,1.35,Metro,24
+2026-09-11,Fri,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,17,1.53,1.00,Metro,9
+2026-09-11,Fri,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,24,1.53,1.41,Metro,9
+2026-09-11,Fri,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-11,Fri,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,28,1.53,1.65,Metro,9
+2026-09-11,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,9,1.33,1.00,Metro,3
+2026-09-11,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-11,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,13,0.24,0.25,Bus,-39
+2026-09-11,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,16,1.33,1.78,Metro,3
+2026-09-11,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,8,1.75,1.00,Metro,6
+2026-09-11,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,12,1.75,1.50,Metro,6
+2026-09-11,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-11,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,12,1.75,1.50,Metro,6
+2026-09-11,Fri,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,14,1.57,1.00,Metro,8
+2026-09-11,Fri,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-11,Fri,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-11,Fri,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-11,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,6,0.24,0.18,Car,-25
+2026-09-11,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-11,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-11,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-11,Fri,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-11,Fri,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,4,1.33,1.33,Metro,1
+2026-09-11,Fri,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,4,0.22,0.22,Bus,-14
+2026-09-11,Fri,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,7,1.33,2.33,Metro,1
+2026-09-11,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,38,11,0.63,0.29,Car,-14
+2026-09-11,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,19,3.57,2.71,Metro,18
+2026-09-11,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,15,0.73,0.31,Car,-13
+2026-09-11,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,19,2.89,2.11,Metro,17
+2026-09-12,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,32,1.79,1.14,Metro,22
+2026-09-12,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,40,1.79,1.43,Metro,22
+2026-09-12,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,54,2.13,1.74,Metro,35
+2026-09-12,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,55,1.79,1.96,Metro,22
+2026-09-12,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,32,1.82,1.14,Metro,23
+2026-09-12,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,36,1.82,1.29,Metro,23
+2026-09-12,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,44,1.70,1.47,Metro,21
+2026-09-12,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,49,1.76,1.69,Metro,22
+2026-09-12,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-12,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-12,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,18,0.66,0.34,Car,-18
+2026-09-12,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,19,1.50,2.38,Metro,4
+2026-09-12,Sat,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-12,Sat,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,19,1.64,1.73,Metro,7
+2026-09-12,Sat,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,28,2.64,2.55,Metro,18
+2026-09-12,Sat,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,35,1.64,3.18,Metro,7
+2026-09-12,Sat,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-12,Sat,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-12,Sat,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-12,Sat,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,23,1.64,2.09,Metro,7
+2026-09-12,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-12,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,26,2.00,2.17,Metro,12
+2026-09-12,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,18,29,1.33,1.61,Metro,6
+2026-09-12,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,28,2.00,2.33,Metro,12
+2026-09-12,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,19,2.53,1.12,Metro,26
+2026-09-12,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,26,1.59,1.53,Metro,10
+2026-09-12,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,32,1.22,1.39,Metro,5
+2026-09-12,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,35,1.50,1.94,Metro,9
+2026-09-12,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-12,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,24,1.47,1.60,Metro,7
+2026-09-12,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,28,1.29,1.65,Metro,5
+2026-09-12,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,33,1.47,2.20,Metro,7
+2026-09-12,Sat,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-12,Sat,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,33,2.25,2.06,Metro,20
+2026-09-12,Sat,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,44,3.50,2.75,Metro,40
+2026-09-12,Sat,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,50,1.88,3.13,Metro,14
+2026-09-12,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-12,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,42,1.33,1.40,Metro,10
+2026-09-12,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,53,1.40,1.77,Metro,12
+2026-09-12,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,54,1.33,1.80,Metro,10
+2026-09-12,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,18,1.19,0.86,Car,4
+2026-09-12,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,22,25,1.18,1.14,Metro,4
+2026-09-12,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,22,26,1.14,1.18,Metro,3
+2026-09-12,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,22,28,1.14,1.27,Metro,3
+2026-09-12,Sat,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-12,Sat,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,10,25,2.70,2.50,Metro,17
+2026-09-12,Sat,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,10,39,1.70,3.90,Metro,7
+2026-09-12,Sat,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,10,42,1.70,4.20,Metro,7
+2026-09-12,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-12,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,31,19,19,1.63,1.00,Metro,12
+2026-09-12,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,19,20,1.63,1.05,Metro,12
+2026-09-12,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,19,22,1.32,1.16,Metro,6
+2026-09-12,Sat,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-12,Sat,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,11,28,2.64,2.55,Metro,18
+2026-09-12,Sat,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,11,40,2.09,3.64,Metro,12
+2026-09-12,Sat,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,11,46,2.09,4.18,Metro,12
+2026-09-12,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-12,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,27,1.36,1.08,Metro,9
+2026-09-12,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,31,1.36,1.24,Metro,9
+2026-09-12,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,34,1.36,1.36,Metro,9
+2026-09-12,Sat,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,20,1.57,0.87,Car,13
+2026-09-12,Sat,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-12,Sat,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,19,19,2.53,1.00,Metro,29
+2026-09-12,Sat,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,18,1.53,1.06,Metro,9
+2026-09-12,Sat,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,19,27,1.37,1.42,Metro,7
+2026-09-12,Sat,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,9,1.33,1.00,Metro,3
+2026-09-12,Sat,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,15,0.24,0.29,Bus,-39
+2026-09-12,Sat,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-12,Sat,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-12,Sat,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-12,Sat,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,24,1.57,1.71,Metro,8
+2026-09-12,Sat,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-12,Sat,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,12,0.24,0.36,Bus,-25
+2026-09-12,Sat,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-12,Sat,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-12,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-12,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,14,3.57,2.00,Metro,18
+2026-09-12,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,17,0.73,0.35,Car,-13
+2026-09-12,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,17,2.89,1.89,Metro,17
+2026-09-13,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,66,31,32,2.13,1.03,Metro,35
+2026-09-13,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,33,1.79,1.18,Metro,22
+2026-09-13,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,28,39,2.36,1.39,Metro,38
+2026-09-13,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,31,44,1.61,1.42,Metro,19
+2026-09-13,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,32,1.82,1.14,Metro,23
+2026-09-13,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-13,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,34,1.70,1.13,Metro,21
+2026-09-13,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,30,40,1.70,1.33,Metro,21
+2026-09-13,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,53,11,0.23,0.21,Car,-41
+2026-09-13,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-13,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,16,0.66,0.30,Car,-18
+2026-09-13,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,15,15,0.80,1.00,Bus,-3
+2026-09-13,Sun,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-13,Sun,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-13,Sun,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,17,2.64,1.55,Metro,18
+2026-09-13,Sun,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-13,Sun,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-13,Sun,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,14,1.64,1.27,Metro,7
+2026-09-13,Sun,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,17,1.64,1.55,Metro,7
+2026-09-13,Sun,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,19,1.64,1.73,Metro,7
+2026-09-13,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-13,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,23,2.00,1.92,Metro,12
+2026-09-13,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,20,26,1.20,1.30,Metro,4
+2026-09-13,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,27,27,0.89,1.00,Bus,-3
+2026-09-13,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,19,2.53,1.12,Metro,26
+2026-09-13,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,23,1.59,1.35,Metro,10
+2026-09-13,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,17,26,1.65,1.53,Metro,11
+2026-09-13,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,23,32,1.17,1.39,Metro,4
+2026-09-13,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-13,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,14,22,1.57,1.57,Metro,8
+2026-09-13,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,25,1.29,1.47,Metro,5
+2026-09-13,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,17,33,1.29,1.94,Metro,5
+2026-09-13,Sun,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-13,Sun,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,29,2.25,1.81,Metro,20
+2026-09-13,Sun,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,34,3.50,2.13,Metro,40
+2026-09-13,Sun,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,37,1.88,2.31,Metro,14
+2026-09-13,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-13,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,39,1.33,1.30,Metro,10
+2026-09-13,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,39,1.40,1.30,Metro,12
+2026-09-13,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,45,1.33,1.50,Metro,10
+2026-09-13,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,22,18,1.18,0.82,Car,4
+2026-09-13,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,22,22,1.18,1.00,Metro,4
+2026-09-13,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,22,24,1.14,1.09,Metro,3
+2026-09-13,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,22,25,1.14,1.14,Metro,3
+2026-09-13,Sun,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,16,1.70,1.60,Metro,7
+2026-09-13,Sun,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,10,21,2.70,2.10,Metro,17
+2026-09-13,Sun,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,10,23,1.70,2.30,Metro,7
+2026-09-13,Sun,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,10,23,1.70,2.30,Metro,7
+2026-09-13,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,14,1.26,0.74,Car,5
+2026-09-13,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,19,17,1.37,0.89,Car,7
+2026-09-13,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,25,19,18,1.32,0.95,Car,6
+2026-09-13,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,19,21,1.32,1.11,Metro,6
+2026-09-13,Sun,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,17,2.64,1.55,Metro,18
+2026-09-13,Sun,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,11,25,2.64,2.27,Metro,18
+2026-09-13,Sun,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,11,24,2.09,2.18,Metro,12
+2026-09-13,Sun,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,11,28,2.09,2.55,Metro,12
+2026-09-13,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-13,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-13,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,26,1.36,1.04,Metro,9
+2026-09-13,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,34,1.36,1.36,Metro,9
+2026-09-13,Sun,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,19,17,1.37,0.89,Car,7
+2026-09-13,Sun,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,11,9,1.09,0.82,Car,1
+2026-09-13,Sun,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-13,Sun,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-13,Sun,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-13,Sun,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-13,Sun,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-13,Sun,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,3,0.22,0.17,Car,-14
+2026-09-13,Sun,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-13,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-13,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,13,3.57,1.86,Metro,18
+2026-09-13,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,12,0.73,0.24,Car,-13
+2026-09-13,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,10,17,2.60,1.70,Metro,16
+2026-09-14,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,32,1.79,1.14,Metro,22
+2026-09-14,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,51,1.79,1.82,Metro,22
+2026-09-14,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,58,2.13,1.87,Metro,35
+2026-09-14,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,52,1.79,1.86,Metro,22
+2026-09-14,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-14,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,50,1.82,1.79,Metro,23
+2026-09-14,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,44,1.70,1.47,Metro,21
+2026-09-14,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,53,1.76,1.83,Metro,22
+2026-09-14,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-14,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,16,1.71,2.29,Metro,5
+2026-09-14,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,16,0.66,0.30,Car,-18
+2026-09-14,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,17,1.50,2.13,Metro,4
+2026-09-14,Mon,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-14,Mon,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,21,1.64,1.91,Metro,7
+2026-09-14,Mon,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,31,2.64,2.82,Metro,18
+2026-09-14,Mon,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,30,1.64,2.73,Metro,7
+2026-09-14,Mon,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,11,1.64,1.00,Metro,7
+2026-09-14,Mon,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-14,Mon,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-14,Mon,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,20,1.64,1.82,Metro,7
+2026-09-14,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,20,2.00,1.67,Metro,12
+2026-09-14,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,33,2.00,2.75,Metro,12
+2026-09-14,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,33,1.60,2.20,Metro,9
+2026-09-14,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,28,2.00,2.33,Metro,12
+2026-09-14,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-14,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,31,1.59,1.82,Metro,10
+2026-09-14,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,32,1.22,1.39,Metro,5
+2026-09-14,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,40,1.50,2.22,Metro,9
+2026-09-14,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-14,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,25,1.47,1.67,Metro,7
+2026-09-14,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,29,1.29,1.71,Metro,5
+2026-09-14,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,31,1.47,2.07,Metro,7
+2026-09-14,Mon,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,25,2.25,1.56,Metro,20
+2026-09-14,Mon,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,37,2.25,2.31,Metro,20
+2026-09-14,Mon,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,45,3.50,2.81,Metro,40
+2026-09-14,Mon,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,45,1.88,2.81,Metro,14
+2026-09-14,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-14,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,48,1.33,1.60,Metro,10
+2026-09-14,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,48,1.40,1.60,Metro,12
+2026-09-14,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,63,1.33,2.10,Metro,10
+2026-09-14,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,22,17,1.18,0.77,Car,4
+2026-09-14,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,36,1.24,1.71,Metro,5
+2026-09-14,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,28,1.19,1.33,Metro,4
+2026-09-14,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,31,1.19,1.48,Metro,4
+2026-09-14,Mon,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,15,1.70,1.50,Metro,7
+2026-09-14,Mon,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,29,2.45,2.64,Metro,16
+2026-09-14,Mon,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,36,1.55,3.27,Metro,6
+2026-09-14,Mon,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,37,1.55,3.36,Metro,6
+2026-09-14,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,13,1.26,0.68,Car,5
+2026-09-14,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,24,1.44,1.33,Metro,8
+2026-09-14,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,20,1.72,1.11,Metro,13
+2026-09-14,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,24,1.39,1.33,Metro,7
+2026-09-14,Mon,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,17,2.64,1.55,Metro,18
+2026-09-14,Mon,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,29,2.42,2.42,Metro,17
+2026-09-14,Mon,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,39,1.92,3.25,Metro,11
+2026-09-14,Mon,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,44,1.92,3.67,Metro,11
+2026-09-14,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,23,1.36,0.92,Car,9
+2026-09-14,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,40,1.36,1.60,Metro,9
+2026-09-14,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,30,1.36,1.20,Metro,9
+2026-09-14,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,43,1.36,1.72,Metro,9
+2026-09-14,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,28,1.57,1.22,Metro,13
+2026-09-14,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-14,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,31,1.29,1.11,Metro,8
+2026-09-14,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,14,1.33,1.17,Metro,4
+2026-09-14,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-14,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,12,0.94,0.71,Car,-1
+2026-09-14,Mon,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,27,2.47,1.42,Metro,28
+2026-09-14,Mon,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,22,2.04,0.96,Car,24
+2026-09-14,Mon,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,48,23,29,2.09,1.26,Metro,25
+2026-09-14,Mon,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,25,1.53,1.47,Metro,9
+2026-09-14,Mon,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-14,Mon,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,26,1.53,1.53,Metro,9
+2026-09-14,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-14,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-14,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,12,1.33,1.33,Metro,3
+2026-09-14,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,12,1.75,1.50,Metro,6
+2026-09-14,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-14,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,15,1.75,1.88,Metro,6
+2026-09-14,Mon,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-14,Mon,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-14,Mon,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,23,1.57,1.64,Metro,8
+2026-09-14,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,5,0.24,0.15,Car,-25
+2026-09-14,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,9,1.33,1.50,Metro,2
+2026-09-14,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-14,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-14,Mon,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,3,0.22,0.17,Car,-14
+2026-09-14,Mon,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,4,1.33,1.33,Metro,1
+2026-09-14,Mon,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-14,Mon,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-14,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-14,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,17,3.57,2.43,Metro,18
+2026-09-14,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,14,0.73,0.29,Car,-13
+2026-09-14,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,20,2.89,2.22,Metro,17
+2026-09-15,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,33,1.79,1.18,Metro,22
+2026-09-15,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,48,1.79,1.71,Metro,22
+2026-09-15,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,66,31,55,2.13,1.77,Metro,35
+2026-09-15,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,52,1.79,1.86,Metro,22
+2026-09-15,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-15,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,56,1.82,2.00,Metro,23
+2026-09-15,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,46,1.70,1.53,Metro,21
+2026-09-15,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,48,1.76,1.66,Metro,22
+2026-09-15,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,101,7,11,14.43,1.57,Metro,94
+2026-09-15,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-15,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,18,0.66,0.34,Car,-18
+2026-09-15,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,18,1.50,2.25,Metro,4
+2026-09-15,Tue,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-15,Tue,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,22,1.64,2.00,Metro,7
+2026-09-15,Tue,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,29,2.64,2.64,Metro,18
+2026-09-15,Tue,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,29,1.64,2.64,Metro,7
+2026-09-15,Tue,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-15,Tue,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,17,1.64,1.55,Metro,7
+2026-09-15,Tue,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,23,1.64,2.09,Metro,7
+2026-09-15,Tue,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-15,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,21,2.00,1.75,Metro,12
+2026-09-15,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,32,2.00,2.67,Metro,12
+2026-09-15,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,29,2.00,2.42,Metro,12
+2026-09-15,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-15,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,32,1.59,1.88,Metro,10
+2026-09-15,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,31,1.22,1.35,Metro,5
+2026-09-15,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,36,1.50,2.00,Metro,9
+2026-09-15,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-15,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,26,1.47,1.73,Metro,7
+2026-09-15,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,28,1.29,1.65,Metro,5
+2026-09-15,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,32,1.47,2.13,Metro,7
+2026-09-15,Tue,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,25,2.25,1.56,Metro,20
+2026-09-15,Tue,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,38,2.25,2.38,Metro,20
+2026-09-15,Tue,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,46,3.50,2.88,Metro,40
+2026-09-15,Tue,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,47,1.88,2.94,Metro,14
+2026-09-15,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,30,1.33,1.00,Metro,10
+2026-09-15,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,53,1.33,1.77,Metro,10
+2026-09-15,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,48,1.40,1.60,Metro,12
+2026-09-15,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,59,1.33,1.97,Metro,10
+2026-09-15,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,18,1.19,0.86,Car,4
+2026-09-15,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,35,1.24,1.67,Metro,5
+2026-09-15,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,27,1.19,1.29,Metro,4
+2026-09-15,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,28,1.19,1.33,Metro,4
+2026-09-15,Tue,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-15,Tue,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,29,2.45,2.64,Metro,16
+2026-09-15,Tue,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,35,1.55,3.18,Metro,6
+2026-09-15,Tue,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,37,1.55,3.36,Metro,6
+2026-09-15,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-15,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,24,1.44,1.33,Metro,8
+2026-09-15,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,25,18,20,1.39,1.11,Metro,7
+2026-09-15,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,26,1.39,1.44,Metro,7
+2026-09-15,Tue,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,18,2.42,1.50,Metro,17
+2026-09-15,Tue,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,31,2.42,2.58,Metro,17
+2026-09-15,Tue,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,35,1.92,2.92,Metro,11
+2026-09-15,Tue,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,45,1.92,3.75,Metro,11
+2026-09-15,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,22,1.36,0.88,Car,9
+2026-09-15,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,42,1.36,1.68,Metro,9
+2026-09-15,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,31,1.36,1.24,Metro,9
+2026-09-15,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,39,1.36,1.56,Metro,9
+2026-09-15,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,19,1.57,0.83,Car,13
+2026-09-15,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,29,1.57,1.26,Metro,13
+2026-09-15,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-15,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,30,1.29,1.07,Metro,8
+2026-09-15,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-15,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,15,1.33,1.25,Metro,4
+2026-09-15,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-15,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,12,0.94,0.71,Car,-1
+2026-09-15,Tue,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,19,18,2.53,0.95,Car,29
+2026-09-15,Tue,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,26,2.47,1.37,Metro,28
+2026-09-15,Tue,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,22,2.04,0.96,Car,24
+2026-09-15,Tue,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,27,2.04,1.17,Metro,24
+2026-09-15,Tue,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,17,1.53,1.00,Metro,9
+2026-09-15,Tue,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,27,1.53,1.59,Metro,9
+2026-09-15,Tue,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-15,Tue,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-15,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,9,1.33,1.00,Metro,3
+2026-09-15,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-15,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-15,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-15,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-15,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,14,1.75,1.75,Metro,6
+2026-09-15,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,13,0.25,0.23,Car,-43
+2026-09-15,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-15,Tue,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-15,Tue,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,23,1.57,1.64,Metro,8
+2026-09-15,Tue,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-15,Tue,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-15,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-15,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-15,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-15,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,8,1.17,1.33,Metro,1
+2026-09-15,Tue,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-15,Tue,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-15,Tue,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-15,Tue,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-15,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,24,7,11,3.43,1.57,Metro,17
+2026-09-15,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,16,3.57,2.29,Metro,18
+2026-09-15,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,16,0.73,0.33,Car,-13
+2026-09-15,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,20,2.89,2.22,Metro,17
+2026-09-16,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,31,1.79,1.11,Metro,22
+2026-09-16,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,51,1.79,1.82,Metro,22
+2026-09-16,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,31,55,2.39,1.77,Metro,43
+2026-09-16,Wed,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,53,1.79,1.89,Metro,22
+2026-09-16,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-16,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,54,1.82,1.93,Metro,23
+2026-09-16,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,44,1.70,1.47,Metro,21
+2026-09-16,Wed,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,69,1.76,2.38,Metro,22
+2026-09-16,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,53,11,0.23,0.21,Car,-41
+2026-09-16,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,16,1.71,2.29,Metro,5
+2026-09-16,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-16,Wed,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,18,1.50,2.25,Metro,4
+2026-09-16,Wed,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-16,Wed,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,22,1.64,2.00,Metro,7
+2026-09-16,Wed,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,27,2.64,2.45,Metro,18
+2026-09-16,Wed,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,27,1.64,2.45,Metro,7
+2026-09-16,Wed,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-16,Wed,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,19,1.64,1.73,Metro,7
+2026-09-16,Wed,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,31,1.64,2.82,Metro,7
+2026-09-16,Wed,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-16,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,17,2.00,1.42,Metro,12
+2026-09-16,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,32,2.00,2.67,Metro,12
+2026-09-16,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,30,1.60,2.00,Metro,9
+2026-09-16,Wed,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,30,2.00,2.50,Metro,12
+2026-09-16,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-16,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,36,1.59,2.12,Metro,10
+2026-09-16,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,37,1.22,1.61,Metro,5
+2026-09-16,Wed,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,37,1.50,2.06,Metro,9
+2026-09-16,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-16,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,27,1.47,1.80,Metro,7
+2026-09-16,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,28,1.29,1.65,Metro,5
+2026-09-16,Wed,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,33,1.47,2.20,Metro,7
+2026-09-16,Wed,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,38,16,27,2.38,1.69,Metro,22
+2026-09-16,Wed,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,38,2.25,2.38,Metro,20
+2026-09-16,Wed,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,55,16,43,3.44,2.69,Metro,39
+2026-09-16,Wed,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,45,1.88,2.81,Metro,14
+2026-09-16,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,30,1.33,1.00,Metro,10
+2026-09-16,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,53,1.33,1.77,Metro,10
+2026-09-16,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,49,1.40,1.63,Metro,12
+2026-09-16,Wed,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,65,1.33,2.17,Metro,10
+2026-09-16,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,21,17,1.24,0.81,Car,5
+2026-09-16,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,35,1.24,1.67,Metro,5
+2026-09-16,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,27,1.19,1.29,Metro,4
+2026-09-16,Wed,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,30,1.19,1.43,Metro,4
+2026-09-16,Wed,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-16,Wed,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,31,2.45,2.82,Metro,16
+2026-09-16,Wed,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,34,1.55,3.09,Metro,6
+2026-09-16,Wed,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,36,1.55,3.27,Metro,6
+2026-09-16,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-16,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,25,1.44,1.39,Metro,8
+2026-09-16,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,20,1.72,1.11,Metro,13
+2026-09-16,Wed,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,24,1.39,1.33,Metro,7
+2026-09-16,Wed,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,18,2.42,1.50,Metro,17
+2026-09-16,Wed,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,31,2.42,2.58,Metro,17
+2026-09-16,Wed,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,38,1.92,3.17,Metro,11
+2026-09-16,Wed,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,42,1.92,3.50,Metro,11
+2026-09-16,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,22,1.36,0.88,Car,9
+2026-09-16,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,41,1.36,1.64,Metro,9
+2026-09-16,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,31,1.36,1.24,Metro,9
+2026-09-16,Wed,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,48,1.36,1.92,Metro,9
+2026-09-16,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,19,1.57,0.83,Car,13
+2026-09-16,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,29,1.57,1.26,Metro,13
+2026-09-16,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-16,Wed,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,32,1.29,1.14,Metro,8
+2026-09-16,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,17,12,8,1.42,0.67,Car,5
+2026-09-16,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,15,1.33,1.25,Metro,4
+2026-09-16,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-16,Wed,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,14,0.94,0.82,Car,-1
+2026-09-16,Wed,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,47,19,18,2.47,0.95,Car,28
+2026-09-16,Wed,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,26,2.47,1.37,Metro,28
+2026-09-16,Wed,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,22,2.04,0.96,Car,24
+2026-09-16,Wed,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,27,2.04,1.17,Metro,24
+2026-09-16,Wed,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,18,1.53,1.06,Metro,9
+2026-09-16,Wed,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,28,1.53,1.65,Metro,9
+2026-09-16,Wed,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,24,1.53,1.41,Metro,9
+2026-09-16,Wed,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,26,1.53,1.53,Metro,9
+2026-09-16,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,10,1.33,1.11,Metro,3
+2026-09-16,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,14,1.33,1.56,Metro,3
+2026-09-16,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-16,Wed,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,13,1.33,1.44,Metro,3
+2026-09-16,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-16,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,14,1.75,1.75,Metro,6
+2026-09-16,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-16,Wed,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-16,Wed,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-16,Wed,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,24,1.57,1.71,Metro,8
+2026-09-16,Wed,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-16,Wed,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,23,1.57,1.64,Metro,8
+2026-09-16,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,7,1.33,1.17,Metro,2
+2026-09-16,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,10,1.33,1.67,Metro,2
+2026-09-16,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-16,Wed,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,10,1.17,1.67,Metro,1
+2026-09-16,Wed,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-16,Wed,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,5,1.33,1.67,Metro,1
+2026-09-16,Wed,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-16,Wed,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-16,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,36,38,10,0.95,0.26,Car,-2
+2026-09-16,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,16,3.57,2.29,Metro,18
+2026-09-16,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,14,0.73,0.29,Car,-13
+2026-09-16,Wed,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,20,9,24,2.22,2.67,Metro,11
+2026-09-17,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,30,1.79,1.07,Metro,22
+2026-09-17,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,48,1.79,1.71,Metro,22
+2026-09-17,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,28,52,2.64,1.86,Metro,46
+2026-09-17,Thu,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,47,1.79,1.68,Metro,22
+2026-09-17,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-17,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,46,1.82,1.64,Metro,23
+2026-09-17,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,42,1.70,1.40,Metro,21
+2026-09-17,Thu,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,64,1.76,2.21,Metro,22
+2026-09-17,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,12,1.71,1.71,Metro,5
+2026-09-17,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-17,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,17,0.66,0.32,Car,-18
+2026-09-17,Thu,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,20,1.50,2.50,Metro,4
+2026-09-17,Thu,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-17,Thu,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,23,1.64,2.09,Metro,7
+2026-09-17,Thu,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,25,2.64,2.27,Metro,18
+2026-09-17,Thu,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,25,1.64,2.27,Metro,7
+2026-09-17,Thu,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-17,Thu,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-17,Thu,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,25,1.64,2.27,Metro,7
+2026-09-17,Thu,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,20,1.64,1.82,Metro,7
+2026-09-17,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,17,2.00,1.42,Metro,12
+2026-09-17,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,29,2.00,2.42,Metro,12
+2026-09-17,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,29,1.60,1.93,Metro,9
+2026-09-17,Thu,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,28,2.00,2.33,Metro,12
+2026-09-17,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-17,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,30,1.59,1.76,Metro,10
+2026-09-17,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,31,1.22,1.35,Metro,5
+2026-09-17,Thu,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,41,1.50,2.28,Metro,9
+2026-09-17,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-17,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,25,1.47,1.67,Metro,7
+2026-09-17,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,26,1.29,1.53,Metro,5
+2026-09-17,Thu,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,34,1.47,2.27,Metro,7
+2026-09-17,Thu,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,27,2.25,1.69,Metro,20
+2026-09-17,Thu,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,37,2.25,2.31,Metro,20
+2026-09-17,Thu,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,55,16,40,3.44,2.50,Metro,39
+2026-09-17,Thu,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,45,1.88,2.81,Metro,14
+2026-09-17,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,30,1.33,1.00,Metro,10
+2026-09-17,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,48,1.33,1.60,Metro,10
+2026-09-17,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,45,1.40,1.50,Metro,12
+2026-09-17,Thu,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,61,1.33,2.03,Metro,10
+2026-09-17,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,21,18,1.24,0.86,Car,5
+2026-09-17,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,32,1.24,1.52,Metro,5
+2026-09-17,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,25,1.19,1.19,Metro,4
+2026-09-17,Thu,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,35,1.19,1.67,Metro,4
+2026-09-17,Thu,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-17,Thu,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,27,2.45,2.45,Metro,16
+2026-09-17,Thu,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,34,1.55,3.09,Metro,6
+2026-09-17,Thu,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,35,1.55,3.18,Metro,6
+2026-09-17,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-17,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,23,1.44,1.28,Metro,8
+2026-09-17,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,20,1.72,1.11,Metro,13
+2026-09-17,Thu,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,27,18,26,1.50,1.44,Metro,9
+2026-09-17,Thu,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,18,2.42,1.50,Metro,17
+2026-09-17,Thu,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,28,2.42,2.33,Metro,17
+2026-09-17,Thu,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,33,1.92,2.75,Metro,11
+2026-09-17,Thu,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,43,1.92,3.58,Metro,11
+2026-09-17,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,23,1.36,0.92,Car,9
+2026-09-17,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,38,1.36,1.52,Metro,9
+2026-09-17,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,29,1.36,1.16,Metro,9
+2026-09-17,Thu,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,40,1.36,1.60,Metro,9
+2026-09-17,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,28,19,1.29,0.68,Car,8
+2026-09-17,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,27,1.57,1.17,Metro,13
+2026-09-17,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,23,1.61,0.82,Car,17
+2026-09-17,Thu,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,34,1.29,1.21,Metro,8
+2026-09-17,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,17,12,8,1.42,0.67,Car,5
+2026-09-17,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,13,1.33,1.08,Metro,4
+2026-09-17,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-17,Thu,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,17,0.94,1.00,Bus,-1
+2026-09-17,Thu,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,23,18,2.09,0.78,Car,25
+2026-09-17,Thu,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,24,2.47,1.26,Metro,28
+2026-09-17,Thu,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,21,2.04,0.91,Car,24
+2026-09-17,Thu,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,35,23,32,1.52,1.39,Metro,12
+2026-09-17,Thu,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,19,1.53,1.12,Metro,9
+2026-09-17,Thu,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,26,1.53,1.53,Metro,9
+2026-09-17,Thu,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-17,Thu,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,25,1.53,1.47,Metro,9
+2026-09-17,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,11,1.33,1.22,Metro,3
+2026-09-17,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,13,1.33,1.44,Metro,3
+2026-09-17,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-17,Thu,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-17,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-17,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,13,1.75,1.63,Metro,6
+2026-09-17,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-17,Thu,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,14,1.75,1.75,Metro,6
+2026-09-17,Thu,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,17,1.57,1.21,Metro,8
+2026-09-17,Thu,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,23,1.57,1.64,Metro,8
+2026-09-17,Thu,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-17,Thu,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,23,1.57,1.64,Metro,8
+2026-09-17,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,9,1.33,1.50,Metro,2
+2026-09-17,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,9,1.33,1.50,Metro,2
+2026-09-17,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,8,0.24,0.24,Bus,-25
+2026-09-17,Thu,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-17,Thu,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-17,Thu,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,4,1.33,1.33,Metro,1
+2026-09-17,Thu,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-17,Thu,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-17,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,23,7,10,3.29,1.43,Metro,16
+2026-09-17,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,16,3.57,2.29,Metro,18
+2026-09-17,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,14,0.73,0.29,Car,-13
+2026-09-17,Thu,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,26,2.89,2.89,Metro,17
+2026-09-18,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,30,1.79,1.07,Metro,22
+2026-09-18,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,40,1.79,1.43,Metro,22
+2026-09-18,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,31,40,2.39,1.29,Metro,43
+2026-09-18,Fri,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,41,1.79,1.46,Metro,22
+2026-09-18,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-18,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,43,1.82,1.54,Metro,23
+2026-09-18,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,43,1.70,1.43,Metro,21
+2026-09-18,Fri,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,47,1.76,1.62,Metro,22
+2026-09-18,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,12,1.71,1.71,Metro,5
+2026-09-18,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,14,1.71,2.00,Metro,5
+2026-09-18,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,14,0.66,0.26,Car,-18
+2026-09-18,Fri,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,16,1.50,2.00,Metro,4
+2026-09-18,Fri,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,29,11,15,2.64,1.36,Metro,18
+2026-09-18,Fri,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,19,1.64,1.73,Metro,7
+2026-09-18,Fri,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,22,2.64,2.00,Metro,18
+2026-09-18,Fri,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-18,Fri,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-18,Fri,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-18,Fri,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,17,1.64,1.55,Metro,7
+2026-09-18,Fri,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,19,1.64,1.73,Metro,7
+2026-09-18,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-18,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,25,2.00,2.08,Metro,12
+2026-09-18,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,23,1.60,1.53,Metro,9
+2026-09-18,Fri,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,24,2.00,2.00,Metro,12
+2026-09-18,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-18,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,28,1.59,1.65,Metro,10
+2026-09-18,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,30,1.22,1.30,Metro,5
+2026-09-18,Fri,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,33,1.50,1.83,Metro,9
+2026-09-18,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-18,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,22,1.47,1.47,Metro,7
+2026-09-18,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,22,1.29,1.29,Metro,5
+2026-09-18,Fri,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,28,1.47,1.87,Metro,7
+2026-09-18,Fri,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-18,Fri,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,32,2.25,2.00,Metro,20
+2026-09-18,Fri,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,55,16,35,3.44,2.19,Metro,39
+2026-09-18,Fri,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,38,1.88,2.38,Metro,14
+2026-09-18,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,28,1.33,0.93,Car,10
+2026-09-18,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,43,1.33,1.43,Metro,10
+2026-09-18,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,43,1.40,1.43,Metro,12
+2026-09-18,Fri,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,49,1.33,1.63,Metro,10
+2026-09-18,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,17,1.19,0.81,Car,4
+2026-09-18,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,27,1.24,1.29,Metro,5
+2026-09-18,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,25,1.19,1.19,Metro,4
+2026-09-18,Fri,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,27,1.19,1.29,Metro,4
+2026-09-18,Fri,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,17,1.55,1.55,Metro,6
+2026-09-18,Fri,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,23,2.45,2.09,Metro,16
+2026-09-18,Fri,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,28,1.55,2.55,Metro,6
+2026-09-18,Fri,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,28,1.55,2.55,Metro,6
+2026-09-18,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-18,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,20,1.44,1.11,Metro,8
+2026-09-18,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,18,1.72,1.00,Metro,13
+2026-09-18,Fri,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,21,1.39,1.17,Metro,7
+2026-09-18,Fri,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-18,Fri,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,25,2.42,2.08,Metro,17
+2026-09-18,Fri,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,27,1.92,2.25,Metro,11
+2026-09-18,Fri,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,32,1.92,2.67,Metro,11
+2026-09-18,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,22,1.36,0.88,Car,9
+2026-09-18,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,31,1.36,1.24,Metro,9
+2026-09-18,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,31,1.36,1.24,Metro,9
+2026-09-18,Fri,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,34,1.36,1.36,Metro,9
+2026-09-18,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,19,1.57,0.83,Car,13
+2026-09-18,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,24,1.57,1.04,Metro,13
+2026-09-18,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,23,1.61,0.82,Car,17
+2026-09-18,Fri,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,26,1.29,0.93,Car,8
+2026-09-18,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,17,12,8,1.42,0.67,Car,5
+2026-09-18,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,11,1.33,0.92,Car,4
+2026-09-18,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,10,1.42,0.83,Car,5
+2026-09-18,Fri,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,11,0.94,0.65,Car,-1
+2026-09-18,Fri,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,48,19,18,2.53,0.95,Car,29
+2026-09-18,Fri,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,22,2.47,1.16,Metro,28
+2026-09-18,Fri,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,21,2.04,0.91,Car,24
+2026-09-18,Fri,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,24,2.04,1.04,Metro,24
+2026-09-18,Fri,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,17,1.53,1.00,Metro,9
+2026-09-18,Fri,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,21,1.53,1.24,Metro,9
+2026-09-18,Fri,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-18,Fri,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-18,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,51,9,0.24,0.18,Car,-39
+2026-09-18,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,10,1.33,1.11,Metro,3
+2026-09-18,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,13,0.24,0.25,Bus,-39
+2026-09-18,Fri,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,10,1.33,1.11,Metro,3
+2026-09-18,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-18,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,11,1.75,1.38,Metro,6
+2026-09-18,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,11,0.25,0.19,Car,-43
+2026-09-18,Fri,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,12,1.75,1.50,Metro,6
+2026-09-18,Fri,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-18,Fri,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,19,1.57,1.36,Metro,8
+2026-09-18,Fri,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-18,Fri,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,20,1.57,1.43,Metro,8
+2026-09-18,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-18,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,7,1.33,1.17,Metro,2
+2026-09-18,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-18,Fri,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,8,1.17,1.33,Metro,1
+2026-09-18,Fri,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-18,Fri,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,3,1.33,1.00,Metro,1
+2026-09-18,Fri,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-18,Fri,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-18,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,23,7,11,3.29,1.57,Metro,16
+2026-09-18,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,12,3.57,1.71,Metro,18
+2026-09-18,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,13,0.73,0.27,Car,-13
+2026-09-18,Fri,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,17,2.89,1.89,Metro,17
+2026-09-19,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,29,1.79,1.04,Metro,22
+2026-09-19,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,39,1.79,1.39,Metro,22
+2026-09-19,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,31,52,2.39,1.68,Metro,43
+2026-09-19,Sat,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,53,1.79,1.89,Metro,22
+2026-09-19,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-19,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,37,1.82,1.32,Metro,23
+2026-09-19,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,38,1.70,1.27,Metro,21
+2026-09-19,Sat,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,51,1.76,1.76,Metro,22
+2026-09-19,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-19,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,14,1.71,2.00,Metro,5
+2026-09-19,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,16,0.66,0.30,Car,-18
+2026-09-19,Sat,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,17,1.50,2.13,Metro,4
+2026-09-19,Sat,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,14,1.64,1.27,Metro,7
+2026-09-19,Sat,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-19,Sat,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,28,2.64,2.55,Metro,18
+2026-09-19,Sat,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,30,1.64,2.73,Metro,7
+2026-09-19,Sat,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-19,Sat,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-19,Sat,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-19,Sat,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,31,1.64,2.82,Metro,7
+2026-09-19,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,15,17,1.60,1.13,Metro,9
+2026-09-19,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,25,2.00,2.08,Metro,12
+2026-09-19,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,27,1.60,1.80,Metro,9
+2026-09-19,Sat,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,29,2.00,2.42,Metro,12
+2026-09-19,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,23,19,1.87,0.83,Car,20
+2026-09-19,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,26,1.59,1.53,Metro,10
+2026-09-19,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,29,1.22,1.26,Metro,5
+2026-09-19,Sat,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,37,1.50,2.06,Metro,9
+2026-09-19,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-19,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,23,1.47,1.53,Metro,7
+2026-09-19,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,24,1.29,1.41,Metro,5
+2026-09-19,Sat,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,31,1.47,2.07,Metro,7
+2026-09-19,Sat,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,49,16,25,3.06,1.56,Metro,33
+2026-09-19,Sat,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,32,2.25,2.00,Metro,20
+2026-09-19,Sat,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,55,16,43,3.44,2.69,Metro,39
+2026-09-19,Sat,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,47,1.88,2.94,Metro,14
+2026-09-19,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,28,1.33,0.93,Car,10
+2026-09-19,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,38,1.33,1.27,Metro,10
+2026-09-19,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,45,1.40,1.50,Metro,12
+2026-09-19,Sat,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,54,1.33,1.80,Metro,10
+2026-09-19,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,26,21,17,1.24,0.81,Car,5
+2026-09-19,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,22,24,1.18,1.09,Metro,4
+2026-09-19,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,22,25,1.14,1.14,Metro,3
+2026-09-19,Sat,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,22,25,1.14,1.14,Metro,3
+2026-09-19,Sat,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,16,1.55,1.45,Metro,6
+2026-09-19,Sat,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,10,24,2.70,2.40,Metro,17
+2026-09-19,Sat,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,10,32,1.70,3.20,Metro,7
+2026-09-19,Sat,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,10,32,1.70,3.20,Metro,7
+2026-09-19,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-19,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,19,18,1.37,0.95,Car,7
+2026-09-19,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,19,18,1.63,0.95,Car,12
+2026-09-19,Sat,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,19,21,1.32,1.11,Metro,6
+2026-09-19,Sat,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,17,2.42,1.42,Metro,17
+2026-09-19,Sat,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,11,25,2.64,2.27,Metro,18
+2026-09-19,Sat,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,11,35,2.09,3.18,Metro,12
+2026-09-19,Sat,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,11,40,2.09,3.64,Metro,12
+2026-09-19,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,23,1.36,0.92,Car,9
+2026-09-19,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,27,1.36,1.08,Metro,9
+2026-09-19,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,29,1.36,1.16,Metro,9
+2026-09-19,Sat,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,36,1.36,1.44,Metro,9
+2026-09-19,Sat,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,36,23,19,1.57,0.83,Car,13
+2026-09-19,Sat,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-19,Sat,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,47,23,18,2.04,0.78,Car,24
+2026-09-19,Sat,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,16,1.53,0.94,Car,9
+2026-09-19,Sat,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,19,24,1.37,1.26,Metro,7
+2026-09-19,Sat,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,8,1.33,0.89,Car,3
+2026-09-19,Sat,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-19,Sat,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,8,1.75,1.00,Metro,6
+2026-09-19,Sat,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-19,Sat,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,14,1.57,1.00,Metro,8
+2026-09-19,Sat,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-19,Sat,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,6,1.33,1.00,Metro,2
+2026-09-19,Sat,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,9,0.24,0.27,Bus,-25
+2026-09-19,Sat,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,2,1.33,0.67,Car,1
+2026-09-19,Sat,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-19,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,23,7,10,3.29,1.43,Metro,16
+2026-09-19,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,12,3.57,1.71,Metro,18
+2026-09-19,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,15,0.73,0.31,Car,-13
+2026-09-19,Sat,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,17,2.89,1.89,Metro,17
+2026-09-20,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,30,1.79,1.07,Metro,22
+2026-09-20,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,34,1.79,1.21,Metro,22
+2026-09-20,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,28,37,2.64,1.32,Metro,46
+2026-09-20,Sun,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,31,42,1.61,1.35,Metro,19
+2026-09-20,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-20,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-20,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,34,1.70,1.13,Metro,21
+2026-09-20,Sun,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,30,38,1.70,1.27,Metro,21
+2026-09-20,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,11,1.71,1.57,Metro,5
+2026-09-20,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,13,1.71,1.86,Metro,5
+2026-09-20,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,15,0.66,0.28,Car,-18
+2026-09-20,Sun,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,15,15,0.80,1.00,Bus,-3
+2026-09-20,Sun,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-20,Sun,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-20,Sun,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,19,2.64,1.73,Metro,18
+2026-09-20,Sun,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-20,Sun,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-20,Sun,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,13,1.64,1.18,Metro,7
+2026-09-20,Sun,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,16,1.64,1.45,Metro,7
+2026-09-20,Sun,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,20,1.64,1.82,Metro,7
+2026-09-20,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,16,2.00,1.33,Metro,12
+2026-09-20,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,22,2.00,1.83,Metro,12
+2026-09-20,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,17,24,1.41,1.41,Metro,7
+2026-09-20,Sun,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,19,25,1.26,1.32,Metro,5
+2026-09-20,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,23,19,1.87,0.83,Car,20
+2026-09-20,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,23,1.59,1.35,Metro,10
+2026-09-20,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,17,26,1.65,1.53,Metro,11
+2026-09-20,Sun,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,23,33,1.17,1.43,Metro,4
+2026-09-20,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,15,1.47,1.00,Metro,7
+2026-09-20,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,14,20,1.57,1.43,Metro,8
+2026-09-20,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,23,1.29,1.35,Metro,5
+2026-09-20,Sun,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-20,Sun,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-20,Sun,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,28,2.25,1.75,Metro,20
+2026-09-20,Sun,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,55,16,31,3.44,1.94,Metro,39
+2026-09-20,Sun,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,36,1.88,2.25,Metro,14
+2026-09-20,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,30,1.33,1.00,Metro,10
+2026-09-20,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,37,1.33,1.23,Metro,10
+2026-09-20,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,39,1.40,1.30,Metro,12
+2026-09-20,Sun,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,41,1.33,1.37,Metro,10
+2026-09-20,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,22,18,1.14,0.82,Car,3
+2026-09-20,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,22,23,1.18,1.05,Metro,4
+2026-09-20,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,22,23,1.14,1.05,Metro,3
+2026-09-20,Sun,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,22,26,1.14,1.18,Metro,3
+2026-09-20,Sun,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,16,1.70,1.60,Metro,7
+2026-09-20,Sun,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,10,22,2.70,2.20,Metro,17
+2026-09-20,Sun,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,10,22,1.70,2.20,Metro,7
+2026-09-20,Sun,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,10,23,1.70,2.30,Metro,7
+2026-09-20,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,14,1.26,0.74,Car,5
+2026-09-20,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,19,17,1.37,0.89,Car,7
+2026-09-20,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,19,17,1.63,0.89,Car,12
+2026-09-20,Sun,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,19,20,1.32,1.05,Metro,6
+2026-09-20,Sun,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,17,2.64,1.55,Metro,18
+2026-09-20,Sun,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,11,22,2.64,2.00,Metro,18
+2026-09-20,Sun,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,11,25,2.09,2.27,Metro,12
+2026-09-20,Sun,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,11,28,2.09,2.55,Metro,12
+2026-09-20,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-20,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,25,1.36,1.00,Metro,9
+2026-09-20,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,26,1.36,1.04,Metro,9
+2026-09-20,Sun,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,29,1.36,1.16,Metro,9
+2026-09-20,Sun,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,19,19,1.37,1.00,Metro,7
+2026-09-20,Sun,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,11,11,1.09,1.00,Metro,1
+2026-09-20,Sun,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,12,0.24,0.24,Bus,-39
+2026-09-20,Sun,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,8,1.75,1.00,Metro,6
+2026-09-20,Sun,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,11,0.25,0.19,Car,-43
+2026-09-20,Sun,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,15,1.57,1.07,Metro,8
+2026-09-20,Sun,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,7,0.24,0.21,Car,-25
+2026-09-20,Sun,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,8,0.24,0.24,Bus,-25
+2026-09-20,Sun,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-20,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,23,7,11,3.29,1.57,Metro,16
+2026-09-20,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,12,3.57,1.71,Metro,18
+2026-09-20,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,13,0.73,0.27,Car,-13
+2026-09-20,Sun,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,16,2.89,1.78,Metro,17
+2026-09-21,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,28,32,1.79,1.14,Metro,22
+2026-09-21,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,51,1.79,1.82,Metro,22
+2026-09-21,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,31,55,2.39,1.77,Metro,43
+2026-09-21,Mon,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,53,1.79,1.89,Metro,22
+2026-09-21,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,30,1.82,1.07,Metro,23
+2026-09-21,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,54,1.82,1.93,Metro,23
+2026-09-21,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,45,1.70,1.50,Metro,21
+2026-09-21,Mon,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,65,1.76,2.24,Metro,22
+2026-09-21,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,93,7,11,13.29,1.57,Metro,86
+2026-09-21,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,15,1.71,2.14,Metro,5
+2026-09-21,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,18,0.66,0.34,Car,-18
+2026-09-21,Mon,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,17,1.50,2.13,Metro,4
+2026-09-21,Mon,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,15,1.64,1.36,Metro,7
+2026-09-21,Mon,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,23,1.64,2.09,Metro,7
+2026-09-21,Mon,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,29,2.64,2.64,Metro,18
+2026-09-21,Mon,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,33,1.64,3.00,Metro,7
+2026-09-21,Mon,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-21,Mon,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,18,1.64,1.64,Metro,7
+2026-09-21,Mon,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,31,1.64,2.82,Metro,7
+2026-09-21,Mon,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,22,1.64,2.00,Metro,7
+2026-09-21,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,18,2.00,1.50,Metro,12
+2026-09-21,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,32,2.00,2.67,Metro,12
+2026-09-21,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,31,1.60,2.07,Metro,9
+2026-09-21,Mon,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,26,2.00,2.17,Metro,12
+2026-09-21,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-21,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,29,1.59,1.71,Metro,10
+2026-09-21,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,32,1.22,1.39,Metro,5
+2026-09-21,Mon,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,37,1.50,2.06,Metro,9
+2026-09-21,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-21,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,25,1.47,1.67,Metro,7
+2026-09-21,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,27,1.29,1.59,Metro,5
+2026-09-21,Mon,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,33,1.47,2.20,Metro,7
+2026-09-21,Mon,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-21,Mon,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,38,2.25,2.38,Metro,20
+2026-09-21,Mon,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,55,16,42,3.44,2.63,Metro,39
+2026-09-21,Mon,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,47,1.88,2.94,Metro,14
+2026-09-21,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,29,1.33,0.97,Car,10
+2026-09-21,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,52,1.33,1.73,Metro,10
+2026-09-21,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,48,1.40,1.60,Metro,12
+2026-09-21,Mon,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,63,1.33,2.10,Metro,10
+2026-09-21,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,22,17,1.14,0.77,Car,3
+2026-09-21,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,33,1.24,1.57,Metro,5
+2026-09-21,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,25,1.19,1.19,Metro,4
+2026-09-21,Mon,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,31,1.19,1.48,Metro,4
+2026-09-21,Mon,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,10,15,1.70,1.50,Metro,7
+2026-09-21,Mon,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,30,2.45,2.73,Metro,16
+2026-09-21,Mon,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,36,1.55,3.27,Metro,6
+2026-09-21,Mon,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,37,1.55,3.36,Metro,6
+2026-09-21,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,19,13,1.26,0.68,Car,5
+2026-09-21,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,24,1.44,1.33,Metro,8
+2026-09-21,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,20,1.72,1.11,Metro,13
+2026-09-21,Mon,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,24,1.39,1.33,Metro,7
+2026-09-21,Mon,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,11,17,2.64,1.55,Metro,18
+2026-09-21,Mon,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,30,2.42,2.50,Metro,17
+2026-09-21,Mon,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,36,1.92,3.00,Metro,11
+2026-09-21,Mon,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,45,1.92,3.75,Metro,11
+2026-09-21,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,23,1.36,0.92,Car,9
+2026-09-21,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,39,1.36,1.56,Metro,9
+2026-09-21,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,32,1.36,1.28,Metro,9
+2026-09-21,Mon,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,49,1.36,1.96,Metro,9
+2026-09-21,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,36,1.57,1.57,Metro,13
+2026-09-21,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,24,1.61,0.86,Car,17
+2026-09-21,Mon,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,42,1.29,1.50,Metro,8
+2026-09-21,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,22,1.33,1.83,Metro,4
+2026-09-21,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-21,Mon,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,27,0.94,1.59,Bus,-1
+2026-09-21,Mon,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,30,2.47,1.58,Metro,28
+2026-09-21,Mon,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,22,2.04,0.96,Car,24
+2026-09-21,Mon,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,40,2.04,1.74,Metro,24
+2026-09-21,Mon,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,27,1.53,1.59,Metro,9
+2026-09-21,Mon,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,25,1.53,1.47,Metro,9
+2026-09-21,Mon,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,25,1.53,1.47,Metro,9
+2026-09-21,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,15,1.33,1.67,Metro,3
+2026-09-21,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,13,0.24,0.25,Bus,-39
+2026-09-21,Mon,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-21,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,57,9,0.25,0.16,Car,-43
+2026-09-21,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,12,1.75,1.50,Metro,6
+2026-09-21,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-21,Mon,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-21,Mon,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-21,Mon,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-21,Mon,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,22,1.57,1.57,Metro,8
+2026-09-21,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,33,5,0.24,0.15,Car,-25
+2026-09-21,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,9,1.33,1.50,Metro,2
+2026-09-21,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,10,0.24,0.30,Bus,-25
+2026-09-21,Mon,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-21,Mon,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,18,3,0.22,0.17,Car,-14
+2026-09-21,Mon,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,6,1.33,2.00,Metro,1
+2026-09-21,Mon,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-21,Mon,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-21,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,23,7,11,3.29,1.57,Metro,16
+2026-09-21,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,16,3.57,2.29,Metro,18
+2026-09-21,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,15,0.73,0.31,Car,-13
+2026-09-21,Mon,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,21,2.89,2.33,Metro,17
+2026-09-22,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,12:00 AM,50,31,33,1.61,1.06,Metro,19
+2026-09-22,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,10:00 AM,50,28,52,1.79,1.86,Metro,22
+2026-09-22,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,1:00 PM,74,31,52,2.39,1.68,Metro,43
+2026-09-22,Tue,MC-01,Blue,Dakshineswar,Esplanade,true,7:00 PM,50,28,52,1.79,1.86,Metro,22
+2026-09-22,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,12:00 AM,51,28,31,1.82,1.11,Metro,23
+2026-09-22,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,10:00 AM,51,28,48,1.82,1.71,Metro,23
+2026-09-22,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,1:00 PM,51,30,48,1.70,1.60,Metro,21
+2026-09-22,Tue,MC-02,Blue,Shahid Khudiram,Esplanade,true,7:00 PM,51,29,58,1.76,2.00,Metro,22
+2026-09-22,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,12:00 AM,12,7,12,1.71,1.71,Metro,5
+2026-09-22,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,10:00 AM,12,7,14,1.71,2.00,Metro,5
+2026-09-22,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,1:00 PM,35,53,16,0.66,0.30,Car,-18
+2026-09-22,Tue,MC-03,Blue,Dum Dum,Shyambazar,false,7:00 PM,12,8,16,1.50,2.00,Metro,4
+2026-09-22,Tue,MC-04,Blue,Shyambazar,Esplanade,false,12:00 AM,18,11,16,1.64,1.45,Metro,7
+2026-09-22,Tue,MC-04,Blue,Shyambazar,Esplanade,false,10:00 AM,18,11,22,1.64,2.00,Metro,7
+2026-09-22,Tue,MC-04,Blue,Shyambazar,Esplanade,false,1:00 PM,29,11,29,2.64,2.64,Metro,18
+2026-09-22,Tue,MC-04,Blue,Shyambazar,Esplanade,false,7:00 PM,18,11,33,1.64,3.00,Metro,7
+2026-09-22,Tue,MC-05,Blue,Kalighat,Esplanade,false,12:00 AM,18,11,12,1.64,1.09,Metro,7
+2026-09-22,Tue,MC-05,Blue,Kalighat,Esplanade,false,10:00 AM,18,11,20,1.64,1.82,Metro,7
+2026-09-22,Tue,MC-05,Blue,Kalighat,Esplanade,false,1:00 PM,18,11,26,1.64,2.36,Metro,7
+2026-09-22,Tue,MC-05,Blue,Kalighat,Esplanade,false,7:00 PM,18,11,21,1.64,1.91,Metro,7
+2026-09-22,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,12:00 AM,24,12,19,2.00,1.58,Metro,12
+2026-09-22,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,10:00 AM,24,12,31,2.00,2.58,Metro,12
+2026-09-22,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,1:00 PM,24,15,26,1.60,1.73,Metro,9
+2026-09-22,Tue,MC-06,Blue,Dakshineswar,Dum Dum,false,7:00 PM,24,12,26,2.00,2.17,Metro,12
+2026-09-22,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,12:00 AM,43,17,18,2.53,1.06,Metro,26
+2026-09-22,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,10:00 AM,27,17,30,1.59,1.76,Metro,10
+2026-09-22,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,1:00 PM,28,23,33,1.22,1.43,Metro,5
+2026-09-22,Tue,MC-07,Blue,Esplanade,Mahanayak Uttam Kumar (Tollygunge),false,7:00 PM,27,18,37,1.50,2.06,Metro,9
+2026-09-22,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,12:00 AM,22,15,16,1.47,1.07,Metro,7
+2026-09-22,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,10:00 AM,22,15,25,1.47,1.67,Metro,7
+2026-09-22,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,1:00 PM,22,17,25,1.29,1.47,Metro,5
+2026-09-22,Tue,MC-08,Blue,Mahanayak Uttam Kumar (Tollygunge),Kavi Subhash,false,7:00 PM,22,15,32,1.47,2.13,Metro,7
+2026-09-22,Tue,MC-09,Blue,Dum Dum,Esplanade,false,12:00 AM,36,16,26,2.25,1.63,Metro,20
+2026-09-22,Tue,MC-09,Blue,Dum Dum,Esplanade,false,10:00 AM,36,16,37,2.25,2.31,Metro,20
+2026-09-22,Tue,MC-09,Blue,Dum Dum,Esplanade,false,1:00 PM,56,16,40,3.50,2.50,Metro,40
+2026-09-22,Tue,MC-09,Blue,Dum Dum,Esplanade,false,7:00 PM,30,16,45,1.88,2.81,Metro,14
+2026-09-22,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,12:00 AM,40,30,30,1.33,1.00,Metro,10
+2026-09-22,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,10:00 AM,40,30,53,1.33,1.77,Metro,10
+2026-09-22,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,1:00 PM,42,30,51,1.40,1.70,Metro,12
+2026-09-22,Tue,MC-10,Green,Howrah,Salt Lake Sector V,true,7:00 PM,40,30,64,1.33,2.13,Metro,10
+2026-09-22,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,12:00 AM,25,21,17,1.19,0.81,Car,4
+2026-09-22,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,10:00 AM,26,21,33,1.24,1.57,Metro,5
+2026-09-22,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,1:00 PM,25,21,27,1.19,1.29,Metro,4
+2026-09-22,Tue,MC-11,Green,Sealdah,Salt Lake Sector V,false,7:00 PM,25,21,30,1.19,1.43,Metro,4
+2026-09-22,Tue,MC-12,Green,Howrah,Sealdah,false,12:00 AM,17,11,17,1.55,1.55,Metro,6
+2026-09-22,Tue,MC-12,Green,Howrah,Sealdah,false,10:00 AM,27,11,29,2.45,2.64,Metro,16
+2026-09-22,Tue,MC-12,Green,Howrah,Sealdah,false,1:00 PM,17,11,37,1.55,3.36,Metro,6
+2026-09-22,Tue,MC-12,Green,Howrah,Sealdah,false,7:00 PM,17,11,45,1.55,4.09,Metro,6
+2026-09-22,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,12:00 AM,24,18,14,1.33,0.78,Car,6
+2026-09-22,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,10:00 AM,26,18,25,1.44,1.39,Metro,8
+2026-09-22,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,1:00 PM,31,18,22,1.72,1.22,Metro,13
+2026-09-22,Tue,MC-13,Green,Phoolbagan,Salt Lake Sector V,false,7:00 PM,25,18,23,1.39,1.28,Metro,7
+2026-09-22,Tue,MC-14,Green,Howrah,Phoolbagan,false,12:00 AM,29,12,18,2.42,1.50,Metro,17
+2026-09-22,Tue,MC-14,Green,Howrah,Phoolbagan,false,10:00 AM,29,12,31,2.42,2.58,Metro,17
+2026-09-22,Tue,MC-14,Green,Howrah,Phoolbagan,false,1:00 PM,23,12,35,1.92,2.92,Metro,11
+2026-09-22,Tue,MC-14,Green,Howrah,Phoolbagan,false,7:00 PM,23,12,48,1.92,4.00,Metro,11
+2026-09-22,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,12:00 AM,34,25,24,1.36,0.96,Car,9
+2026-09-22,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,10:00 AM,34,25,46,1.36,1.84,Metro,9
+2026-09-22,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,1:00 PM,34,25,37,1.36,1.48,Metro,9
+2026-09-22,Tue,MC-15,Green,Esplanade,Salt Lake Sector V,false,7:00 PM,34,25,37,1.36,1.48,Metro,9
+2026-09-22,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,12:00 AM,45,23,19,1.96,0.83,Car,22
+2026-09-22,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,10:00 AM,36,23,28,1.57,1.22,Metro,13
+2026-09-22,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,1:00 PM,45,28,25,1.61,0.89,Car,17
+2026-09-22,Tue,MC-16,Orange,Kavi Subhash,Beleghata,true,7:00 PM,36,28,39,1.29,1.39,Metro,8
+2026-09-22,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,12:00 AM,16,12,8,1.33,0.67,Car,4
+2026-09-22,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,10:00 AM,16,12,15,1.33,1.25,Metro,4
+2026-09-22,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,1:00 PM,17,12,11,1.42,0.92,Car,5
+2026-09-22,Tue,MC-17,Orange,Hemanta Mukhopadhyay,Beleghata,false,7:00 PM,16,17,27,0.94,1.59,Bus,-1
+2026-09-22,Tue,MC-18,Orange,Kavi Subhash,Science City,false,12:00 AM,47,19,18,2.47,0.95,Car,28
+2026-09-22,Tue,MC-18,Orange,Kavi Subhash,Science City,false,10:00 AM,47,19,24,2.47,1.26,Metro,28
+2026-09-22,Tue,MC-18,Orange,Kavi Subhash,Science City,false,1:00 PM,47,23,23,2.04,1.00,Metro,24
+2026-09-22,Tue,MC-18,Orange,Kavi Subhash,Science City,false,7:00 PM,47,23,36,2.04,1.57,Metro,24
+2026-09-22,Tue,MC-19,Purple,Joka,Majerhat,true,12:00 AM,26,17,19,1.53,1.12,Metro,9
+2026-09-22,Tue,MC-19,Purple,Joka,Majerhat,true,10:00 AM,26,17,25,1.53,1.47,Metro,9
+2026-09-22,Tue,MC-19,Purple,Joka,Majerhat,true,1:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-22,Tue,MC-19,Purple,Joka,Majerhat,true,7:00 PM,26,17,23,1.53,1.35,Metro,9
+2026-09-22,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,12:00 AM,12,9,11,1.33,1.22,Metro,3
+2026-09-22,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,10:00 AM,12,9,12,1.33,1.33,Metro,3
+2026-09-22,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,1:00 PM,12,51,11,0.24,0.22,Car,-39
+2026-09-22,Tue,MC-20,Purple,Behala Chowrasta,Majerhat,false,7:00 PM,12,9,11,1.33,1.22,Metro,3
+2026-09-22,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,12:00 AM,14,8,9,1.75,1.13,Metro,6
+2026-09-22,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,10:00 AM,14,8,13,1.75,1.63,Metro,6
+2026-09-22,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,1:00 PM,14,57,12,0.25,0.21,Car,-43
+2026-09-22,Tue,MC-21,Purple,Joka,Behala Chowrasta,false,7:00 PM,14,8,13,1.75,1.63,Metro,6
+2026-09-22,Tue,MC-22,Purple,Joka,Taratala,false,12:00 AM,22,14,20,1.57,1.43,Metro,8
+2026-09-22,Tue,MC-22,Purple,Joka,Taratala,false,10:00 AM,22,14,21,1.57,1.50,Metro,8
+2026-09-22,Tue,MC-22,Purple,Joka,Taratala,false,1:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-22,Tue,MC-22,Purple,Joka,Taratala,false,7:00 PM,22,14,21,1.57,1.50,Metro,8
+2026-09-22,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,12:00 AM,8,6,14,1.33,2.33,Metro,2
+2026-09-22,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,10:00 AM,8,6,8,1.33,1.33,Metro,2
+2026-09-22,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,1:00 PM,8,33,8,0.24,0.24,Bus,-25
+2026-09-22,Tue,MC-23,Purple,Behala Chowrasta,Taratala,false,7:00 PM,7,6,9,1.17,1.50,Metro,1
+2026-09-22,Tue,MC-24,Purple,Taratala,Majerhat,false,12:00 AM,4,3,7,1.33,2.33,Metro,1
+2026-09-22,Tue,MC-24,Purple,Taratala,Majerhat,false,10:00 AM,4,3,4,1.33,1.33,Metro,1
+2026-09-22,Tue,MC-24,Purple,Taratala,Majerhat,false,1:00 PM,4,18,3,0.22,0.17,Car,-14
+2026-09-22,Tue,MC-24,Purple,Taratala,Majerhat,false,7:00 PM,4,3,3,1.33,1.00,Metro,1
+2026-09-22,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,12:00 AM,23,7,11,3.29,1.57,Metro,16
+2026-09-22,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,10:00 AM,25,7,14,3.57,2.00,Metro,18
+2026-09-22,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,1:00 PM,36,49,16,0.73,0.33,Car,-13
+2026-09-22,Tue,MC-25,Yellow,Dum Dum Cantonment,Biman Bandar,false,7:00 PM,26,9,19,2.89,2.11,Metro,17
