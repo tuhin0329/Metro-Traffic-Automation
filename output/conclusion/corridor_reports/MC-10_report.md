@@ -1,11 +1,11 @@
 # MC-10: Howrah → Salt Lake Sector V
 
 **Line:** 🟢 Green | **Type:** 🔴 Macro (Full Line) | **Primary Bus:** S173  
-**Distance:** ~11.7 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~11.7 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **30.0 min** | 30 | 30 | 0.0 | 30 |
 | 🚗 **Car** | **44.3 min** | 26 | 65 | 11.7 | 46 |
 
-**Metro vs Bus:** Metro saves **+10.5 min** per trip (1.35× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+10.5 min** per trip (1.35x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -44,9 +44,6 @@
 ## Key Insights for MC-10
 
 
-- ✅ **Strong Metro corridor** — consistent double-digit time savings.
+- ✅ **Strong Metro Advantage:** Provides double-digit minutes saved every single trip with superior schedule adherence.
 
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.0 min shows near-perfect schedule consistency.
-
-- 🚗 **Car slower than bus** on average — likely due to congestion on approach roads and bridge bottlenecks.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.0 min vs. Bus standard deviation of 0.9 min.

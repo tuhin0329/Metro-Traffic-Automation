@@ -1,11 +1,11 @@
 # MC-08: Mahanayak Uttam Kumar (Tollygunge) → Kavi Subhash
 
 **Line:** 🔵 Blue | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S57  
-**Distance:** ~7.5 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~7.5 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **15.5 min** | 14 | 17 | 0.9 | 15 |
 | 🚗 **Car** | **24.0 min** | 13 | 34 | 6.2 | 25 |
 
-**Metro vs Bus:** Metro saves **+6.5 min** per trip (1.42× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+6.5 min** per trip (1.42x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.9 min shows near-perfect schedule consistency.
-
-- 🚗 **Car slower than bus** on average — likely due to congestion on approach roads.
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.9 min vs. Bus standard deviation of 0.0 min.

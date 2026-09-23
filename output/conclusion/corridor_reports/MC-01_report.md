@@ -1,11 +1,11 @@
 # MC-01: Dakshineswar → Esplanade
 
 **Line:** 🔵 Blue | **Type:** 🔴 Macro (Full Line) | **Primary Bus:** S57  
-**Distance:** ~13.2 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~13.2 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **28.9 min** | 28 | 31 | 1.4 | 28 |
 | 🚗 **Car** | **43.2 min** | 26 | 67 | 9.9 | 45 |
 
-**Metro vs Bus:** Metro saves **+26.1 min** per trip (1.90× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+26.1 min** per trip (1.90x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -43,10 +43,7 @@
 
 ## Key Insights for MC-01
 
-- 🏆 **Outstanding Metro corridor** — saves over 20 min per trip, making it one of the most impactful Metro routes in Kolkata.
+- 🏆 **Super-Dominant Corridor:** Saves over 20 minutes per trip, making Metro transformative for daily commuters on this axis.
 
 
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 1.4 min shows near-perfect schedule consistency.
-
-
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 1.4 min vs. Bus standard deviation of 8.4 min.

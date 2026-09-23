@@ -1,11 +1,11 @@
 # MC-13: Phoolbagan → Salt Lake Sector V
 
 **Line:** 🟢 Green | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S3W  
-**Distance:** ~5.4 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~5.4 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **18.3 min** | 18 | 19 | 0.5 | 18 |
 | 🚗 **Car** | **19.3 min** | 13 | 26 | 4.1 | 20 |
 
-**Metro vs Bus:** Metro saves **+8.1 min** per trip (1.45× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+8.1 min** per trip (1.45x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.5 min shows near-perfect schedule consistency.
-
-
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.5 min vs. Bus standard deviation of 2.6 min.

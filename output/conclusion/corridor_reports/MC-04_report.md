@@ -1,11 +1,11 @@
 # MC-04: Shyambazar → Esplanade
 
 **Line:** 🔵 Blue | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S57  
-**Distance:** ~6.1 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~6.1 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **11.0 min** | 11 | 11 | 0.0 | 11 |
 | 🚗 **Car** | **22.1 min** | 13 | 41 | 6.3 | 22 |
 
-**Metro vs Bus:** Metro saves **+9.9 min** per trip (1.90× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+9.9 min** per trip (1.90x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.0 min shows near-perfect schedule consistency.
-
-- 🚗 **Car slower than bus** on average — likely due to congestion on approach roads.
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.0 min vs. Bus standard deviation of 4.9 min.

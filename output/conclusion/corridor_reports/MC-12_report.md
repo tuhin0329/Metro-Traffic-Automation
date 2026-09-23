@@ -1,11 +1,11 @@
 # MC-12: Howrah → Sealdah
 
 **Line:** 🟢 Green | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S3W  
-**Distance:** ~5.5 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~5.5 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **10.7 min** | 10 | 11 | 0.5 | 11 |
 | 🚗 **Car** | **27.0 min** | 14 | 48 | 8.9 | 28 |
 
-**Metro vs Bus:** Metro saves **+8.7 min** per trip (1.81× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+8.7 min** per trip (1.81x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.5 min shows near-perfect schedule consistency.
-
-- 🚗 **Car slower than bus** on average — likely due to congestion on approach roads and bridge bottlenecks.
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.5 min vs. Bus standard deviation of 4.2 min.

@@ -1,11 +1,11 @@
 # MC-22: Joka → Taratala
 
 **Line:** 🟣 Purple | **Type:** 🔵 Micro (Segment) | **Primary Bus:** 12C  
-**Distance:** ~8.4 km | **Data Points:** 72 | **Overall Winner:** 🚇 Metro
+**Distance:** ~8.4 km | **Clean Data Points:** 72 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **14.0 min** | 14 | 14 | 0.0 | 14 |
 | 🚗 **Car** | **19.5 min** | 11 | 26 | 3.3 | 21 |
 
-**Metro vs Bus:** Metro saves **+8.0 min** per trip (1.57× faster)  
-**Metro Win Rate:** 100.0% (72/72 trips)
+**Metro vs Bus:** Metro saves **+8.0 min** per trip (1.57x faster)  
+**Metro Win Rate:** **100.0%** (72/72 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.0 min shows near-perfect schedule consistency.
-
-
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.0 min vs. Bus standard deviation of 0.0 min.

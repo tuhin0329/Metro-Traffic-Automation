@@ -1,11 +1,11 @@
 # MC-16: Kavi Subhash → Beleghata
 
 **Line:** 🟠 Orange | **Type:** 🔴 Macro (Full Line) | **Primary Bus:** VS8  
-**Distance:** ~11.5 km | **Data Points:** 66 | **Overall Winner:** 🚇 Metro
+**Distance:** ~11.5 km | **Clean Data Points:** 66 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **25.9 min** | 23 | 28 | 2.5 | 28 |
 | 🚗 **Car** | **25.9 min** | 17 | 42 | 5.9 | 25 |
 
-**Metro vs Bus:** Metro saves **+12.4 min** per trip (1.48× faster)  
-**Metro Win Rate:** 100.0% (66/66 trips)
+**Metro vs Bus:** Metro saves **+12.4 min** per trip (1.48x faster)  
+**Metro Win Rate:** **100.0%** (66/66 trips)
 
 ---
 
@@ -44,9 +44,6 @@
 ## Key Insights for MC-16
 
 
-- ✅ **Strong Metro corridor** — consistent double-digit time savings.
+- ✅ **Strong Metro Advantage:** Provides double-digit minutes saved every single trip with superior schedule adherence.
 
-
-
-
-
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 2.5 min vs. Bus standard deviation of 4.0 min.

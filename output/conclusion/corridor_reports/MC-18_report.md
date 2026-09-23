@@ -1,11 +1,11 @@
 # MC-18: Kavi Subhash → Science City
 
 **Line:** 🟠 Orange | **Type:** 🔵 Micro (Segment) | **Primary Bus:** VS8  
-**Distance:** ~10.5 km | **Data Points:** 66 | **Overall Winner:** 🚇 Metro
+**Distance:** ~10.5 km | **Clean Data Points:** 66 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **21.4 min** | 19 | 23 | 2.0 | 23 |
 | 🚗 **Car** | **23.7 min** | 15 | 40 | 5.2 | 24 |
 
-**Metro vs Bus:** Metro saves **+25.2 min** per trip (2.18× faster)  
-**Metro Win Rate:** 100.0% (66/66 trips)
+**Metro vs Bus:** Metro saves **+25.2 min** per trip (2.18x faster)  
+**Metro Win Rate:** **100.0%** (66/66 trips)
 
 ---
 
@@ -43,10 +43,7 @@
 
 ## Key Insights for MC-18
 
-- 🏆 **Outstanding Metro corridor** — saves over 20 min per trip, making it one of the most impactful Metro routes in Kolkata.
+- 🏆 **Super-Dominant Corridor:** Saves over 20 minutes per trip, making Metro transformative for daily commuters on this axis.
 
 
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 2.0 min shows near-perfect schedule consistency.
-
-
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 2.0 min vs. Bus standard deviation of 3.8 min.

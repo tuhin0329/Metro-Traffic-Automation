@@ -1,11 +1,11 @@
 # MC-19: Joka → Majerhat
 
 **Line:** 🟣 Purple | **Type:** 🔴 Macro (Full Line) | **Primary Bus:** 12C  
-**Distance:** ~10.1 km | **Data Points:** 72 | **Overall Winner:** 🚇 Metro
+**Distance:** ~10.1 km | **Clean Data Points:** 72 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **17.2 min** | 17 | 19 | 0.6 | 17 |
 | 🚗 **Car** | **22.5 min** | 14 | 28 | 3.6 | 24 |
 
-**Metro vs Bus:** Metro saves **+8.8 min** per trip (1.51× faster)  
-**Metro Win Rate:** 100.0% (72/72 trips)
+**Metro vs Bus:** Metro saves **+8.8 min** per trip (1.51x faster)  
+**Metro Win Rate:** **100.0%** (72/72 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.6 min shows near-perfect schedule consistency.
-
-
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.6 min vs. Bus standard deviation of 0.0 min.

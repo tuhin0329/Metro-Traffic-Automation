@@ -1,11 +1,11 @@
 # MC-15: Esplanade → Salt Lake Sector V
 
 **Line:** 🟢 Green | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S173  
-**Distance:** ~10.8 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~10.8 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **25.0 min** | 25 | 25 | 0.0 | 25 |
 | 🚗 **Car** | **31.8 min** | 20 | 51 | 8.0 | 31 |
 
-**Metro vs Bus:** Metro saves **+9.0 min** per trip (1.36× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+9.0 min** per trip (1.36x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.0 min shows near-perfect schedule consistency.
-
-
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.0 min vs. Bus standard deviation of 0.0 min.

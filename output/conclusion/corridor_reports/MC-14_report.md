@@ -1,11 +1,11 @@
 # MC-14: Howrah → Phoolbagan
 
 **Line:** 🟢 Green | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S173  
-**Distance:** ~6.7 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~6.7 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **11.7 min** | 11 | 12 | 0.5 | 12 |
 | 🚗 **Car** | **29.3 min** | 15 | 52 | 9.7 | 30 |
 
-**Metro vs Bus:** Metro saves **+14.3 min** per trip (2.22× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+14.3 min** per trip (2.22x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -44,9 +44,6 @@
 ## Key Insights for MC-14
 
 
-- ✅ **Strong Metro corridor** — consistent double-digit time savings.
+- ✅ **Strong Metro Advantage:** Provides double-digit minutes saved every single trip with superior schedule adherence.
 
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.5 min shows near-perfect schedule consistency.
-
-- 🚗 **Car slower than bus** on average — likely due to congestion on approach roads and bridge bottlenecks.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.5 min vs. Bus standard deviation of 3.0 min.

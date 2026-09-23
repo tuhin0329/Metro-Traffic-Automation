@@ -1,11 +1,11 @@
 # MC-05: Kalighat → Esplanade
 
 **Line:** 🔵 Blue | **Type:** 🔵 Micro (Segment) | **Primary Bus:** 80A  
-**Distance:** ~6.6 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~6.6 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **11.0 min** | 11 | 11 | 0.0 | 11 |
 | 🚗 **Car** | **18.6 min** | 10 | 44 | 6.6 | 18 |
 
-**Metro vs Bus:** Metro saves **+7.0 min** per trip (1.64× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+7.0 min** per trip (1.64x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -45,8 +45,5 @@
 
 
 
-- 📊 **Moderate Metro advantage** — savings exist but are modest.
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.0 min shows near-perfect schedule consistency.
-
-- 🚗 **Car slower than bus** on average — likely due to congestion on approach roads.
+- 📊 **Consistent Rail Dominance:** Reliable, congestion-free travel across all operating hours.
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.0 min vs. Bus standard deviation of 0.0 min.

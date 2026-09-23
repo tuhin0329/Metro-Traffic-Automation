@@ -1,11 +1,11 @@
 # MC-02: Shahid Khudiram → Esplanade
 
 **Line:** 🔵 Blue | **Type:** 🔴 Macro (Full Line) | **Primary Bus:** 80A  
-**Distance:** ~15.1 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~15.1 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **28.8 min** | 28 | 30 | 0.9 | 29 |
 | 🚗 **Car** | **42.9 min** | 27 | 69 | 11.3 | 43 |
 
-**Metro vs Bus:** Metro saves **+22.2 min** per trip (1.77× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+22.2 min** per trip (1.77x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -43,10 +43,7 @@
 
 ## Key Insights for MC-02
 
-- 🏆 **Outstanding Metro corridor** — saves over 20 min per trip, making it one of the most impactful Metro routes in Kolkata.
+- 🏆 **Super-Dominant Corridor:** Saves over 20 minutes per trip, making Metro transformative for daily commuters on this axis.
 
 
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.9 min shows near-perfect schedule consistency.
-
-
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.9 min vs. Bus standard deviation of 0.0 min.

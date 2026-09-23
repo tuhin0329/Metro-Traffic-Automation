@@ -1,11 +1,11 @@
 # MC-09: Dum Dum → Esplanade
 
 **Line:** 🔵 Blue | **Type:** 🔵 Micro (Segment) | **Primary Bus:** S57  
-**Distance:** ~10.1 km | **Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Distance:** ~10.1 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
 
 ---
 
-## Summary Statistics
+## Summary Statistics (Clean Operational)
 
 | Mode | Average | Min | Max | Std Dev | Median |
 |:-----|:-------:|:---:|:---:|:-------:|:------:|
@@ -13,8 +13,8 @@
 | 🚇 **Metro** | **16.0 min** | 16 | 16 | 0.0 | 16 |
 | 🚗 **Car** | **36.4 min** | 22 | 53 | 8.5 | 37 |
 
-**Metro vs Bus:** Metro saves **+23.2 min** per trip (2.45× faster)  
-**Metro Win Rate:** 100.0% (92/92 trips)
+**Metro vs Bus:** Metro saves **+23.2 min** per trip (2.45x faster)  
+**Metro Win Rate:** **100.0%** (92/92 trips)
 
 ---
 
@@ -43,10 +43,7 @@
 
 ## Key Insights for MC-09
 
-- 🏆 **Outstanding Metro corridor** — saves over 20 min per trip, making it one of the most impactful Metro routes in Kolkata.
+- 🏆 **Super-Dominant Corridor:** Saves over 20 minutes per trip, making Metro transformative for daily commuters on this axis.
 
 
-
-- 🎯 **Exceptional Metro reliability** — standard deviation of only 0.0 min shows near-perfect schedule consistency.
-
-
+- 🎯 **Schedule Predictability:** Metro standard deviation is only 0.0 min vs. Bus standard deviation of 9.6 min.
