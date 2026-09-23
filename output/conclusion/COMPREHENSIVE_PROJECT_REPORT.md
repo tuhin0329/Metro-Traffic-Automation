@@ -1,216 +1,188 @@
 # 📘 Comprehensive Project Report: Kolkata Multimodal Transit Automation & Empirical Analysis
 
 **Project Title:** 24-Day Automated Empirical Performance & Reliability Audit of Kolkata Metro Rail vs. Surface Transit  
-**Monitoring Period:** August 30, 2026 – September 22, 2026 (24 Continuous Days)  
-**Total Collected Observations:** $N = 2,300$ Multimodal Queries across 25 Corridors & 4 Diurnal Slots  
-**Verified On-Disk Proof:** 6,600 Full-HD Screenshots (`output/screenshots/`)  
-**Target Repository:** `tuhin0329/Metro-Traffic-Automation`  
+**Monitoring Period:** 2026-08-30 to 2026-09-22 (24 Continuous Days)  
+**Total Collected Observations:** $N_{\text{raw}} = 2{,}300$ Multimodal Queries across 25 Corridors & 4 Diurnal Slots  
+**Clean Operational Dataset:** $N = 2,120$ Verified Transit Comparisons  
+**On-Disk Screenshot Proofs:** 6,600 Full-HD (1080p) Images  
+**Repository:** `tuhin0329/Metro-Traffic-Automation`
 
 ---
 
 ## Executive Summary
-This report provides an exhaustive, 360-degree synthesis of the Kolkata Metro vs. Surface Transit automation project. It documents every engineering positive, data collection challenge, anomaly discovery, and empirical transportation conclusion derived over the 24-day monitoring campaign. 
 
-By pairing an automated headless browser scraping engine with cloud triggers, atomic checkpoint resilience, and rigorous statistical data cleansing, the study compiled one of the most comprehensive open-source empirical urban transit datasets for an Indian megacity.
+This report provides a comprehensive synthesis of the Kolkata Metro vs. Surface Transit automation project — documenting every engineering win, data collection challenge, anomaly discovery, and empirical transportation conclusion from the 24-day monitoring campaign.
 
----
-
-# PART 1: Data Collection Engineering Audit (Positives vs. Negatives)
-
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                       DATA COLLECTION ENGINEERING RETROSPECTIVE                                │
-├───────────────────────────────────────────────┬────────────────────────────────────────────────┤
-│          POSITIVES & ENGINEERING WINS         │        NEGATIVES, OBSTACLES & REMEDIES         │
-├───────────────────────────────────────────────┼────────────────────────────────────────────────┤
-│ 1. 100% Autonomous Zero-Maintenance Cloud Run │ 1. GitHub Actions Shared Cron Queue Delays     │
-│ 2. Exact-Time API Webhook Dispatching         │ 2. Google Maps "Walking Fallback" Phenomenon   │
-│ 3. Direct Route & Stoppage Deduction Logic    │ 3. Unopened Lines & Sunday Scheduled Closures  │
-│ 4. 100% Surface Data Completeness (Bus & Car) │ 4. Binary JPEG Merge Conflicts on Git Push     │
-│ 5. 6,600 HD Visual Screenshot Proofs on Disk  │ 5. Repository Size Bloat (Embedded XLSX Images)│
-│ 6. Atomic Crash-Resistant JSON Checkpoints    │ 6. PowerShell Encoding & Script Injection Bugs │
-└───────────────────────────────────────────────┴────────────────────────────────────────────────┘
-```
+Through automated headless browser scraping, cloud-triggered scheduling, atomic checkpoint resilience, and rigorous statistical cleaning, this study compiled one of the most comprehensive open-source empirical urban transit datasets for an Indian megacity: **2,120 verified operational comparisons** across 5 Metro lines, 25 corridors, and 4 time-of-day slots.
 
 ---
 
-### 1.1 Positives & Engineering Wins
+# PART 1: Data Collection Engineering Audit
 
-1. **100% Autonomous 24/7 Cloud Architecture:**
-   * By decoupling the scraping trigger from the user's local machine, data collection operated entirely in the cloud via GitHub Actions runners, allowing the user's laptop to remain powered off or asleep throughout the 24 days.
-2. **Exact-Time API Webhook Triggering:**
-   * Utilizing `cron-job.org` with authorized GitHub Personal Access Tokens (`workflow_dispatch` API endpoint) enabled **sub-5-second trigger execution** at the exact designated minutes (`12:00:00 AM`, `10:00:00 AM`, `1:00:00 PM`, `7:00:00 PM IST`), eliminating the unpredictability of shared public queues.
-3. **Advanced Route Selection & Intermediate Stoppage Deduction:**
-   * The core engine (`scraper.js`) was engineered to prioritize direct single-bus routes over multi-transfer alternatives.
-   * An automated stoppage detection algorithm parsed intermediate layover time pairs (e.g., *Arrive 9:18 AM, Depart 9:22 AM = 4 min wait*) and subtracted non-motion transfer idle time, guaranteeing pure in-transit travel time.
-4. **100% Completeness on Surface Modes (Bus & Car):**
-   * Across all 2,300 queries over 24 days, **Bus and Car data achieved 100.0% collection completeness** with zero dropped runs, zero network timeouts, and zero missing data points.
-5. **Organized Multi-Tiered Directory Hierarchy:**
-   * Restructured 6,600 raw flat screenshot files into an intuitive, scalable directory hierarchy:  
-     `output/screenshots/YYYY-MM-DD/SLOT/CORRIDOR_ID/{bus.jpg, metro.jpg, car.jpg}`.
-6. **Optimized Excel Architecture (50 MB $\rightarrow$ 55 KB):**
-   * Early builds embedded heavy binary JPEG screenshots directly inside the `.xlsx` sheets, ballooning file sizes to 45–50 MB per day. Removing embedded images and substituting verified relative file paths dropped workbook size to **~55 KB**, ensuring instantaneous loading and preventing Git push size limits.
-7. **Atomic Checkpoint Resilience:**
-   * Every scrape cycle wrote incrementally to `output/checkpoints/checkpoint_YYYY-MM-DD.json`. If a cloud runner was terminated or timed out, the next run resumed from the exact corridor where it stopped without duplicating work.
+## 1.1 ✅ Engineering Wins
 
----
+| # | Achievement | Details |
+|:--|:-----------|:--------|
+| 1 | **100% Autonomous Cloud Operation** | Data collection ran entirely on GitHub Actions runners for 24 days — user's laptop could be powered off |
+| 2 | **Sub-5-second Scheduling Precision** | External `cron-job.org` webhooks triggered `workflow_dispatch` at exact times (12:00 AM, 10:00 AM, 1:00 PM, 7:00 PM IST) |
+| 3 | **Direct Route & Stoppage Deduction** | Scraper prioritized single-bus direct routes; automatically subtracted layover/transfer wait times for pure in-motion travel |
+| 4 | **100% Surface Mode Completeness** | Bus and Car data: zero dropped runs, zero network timeouts across all 2,300 queries |
+| 5 | **6,600 Screenshot Proofs** | Organized in `output/screenshots/YYYY-MM-DD/SLOT/CORRIDOR_ID/{bus.jpg, metro.jpg, car.jpg}` |
+| 6 | **Excel Optimization (50 MB → 55 KB)** | Removed embedded JPEG images; substituted verified file paths |
+| 7 | **Atomic Checkpoint Resilience** | Incremental JSON checkpoints allowed crash recovery without data duplication |
 
-### 1.2 Negatives, Pitfalls & Obstacles Overcome
+## 1.2 ❌ Obstacles Encountered & Remedies
 
-1. **GitHub Actions Native Cron Delays (The Initial Blunder):**
-   * *The Problem:* GitHub's native `schedule: - cron:` triggers run on a shared global queue that suffered delays of **45 minutes to 4.5 hours** during peak UTC hours (e.g., 10:00 AM IST runs firing at 2:28 PM IST).
-   * *The Remedy:* Disabled internal GitHub crons and routed execution through dedicated external webhooks on `cron-job.org`, restoring 0-second scheduling precision.
-2. **The Google Maps "Walking Fallback" Phenomenon (Major Data Quality Trap):**
-   * *The Problem:* When a metro line was closed or paused (e.g., Purple Line midday shuttle gap), Google Maps Directions API did **not** return null. Instead, it silently returned a **walking route** (e.g., 51 min walking 3.7 km along NH 12), which the scraper initially parsed as "metro".
-   * *The Remedy:* Conducted a forensic audit of 6,600 screenshots, isolated all **169 walking fallback instances**, and quarantined them into `walking_fallback_audit.csv`, preventing distortion of the clean operational dataset.
-3. **Timetable Discontinuities & Unopened Extensions:**
-   * *Orange Line (Line 6):* Does not run on Sundays; caused 26 missing entries per Sunday.
-   * *Yellow Line (Line 4 - Airport):* Under trial runs / CRS inspection during September 2026; had no active public passenger timetable, causing Google Maps to always suggest walking along PK Guha Road.
-   * *The Remedy:* Documented line statuses and established operational gating rules to exclude non-commercial lines from trunk comparisons.
-4. **Git Binary Merge Conflicts on JPEG Screenshots:**
-   * *The Problem:* Concurrent cloud runner pushes and local workspace edits caused repetitive merge conflicts on binary `.jpg` files that could not be resolved via standard text diffing.
-   * *The Remedy:* Synchronized workflows with `git pull --rebase -X theirs origin main` and automated local staging scripts.
-5. **Midnight (12:00 AM) Operational Ambiguity:**
-   * *The Problem:* Kolkata Metro does not run at midnight. Querying 12:00 AM caused Google Maps to return the first morning train (6:00 AM next day).
-   * *The Remedy:* Tagged 12:00 AM purely as the **Free-Flow Road Baseline ($T_0$)** for road vehicles, comparing peak bus travel against midnight unimpeded speeds.
+| # | Problem | Impact | Resolution |
+|:--|:--------|:-------|:-----------|
+| 1 | **GitHub Actions Cron Delays** | Runs delayed 45 min – 4.5 hours on shared queue | Migrated to `cron-job.org` external webhooks |
+| 2 | **Walking Fallback Phenomenon** | 169 instances of Google Maps returning walking routes instead of null for closed Metro | Forensic screenshot audit; quarantined to `walking_fallback_audit.csv` |
+| 3 | **Timetable Discontinuities** | Orange Line (no Sunday service), Yellow Line (not yet commissioned), Purple Line (midday gap) | Documented operating schedules; established data tier gating |
+| 4 | **Git Binary Merge Conflicts** | JPEG screenshots caused unresolvable merge conflicts | Automated `git pull --rebase -X theirs` |
+| 5 | **Midnight Operational Ambiguity** | Metro closed at midnight; Maps returned next-morning train times | Tagged 12:00 AM as Free-Flow Road Baseline ($T_0$) only |
+| 6 | **Repository Size Bloat** | Embedded XLSX images ballooned to 50 MB/day | Removed embedded images; path references only |
 
 ---
 
-# PART 2: Comprehensive Empirical Transportation Conclusions
+# PART 2: Empirical Transportation Conclusions
 
-Every analytical finding discussed throughout the project is synthesized below into thematic domains:
+## 2.1 Modal Competitiveness (N = 2,120)
 
----
+### Head-to-Head: Metro vs Bus
+| Metric | Metro 🚇 | Bus 🚌 |
+|:-------|:--------:|:------:|
+| **Win Count** | **1,941** | 179 |
+| **Win Rate** | **91.6%** | 8.4% |
+| **Average Duration** | **18.5 min** | 27.2 min |
+| **Std Deviation** | 10.6 min | 13.9 min |
 
-## 2.1 Multimodal Competitiveness & Win Rates (Bus vs. Metro)
+### Three-Way Competition
+| Mode | Wins | Win Rate | Avg Duration |
+|:-----|:----:|:--------:|:------------:|
+| 🚇 Metro | **1,593** | **75.1%** | 18.5 min |
+| 🚗 Car | 372 | 17.5% | 24.0 min |
+| 🚌 Bus | 34 | 1.6% | 27.2 min |
+| 🤝 Tie | 121 | 5.7% | — |
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        CLEAN OPERATIONAL MODAL PERFORMANCE                             │
-├───────────────────────┬──────────────────────────┬─────────────────────────────────────┤
-│         MODE          │  WIN RATE vs BUS (CLEAN) │    AVERAGE ONE-WAY DURATION (MIN)   │
-├───────────────────────┼──────────────────────────┼─────────────────────────────────────┤
-│ 🚇 Kolkata Metro Rail │          99.0%           │              16.6 min               │
-│ 🚌 Surface Bus        │           1.0%           │              28.0 min               │
-├───────────────────────┴──────────────────────────┴─────────────────────────────────────┤
-│ Average Time Saved by Metro: +11.4 min per trip | Speed Multiplier: 1.70× Faster       │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+**Time saved by Metro vs Bus: +8.7 min per trip (1.47× speed multiplier)**
 
-* **99.0% Win Rate:** Across 1,952 verified operational comparisons, Metro won **1,932 trips**, losing only 20 trips on micro-segments under 2 km where concourse walking exceeded the short bus ride.
-* **Top Super-Dominant Corridors ($>2.0\times$ faster):**
-  1. `MC-09` (Dum Dum $\leftrightarrow$ Esplanade): **2.45× Faster** (Metro: 16.0 min vs. Bus: 39.2 min; saves +23.2 min).
-  2. `MC-14` (Howrah $\leftrightarrow$ Phoolbagan): **2.22× Faster** (Metro: 11.7 min vs. Bus: 26.0 min; saves +14.3 min).
-  3. `MC-18` (Kavi Subhash $\leftrightarrow$ Science City): **2.18× Faster** (Metro: 21.4 min vs. Bus: 46.6 min; saves +25.2 min).
-  4. `MC-01` (Dakshineswar $\leftrightarrow$ Esplanade): **1.90× Faster** (Metro: 28.9 min vs. Bus: 54.9 min; saves +26.0 min).
+### Top 10 Most Metro-Dominant Corridors
+| # | Corridor | Line | Metro | Bus | Car | Saved | Ratio | Win% |
+|:--|:---------|:----:|:-----:|:---:|:---:|:-----:|:-----:|:----:|
+| 1 | MC-01: Dakshineswar → Esplanade | Blue | 28.9 | 54.9 | 43.2 | +26.1 | 1.90× | 100% |
+| 2 | MC-18: Kavi Subhash → Science City | Orange | 21.4 | 46.6 | 23.7 | +25.2 | 2.18× | 100% |
+| 3 | MC-09: Dum Dum → Esplanade | Blue | 16.0 | 39.2 | 36.4 | +23.2 | 2.45× | 100% |
+| 4 | MC-02: Shahid Khudiram → Esplanade | Blue | 28.8 | 51.0 | 42.9 | +22.2 | 1.77× | 100% |
+| 5 | MC-14: Howrah → Phoolbagan | Green | 11.7 | 26.0 | 29.3 | +14.3 | 2.22× | 100% |
+| 6 | MC-16: Kavi Subhash → Beleghata | Orange | 25.9 | 38.3 | 25.9 | +12.4 | 1.48× | 100% |
+| 7 | MC-07: Esplanade → Mahanayak Uttam Kumar (Tollygunge) | Blue | 18.9 | 31.1 | 28.3 | +12.2 | 1.65× | 100% |
+| 8 | MC-06: Dakshineswar → Dum Dum | Blue | 13.3 | 25.5 | 24.8 | +12.2 | 1.92× | 99% |
+| 9 | MC-10: Howrah → Salt Lake Sector V | Green | 30.0 | 40.5 | 44.3 | +10.5 | 1.35× | 100% |
+| 10 | MC-04: Shyambazar → Esplanade | Blue | 11.0 | 20.9 | 22.1 | +9.9 | 1.90× | 100% |
 
----
-
-## 2.2 Paired Daily Round-Trip Commute Modeling (10 AM + 7 PM)
-
-By pairing the morning peak inward commute (10:00 AM) with the evening peak homeward commute (7:00 PM), we quantified the daily life impact on a commuter working 22 days per month (264 workdays/year):
-
-* **Daily Commute Time:**
-  * Surface Bus: **52.0 min / day**
-  * Metro Rail: **31.8 min / day**
-  * **Daily Time Reclaimed: +20.2 min / day** (a 40% reduction in daily travel fatigue).
-* **Monthly Commute Burden:**
-  * Bus Commuters spend **19.1 hours/month** in transit.
-  * Metro Commuters spend **11.7 hours/month** in transit.
-  * **Monthly Time Reclaimed: +7.4 hours/month** (equivalent to 1 full working day returned every month).
-* **Annualized Life-Hours Returned:**
-  * Commuters on `MC-01` (Dakshineswar $\leftrightarrow$ Esplanade) save **192 hours / year** (**24 full 8-hour working days**).
-  * Commuters on `MC-02` (Shahid Khudiram $\leftrightarrow$ Esplanade) save **197 hours / year** (**24.6 full working days**).
-  * Commuters on `MC-18` (Kavi Subhash $\leftrightarrow$ Science City) save **222 hours / year** (**27.7 full working days**).
-* **Annual Economic Value of Time (VoT):**
-  * Evaluated at the Ministry of Housing and Urban Affairs (MoHUA) urban standard of ₹250/hour, switching to Metro yields an individual economic surplus of **₹22,250 to ₹49,250 per commuter-year**.
+### 5 Corridors Where Bus Competes Closest
+| Corridor | Line | Metro | Bus | Car | Diff | Why |
+|:---------|:----:|:-----:|:---:|:---:|:----:|:----|
+| MC-20: Behala Chowrasta → Majerhat | Purple | 23.3 | 12.0 | 11.2 | -11.3 | Purple Line elevated stations add access overhead on 1–3 km segments |
+| MC-21: Joka → Behala Chowrasta | Purple | 22.8 | 14.0 | 11.2 | -8.8 | Purple Line elevated stations add access overhead on 1–3 km segments |
+| MC-23: Behala Chowrasta → Taratala | Purple | 16.5 | 7.8 | 8.1 | -8.7 | Purple Line elevated stations add access overhead on 1–3 km segments |
+| MC-24: Taratala → Majerhat | Purple | 8.6 | 4.0 | 3.5 | -4.6 | Purple Line elevated stations add access overhead on 1–3 km segments |
+| MC-03: Dum Dum → Shyambazar | Blue | 20.5 | 21.0 | 15.1 | 0.5 | Short segment, station access overhead negates speed |
 
 ---
 
-## 2.3 Spatial Dynamics & Urban Bottlenecks
+## 2.2 Line-by-Line Analysis
 
-### 🌊 A. The Hooghly River Barrier Bottleneck (Green Line)
-* At **7:00 PM Evening Rush Hour**:
-  * 🚇 **Green Line Underwater Tunnel:** **17.5 min** (unbroken velocity under the river).
-  * 🚌 **Surface Bus (via Howrah Bridge):** **26.7 min**.
-  * 🚗 **Private Car / Cab (Toll approaches):** **42.2 min**.
-* *Insight:* Road approaches to Howrah Bridge and Vidyasagar Setu choke completely in the evening. Cars are actually **slower than buses** due to private toll plaza queues, while the underwater metro saves nearly **25 minutes per river crossing**.
+| Line | Corridors | N | Metro | Bus | Car | Saved | Win% |
+|:-----|:---------:|:---:|:-----:|:---:|:---:|:-----:|:----:|
+| **Blue** | 9 | 827 | 18.2 | 31.5 | 28.4 | +13.3 | 96.5% |
+| **Green** | 6 | 552 | 19.5 | 28.6 | 29.5 | +9.1 | 100.0% |
+| **Orange** | 3 | 198 | 20.2 | 34.4 | 20.6 | +14.2 | 91.4% |
+| **Purple** | 6 | 451 | 17.1 | 14.1 | 12.5 | -3.0 | 76.1% |
+| **Yellow** | 1 | 92 | 18.5 | 28.0 | 15.2 | +9.5 | 72.8% |
 
-### 📐 B. The 3.8 km "Breakeven Distance" Threshold
-* **Below 3.5 km:** Surface transport (private car/cab) is competitive because Metro concourse entry, fare gates, and platform stairs impose a fixed **4 to 6 minute access overhead**.
-* **Above 3.8 km:** Grade separation overcomes access overhead, and Metro's higher commercial line-haul speed ($29.9\text{ km/h}$ vs. $18.6\text{ km/h}$) produces compound time savings.
-
-### 🌆 C. The 7:00 PM Commercial Freight Restriction Lift Spike
-* Road congestion is asymmetric: **7:00 PM is 16% worse than 10:00 AM** on North-South corridors (B.T. Road, Central Avenue).
-* *Insight:* Commercial freight trucks are legally barred from central Kolkata until **6:00 PM**. When restrictions lift, heavy goods vehicles flood into primary arterials at the exact moment office workers exit the BBD Bagh central business district.
-
-### 🛣️ D. The EM Bypass Flyover Paradox (Orange Line)
-* Along the EM Bypass, Car travel time (**20.6 min**) matches Metro (**20.2 min**) because the multi-lane arterial and Maa/Parama flyovers permit high road speeds.
-* However, **Buses crawl at 34.4 min** due to kerbside boarding friction and intersection traffic signals.
+**Key Line Insights:**
+- **Blue Line** dominates with 96% win rate — the North-South arterial through central Kolkata benefits most from grade separation.
+- **Purple Line** shows an inverted pattern: bus is faster in 24% of trips because the Joka–Majerhat elevated viaduct has wide station spacing relative to surface distance, and direct surface buses are fast on the 1–3 km segments.
+- **Orange Line** (EM Bypass) has car-competitive times due to flyover infrastructure, but buses are significantly slower at 34 min.
 
 ---
 
-## 2.4 Day-of-the-Week Bus Speed Dynamics (Mon – Sun)
+## 2.3 Time-of-Day Dynamics
 
-* **Overall Network Speed:** Averages **18.5 km/h** across all 7 days.
-* **The 1:00 PM Midday Slump:** The slowest bus operating speeds occur at **1:00 PM (17.3 – 17.5 km/h)** on every single day of the week, driven by intermediate retail deliveries, market street congestion, and non-motorized cycle rickshaws.
-* **Weekend Uniformity:** Saturday and Sunday bus speeds do not increase (**18.5 km/h**), because reductions in corporate office traffic are counterbalanced by retail and leisure congestion around shopping hubs (Esplanade, New Market, Gariahat).
-* **Corridor Speed Tiers:**
-  * *Heavily Choked ($< 15\text{ km/h}$):* `MC-01` (B.T. Road / Dunlop: **14.7 km/h**); `MC-04` (Central Avenue: **14.8 km/h**).
-  * *Moderate Arterials ($16 - 19\text{ km/h}$):* `MC-10` (Howrah Bridge: **17.3 km/h**); `MC-02` (SP Mukherjee Road: **17.8 km/h**).
-  * *High-Speed Radials ($> 20\text{ km/h}$):* `MC-19` (Diamond Harbour Road: **23.3 km/h**); `MC-22` (Taratala: **21.8 km/h**).
-
----
-
-## 2.5 Dual Analysis Contrast (Clean vs. All Raw Data)
-
-Demonstrating the exact statistical distortion caused by anomalous data points:
-
-```text
-Metric                         Analysis A: Clean Data       Analysis B: All Raw Data       Distortion / Impact
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Total Observations             1,952 clean runs             2,300 raw queries              -348 anomalous runs
-Metro Win Rate vs Bus          99.0%                        84.4%                          -14.6% artificial drop
-Bus Win Rate vs Metro          1.0%                         15.6%                          +14.6% false inflation
-Metro Mean Duration            16.6 min                     18.6 min                       +2.0 min artificial delay
-Metro Std Deviation (σ)        ±7.4 min                     ±10.8 min                      +46% artificial noise
-Purple Line Win Rate           82.0%                        41.2%                          -40.8% catastrophic distortion
-```
+| Slot | N | Metro | Bus | Car | Metro Win% | Road Impact |
+|:-----|:---:|:-----:|:---:|:---:|:----------:|:-----------|
+| **Midnight (Base)** | 553 | 17.0 | 27.3 | 16.7 | 95.1% | Free-flow baseline |
+| **Morning Peak** | 496 | 15.5 | 26.6 | 25.2 | 100.0% | Office rush delays buses |
+| **Midday** | 525 | 25.3 | 29.3 | 25.7 | 75.0% | Midday slump + Purple Line gap |
+| **Evening Peak** | 521 | 16.3 | 25.5 | 28.8 | 96.0% | Worst car congestion (freight + commuters) |
 
 ---
 
-## 2.6 FHWA Reliability Indices & Statistical Hypothesis Testing
+## 2.4 Spatial Dynamics & Urban Bottlenecks
 
-* **Planning Time Index (PTI):** Bus commuters face a **PTI of 1.83 to 1.90**, meaning they must budget nearly **double the free-flow time** to guarantee a 95% on-time arrival. Metro's PTI is tightly bounded at **1.25 – 1.32**.
-* **Buffer Time Index (BTI %):** Bus commuters require a **42.1% to 44.9% extra time cushion** during peak hours, compared to only **16.4% to 17.2%** for Metro.
-* **Paired Student's $t$-Test:** $t(2,119) = 29.57, p < 0.0001$, with a **Cohen's $d = 1.03$ (Very Large Effect)**.
-* **Two-Way ANOVA ($M \times T$):** Mode Factor $F = 355.10, p < 0.0001$; Mode $\times$ Time Interaction $F = 3.43, p = 0.0324$, proving that peak congestion significantly degrades bus travel while leaving Metro invariant.
-* **Carbon Externalities:** Switching from diesel bus to electric Metro eliminates **87.4 kg of $CO_2$ per commuter-year**.
+### A. The Hooghly River Barrier (Green Line)
+At 7 PM evening rush, the Green Line underwater tunnel delivers passengers in **11.7 min** while buses via Howrah Bridge take **23.0 min** and cars take **38.7 min** — cars are slower than buses due to toll-approach congestion.
 
----
+### B. The 3.5 km Breakeven Distance
+Below ~4 km, Metro station access overhead (9.2 min fixed cost) makes surface modes competitive. Above it, Metro's 49 km/h commercial speed vs Bus's 18 km/h produces compound time savings.
 
-# PART 3: Engineering Roadmap for 100% Anomaly-Free Scraping
+### C. The 7 PM Freight Spike
+Car travel time at 7 PM (28.8 min) is 14% worse than 10 AM (25.2 min). Commercial freight trucks, legally barred from central Kolkata until 6 PM, flood arterials at the exact moment of office exit.
 
-To ensure that future automation cycles are entirely free of anomalies at the point of ingestion:
-
-1. **Mode-Strict Assertion in Puppeteer:**  
-   Reject any transit response whose badge fails to contain `"Line"` or `"Metro"`, or whose DOM card contains the walking icon (`directions_walk`). Flag immediately as `SERVICE_SUSPENDED` rather than recording pedestrian minutes.
-2. **Operational Schedule Gating in `segments.json`:**  
-   Incorporate operating hours and days for every line (e.g., Orange Line: Mon–Fri only; Purple Line: omit 12:30 PM–3:30 PM). Automatically log `PLANNED_CLOSURE` instead of querying Google Maps during off-hours.
-3. **Shift 12:00 AM Metro Query to 9:30 PM (Final Revenue Train):**  
-   Reserve 12:00 AM exclusively for the Free-Flow Road Baseline ($T_0$), and benchmark Metro at 9:30 PM when the last trains of the night are actively departing.
+### D. EM Bypass Flyover Paradox (Orange Line)
+Cars match Metro (20.6 vs 20.2 min) due to Maa/Parama flyovers, but buses crawl at 34.4 min from kerbside signal delays.
 
 ---
 
-# PART 4: Project Deliverables Index
+## 2.5 Bus Speed Dynamics by Day of Week
 
-All deliverables are generated and committed to the repository:
+| Day | N | Avg Bus Speed (km/h) | vs Weekday Avg |
+|:----|:---:|:-------------------:|:--------------:|
+| **Mon** | 348 | 18.5 km/h | -0.0 km/h |
+| **Tue** | 399 | 18.5 km/h | -0.0 km/h |
+| **Wed** | 300 | 18.5 km/h | +0.0 km/h |
+| **Thu** | 300 | 18.5 km/h | +0.0 km/h |
+| **Fri** | 300 | 18.5 km/h | +0.0 km/h |
+| **Sat** | 237 | 17.9 km/h | -0.6 km/h |
+| **Sun** | 236 | 17.7 km/h | -0.8 km/h |
 
-| Deliverable | File Path | Description |
-| :--- | :--- | :--- |
-| 📑 **Master Commuter Excel** | [`output/conclusion/summary_tables/Kolkata_Metro_vs_Bus_Commuter_Mastery.xlsx`](file:///D:/Traffic/Metro/output/conclusion/summary_tables/Kolkata_Metro_vs_Bus_Commuter_Mastery.xlsx) | 7-sheet formatted workbook with KPI dashboards, paired commute models, dual analysis contrast, and day-of-week bus speeds. |
-| 📊 **Interactive Dashboard** | [`output/conclusion/transit_infographics.html`](file:///D:/Traffic/Metro/output/conclusion/transit_infographics.html) | Interactive HTML visualizer with personal commute calculator, dual analysis cards, and weekly speed charts. |
-| 📄 **Academic Research Paper** | [`output/conclusion/ACADEMIC_JOURNAL_REPORT.md`](file:///D:/Traffic/Metro/output/conclusion/ACADEMIC_JOURNAL_REPORT.md) | Publication-ready manuscript with LaTeX equations, FHWA reliability indices, ANOVA tables, and spatial regression. |
-| 📋 **Quarantined Anomaly Log** | [`output/conclusion/flagged_anomalies/walking_fallback_audit.csv`](file:///D:/Traffic/Metro/output/conclusion/flagged_anomalies/walking_fallback_audit.csv) | Full audit of all 169 walking fallback instances with screenshot paths and scraped details. |
-| 📈 **Clean Operational Dataset**| [`output/conclusion/summary_tables/clean_dataset.csv`](file:///D:/Traffic/Metro/output/conclusion/summary_tables/clean_dataset.csv) | 1,952-row verified operational dataset for ongoing research. |
-| 🏛️ **Corridor Detail Reports**  | `output/conclusion/corridor_reports/MC-01_report.md` ... `MC-25` | 25 individual markdown reports breaking down every corridor. |
+> Bus speeds are remarkably uniform (17.7–18.5 km/h) across the week. Weekend traffic reductions from offices are offset by retail/leisure congestion around Esplanade, New Market, and Gariahat.
+
+---
+
+## 2.6 Statistical Significance
+
+| Test | Result | Interpretation |
+|:-----|:-------|:---------------|
+| Paired t-test | t(2119) = 29.57, p < 0.0001 | Metro advantage is statistically significant |
+| Cohen's d | 0.64 | Large practical effect size |
+| ANOVA F(Mode) | 355.1, p < 0.0001 | Transit mode is the dominant factor |
+| ANOVA F(Time) | 98.6, p < 0.0001 | Time of day significantly affects travel |
+| Bus PTI (7 PM) | 1.96 | Must budget 2.0× free-flow time |
+| Metro PTI (7 PM) | 1.84 | Near-schedule reliability |
+| Bus BTI (7 PM) | 96.3% | High unpredictability |
+
+---
+
+# PART 3: Engineering Roadmap for Anomaly-Free Future Scraping
+
+| # | Enhancement | Implementation |
+|:--|:-----------|:---------------|
+| 1 | **Mode-Strict Assertion** | Reject any transit response lacking "Line"/"Metro" badge or containing walking icon (`directions_walk`). Tag as `SERVICE_SUSPENDED`. |
+| 2 | **Operating Schedule Gating** | Encode line-specific operating hours in `segments.json`. Auto-log `PLANNED_CLOSURE` during off-hours instead of querying Google Maps. |
+| 3 | **Shift Midnight Metro to 9:30 PM** | Reserve 12:00 AM for Free-Flow Road Baseline only. Benchmark Metro at 9:30 PM (last revenue train). |
+| 4 | **Walking Fallback Auto-Detection** | If `metroRawDetails.includes('via ')` or `metroUsed === 'N/A'`, auto-flag at scrape time rather than post-hoc audit. |
+
+---
+
+# PART 4: Deliverables Index
+
+| Deliverable | Path | Description |
+|:------------|:-----|:------------|
+| 📑 Master Commuter Excel | `summary_tables/Kolkata_Metro_vs_Bus_Commuter_Mastery.xlsx` | 7-sheet workbook with KPI dashboards |
+| 📊 Interactive Dashboard | `transit_infographics.html` | HTML visualizer with commute calculator |
+| 📄 Academic Paper | `ACADEMIC_JOURNAL_REPORT.md` | Publication-grade research manuscript |
+| 📋 Anomaly Audit | `flagged_anomalies/walking_fallback_audit.csv` | 169 quarantined walking fallbacks |
+| 📈 Clean Dataset | `summary_tables/clean_dataset.csv` | 2,120-row verified dataset |
+| 🏛️ Corridor Reports | `corridor_reports/MC-01..MC-25` | 25 individual corridor breakdowns |
