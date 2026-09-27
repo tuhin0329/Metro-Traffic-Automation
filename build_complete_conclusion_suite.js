@@ -3,14 +3,14 @@
  * build_complete_conclusion_suite.js
  * ──────────────────────────────────
  * Master script that generates the complete, synchronized Metro vs. Car conclusion suite
- * across the 24 active corridors (MC-01 to MC-24; Yellow Line MC-25 excluded).
+ * across the 24 active corridors (MC-01 to MC-24; Yellow Line MC-25 excluded)
+ * using the exact verified route distances (metro_km and car_km) for each corridor.
  */
 
 const fs = require('fs');
 const path = require('path');
-const ExcelJS = require('exceljs');
 
-console.log('🚀 Starting Metro vs. Car Conclusion Suite Generation (24 Active Corridors)...');
+console.log('🚀 Starting Metro vs. Car Conclusion Suite Generation (24 Active Corridors with Exact Route Distances)...');
 
 // ─── 1. Load Checkpoints & 24 Active Segments ───────────────────────────────
 const checkpoints = fs.readdirSync('output/checkpoints')
@@ -37,21 +37,6 @@ if (fs.existsSync(mc25ReportPath)) {
   console.log('🗑️ Removed obsolete MC-25_report.md (Yellow Line)');
 }
 
-// Distance calculation
-function haversine(c1, c2) {
-  const [lat1, lon1] = c1.split(',').map(s => parseFloat(s.trim()));
-  const [lat2, lon2] = c2.split(',').map(s => parseFloat(s.trim()));
-  const R = 6371;
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
-  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-}
-const distances = {};
-segments.forEach(s => {
-  distances[s.id] = Math.round(haversine(s.from_metro, s.to_metro) * 1.3 * 10) / 10;
-});
-
 // ─── 2. Classify Every Scraped Record (24 Active Corridors Only) ─────────────
 let rawRecords = [];
 let walkingAnomalies = [];
@@ -72,9 +57,13 @@ for (const cpFile of checkpoints) {
       const expectedSs = path.join(ssDir, dateStr, slotFolder, routeId, 'metro.jpg');
       const ssExists = fs.existsSync(expectedSs);
 
+      const metroKm = d.metroKm || corridor.metro_km || 0;
+      const carKm = d.carKm || corridor.car_km || 0;
+
       const record = {
         date: dateStr, day: dayName, routeId, line: corridor.line || 'Unknown',
         from: corridor.from || '', to: corridor.to || '', isMaster: corridor.is_master || false,
+        metroKm, carKm,
         slot, metroMin: d.metroMin || 0, carMin: d.carMin || 0,
         metroUsed: d.metroUsed || 'N/A',
         metroRawDetails: d.metroRawDetails || '',
@@ -103,28 +92,30 @@ console.log(`  - Clean Operational: ${cleanOperational.length}`);
 console.log(`  - Walking Fallbacks: ${walkingAnomalies.length}`);
 console.log(`  - Missing Metro:     ${missingAnomalies.length}`);
 
-// ─── 3. Export CSV Files (Metro vs. Car) ────────────────────────────────────
-const cleanCsvHeader = 'Date,Day,RouteId,Line,From,To,IsMaster,Slot,MetroMin,CarMin,CarMetroRatio,Winner,TimeSavedVsCar\n';
+// ─── 3. Export CSV Files (Metro vs. Car with Exact Route Distances) ──────────
+const cleanCsvHeader = 'Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,MetroSpeedKmh,CarSpeedKmh,CarMetroRatio,Winner,TimeSavedVsCar\n';
 const cleanCsvRows = cleanOperational.map(r => {
   const winner = r.metroMin < r.carMin ? 'Metro' : r.carMin < r.metroMin ? 'Car' : 'Tie';
   const carRatio = (r.carMin / r.metroMin).toFixed(2);
   const saved = r.carMin - r.metroMin;
-  return `${r.date},${r.day},${r.routeId},${r.line},"${r.from}","${r.to}",${r.isMaster},${r.slot},${r.metroMin},${r.carMin},${carRatio},${winner},${saved}`;
+  const metroSpeed = r.metroMin > 0 ? (r.metroKm / (r.metroMin / 60)).toFixed(1) : '0.0';
+  const carSpeed = r.carMin > 0 ? (r.carKm / (r.carMin / 60)).toFixed(1) : '0.0';
+  return `${r.date},${r.day},${r.routeId},${r.line},"${r.from}","${r.to}",${r.isMaster},${r.metroKm},${r.carKm},${r.slot},${r.metroMin},${r.carMin},${metroSpeed},${carSpeed},${carRatio},${winner},${saved}`;
 }).join('\n');
 fs.writeFileSync(path.join(summaryDir, 'clean_dataset.csv'), cleanCsvHeader + cleanCsvRows);
 console.log(`✓ Exported clean_dataset.csv (${cleanOperational.length} rows)`);
 
-const rawCsvHeader = 'Date,Day,RouteId,Line,From,To,IsMaster,Slot,MetroMin,CarMin,IsWalkingFallback,IsMissingMetro,DataTier\n';
+const rawCsvHeader = 'Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,IsWalkingFallback,IsMissingMetro,DataTier\n';
 const rawCsvRows = rawRecords.map(r => {
   const tier = r.isWalkingFallback ? 'WalkingFallback' : r.isMissingMetro ? 'MissingMetro' : 'CleanOperational';
-  return `${r.date},${r.day},${r.routeId},${r.line},"${r.from}","${r.to}",${r.isMaster},${r.slot},${r.metroMin},${r.carMin},${r.isWalkingFallback},${r.isMissingMetro},${tier}`;
+  return `${r.date},${r.day},${r.routeId},${r.line},"${r.from}","${r.to}",${r.isMaster},${r.metroKm},${r.carKm},${r.slot},${r.metroMin},${r.carMin},${r.isWalkingFallback},${r.isMissingMetro},${tier}`;
 }).join('\n');
 fs.writeFileSync(path.join(summaryDir, 'all_raw_dataset.csv'), rawCsvHeader + rawCsvRows);
 console.log(`✓ Exported all_raw_dataset.csv (${rawRecords.length} rows)`);
 
-const walkCsvHeader = 'Date,Day,RouteId,Line,From,To,Slot,WalkingFallbackMin,CarMin,ScrapedDetails,HasScreenshot,ScreenshotPath\n';
+const walkCsvHeader = 'Date,Day,RouteId,Line,From,To,MetroKm,CarKm,Slot,WalkingFallbackMin,CarMin,ScrapedDetails,HasScreenshot,ScreenshotPath\n';
 const walkCsvRows = walkingAnomalies.map(r => {
-  return `${r.date},${r.day},${r.routeId},${r.line},"${r.from}","${r.to}",${r.slot},${r.metroMin},${r.carMin},"${r.metroRawDetails.replace(/"/g, '""')}",${r.hasScreenshot},"${r.metroSsPath}"`;
+  return `${r.date},${r.day},${r.routeId},${r.line},"${r.from}","${r.to}",${r.metroKm},${r.carKm},${r.slot},${r.metroMin},${r.carMin},"${r.metroRawDetails.replace(/"/g, '""')}",${r.hasScreenshot},"${r.metroSsPath}"`;
 }).join('\n');
 fs.writeFileSync(path.join(anomalyDir, 'walking_fallback_audit.csv'), walkCsvHeader + walkCsvRows);
 console.log(`✓ Exported walking_fallback_audit.csv (${walkingAnomalies.length} rows)`);
@@ -143,6 +134,9 @@ const metroAvg = avg(cleanOperational.map(r => r.metroMin));
 const carAvg = avg(cleanOperational.map(r => r.carMin));
 const metroSD = std(cleanOperational.map(r => r.metroMin));
 const carSD = std(cleanOperational.map(r => r.carMin));
+
+const metroSpeedAvg = avg(cleanOperational.map(r => r.metroKm / (r.metroMin / 60)));
+const carSpeedAvg = avg(cleanOperational.map(r => r.carKm / (r.carMin / 60)));
 
 let mWins = 0, cWins = 0, ties = 0;
 cleanOperational.forEach(r => {
@@ -163,11 +157,16 @@ lines.forEach(l => {
   const items = cleanOperational.filter(r => r.line === l);
   if (!items.length) return;
   const mw = items.filter(r => r.metroMin < r.carMin).length;
-  const corridors = [...new Set(items.map(r => r.routeId))];
+  const corridors = segments.filter(s => s.line === l);
   lineStats[l] = {
-    n: items.length, corridors: corridors.length,
+    n: items.length,
+    corridors: corridors.length,
+    avgMetroKm: avg(corridors.map(s => s.metro_km)),
+    avgCarKm: avg(corridors.map(s => s.car_km)),
     metroAvg: avg(items.map(r => r.metroMin)),
     carAvg: avg(items.map(r => r.carMin)),
+    metroSpeed: avg(items.map(r => r.metroKm / (r.metroMin / 60))),
+    carSpeed: avg(items.map(r => r.carKm / (r.carMin / 60))),
     metroWinRate: (mw / items.length) * 100,
     timeSaved: avg(items.map(r => r.carMin)) - avg(items.map(r => r.metroMin))
   };
@@ -183,6 +182,8 @@ slots.forEach(slot => {
     n: items.length,
     metroAvg: avg(items.map(r => r.metroMin)),
     carAvg: avg(items.map(r => r.carMin)),
+    metroSpeed: avg(items.map(r => r.metroKm / (r.metroMin / 60))),
+    carSpeed: avg(items.map(r => r.carKm / (r.carMin / 60))),
     metroWinRate: (mw / items.length) * 100
   };
 });
@@ -193,36 +194,45 @@ segments.forEach(s => {
   const items = cleanOperational.filter(r => r.routeId === s.id);
   if (!items.length) return;
   const mw = items.filter(r => r.metroMin < r.carMin).length;
-  const d = distances[s.id] || 0;
+  const mAvg = avg(items.map(r => r.metroMin));
+  const cAvg = avg(items.map(r => r.carMin));
   corridorStats[s.id] = {
     id: s.id, line: s.line, from: s.from, to: s.to, isMaster: s.is_master,
-    n: items.length, dist: d,
-    metroAvg: avg(items.map(r => r.metroMin)),
-    carAvg: avg(items.map(r => r.carMin)),
+    n: items.length,
+    metroKm: s.metro_km,
+    carKm: s.car_km,
+    metroAvg: mAvg,
+    carAvg: cAvg,
+    metroSpeed: s.metro_km / (mAvg / 60),
+    carSpeed: s.car_km / (cAvg / 60),
     metroSD: std(items.map(r => r.metroMin)),
     carSD: std(items.map(r => r.carMin)),
     metroMin: Math.min(...items.map(r => r.metroMin)),
     metroMax: Math.max(...items.map(r => r.metroMin)),
     carMin: Math.min(...items.map(r => r.carMin)),
     carMax: Math.max(...items.map(r => r.carMin)),
-    timeSaved: avg(items.map(r => r.carMin)) - avg(items.map(r => r.metroMin)),
-    ratio: avg(items.map(r => r.carMin)) / avg(items.map(r => r.metroMin)),
+    timeSaved: cAvg - mAvg,
+    ratio: cAvg / mAvg,
     metroWinRate: (mw / items.length) * 100,
     slots: {}
   };
   slots.forEach(slot => {
     const slotItems = items.filter(r => r.slot === slot);
     if (!slotItems.length) return;
+    const smAvg = avg(slotItems.map(r => r.metroMin));
+    const scAvg = avg(slotItems.map(r => r.carMin));
     corridorStats[s.id].slots[slot] = {
       n: slotItems.length,
-      metroAvg: avg(slotItems.map(r => r.metroMin)),
-      carAvg: avg(slotItems.map(r => r.carMin)),
-      winner: avg(slotItems.map(r => r.metroMin)) <= avg(slotItems.map(r => r.carMin)) ? '🚇 Metro' : '🚗 Car'
+      metroAvg: smAvg,
+      carAvg: scAvg,
+      metroSpeed: s.metro_km / (smAvg / 60),
+      carSpeed: s.car_km / (scAvg / 60),
+      winner: smAvg <= scAvg ? '🚇 Metro' : '🚗 Car'
     };
   });
 });
 
-// ─── 5. Generate 24 Corridor Reports (Metro vs. Car) ────────────────────────
+// ─── 5. Generate 24 Corridor Reports (Metro vs. Car with Exact Route Distances) ──
 segments.forEach(seg => {
   const c = corridorStats[seg.id];
   if (!c) return;
@@ -244,16 +254,17 @@ segments.forEach(seg => {
   const content = `# ${seg.id}: ${seg.from} → ${seg.to}
 
 **Line:** ${emoji} ${seg.line} | **Type:** ${seg.is_master ? '🔴 Macro (Full Line)' : '🔵 Micro (Segment)'}  
-**Distance:** ~${c.dist} km | **Clean Data Points:** ${c.n} | **Overall Winner:** ${winner}
+**Metro Route Distance:** ${c.metroKm.toFixed(1)} km | **Car Route Distance:** ${c.carKm.toFixed(1)} km  
+**Clean Data Points:** ${c.n} | **Overall Winner:** ${winner}
 
 ---
 
 ## Summary Statistics (Metro vs. Car)
 
-| Mode | Average | Min | Max | Std Dev | Median |
-|:-----|:-------:|:---:|:---:|:-------:|:------:|
-| 🚇 **Metro** | **${c.metroAvg.toFixed(1)} min** | ${c.metroMin} | ${c.metroMax} | ${c.metroSD.toFixed(1)} | ${median(items.map(r=>r.metroMin)).toFixed(0)} |
-| 🚗 **Car** | **${c.carAvg.toFixed(1)} min** | ${c.carMin} | ${c.carMax} | ${c.carSD.toFixed(1)} | ${median(items.map(r=>r.carMin)).toFixed(0)} |
+| Mode | Route Distance | Average Time | Avg Speed | Min | Max | Std Dev | Median |
+|:-----|:--------------:|:------------:|:---------:|:---:|:---:|:-------:|:------:|
+| 🚇 **Metro** | **${c.metroKm.toFixed(1)} km** | **${c.metroAvg.toFixed(1)} min** | **${c.metroSpeed.toFixed(1)} km/h** | ${c.metroMin} | ${c.metroMax} | ${c.metroSD.toFixed(1)} | ${median(items.map(r=>r.metroMin)).toFixed(0)} |
+| 🚗 **Car** | **${c.carKm.toFixed(1)} km** | **${c.carAvg.toFixed(1)} min** | **${c.carSpeed.toFixed(1)} km/h** | ${c.carMin} | ${c.carMax} | ${c.carSD.toFixed(1)} | ${median(items.map(r=>r.carMin)).toFixed(0)} |
 
 **Metro vs Car:** Metro saves **+${c.timeSaved.toFixed(1)} min** per trip (${c.ratio.toFixed(2)}x faster)  
 **Metro Win Rate:** **${c.metroWinRate.toFixed(1)}%** (${items.filter(r => r.metroMin < r.carMin).length}/${c.n} trips)
@@ -262,25 +273,88 @@ segments.forEach(seg => {
 
 ## Time-of-Day Breakdown
 
-| Slot | Metro | Car | Fastest | Gap (Car - Metro) |
-|:-----|:-----:|:---:|:-------:|:-----------------:|
+| Slot | Metro (${c.metroKm.toFixed(1)} km) | Metro Speed | Car (${c.carKm.toFixed(1)} km) | Car Speed | Fastest | Gap (Car - Metro) |
+|:-----|:-----:|:-----------:|:---:|:---------:|:-------:|:-----------------:|
 ${slots.map(slot => {
   const s = c.slots[slot];
-  if (!s) return `| ${slot} | — | — | No data | — |`;
+  if (!s) return `| ${slot} | — | — | — | — | No data | — |`;
   const gap = s.carAvg - s.metroAvg;
-  return `| **${slot}** | **${s.metroAvg.toFixed(1)}** | ${s.carAvg.toFixed(1)} | ${s.winner} | ${gap >= 0 ? '+' : ''}${gap.toFixed(1)} min |`;
+  return `| **${slot}** | **${s.metroAvg.toFixed(1)} min** | ${s.metroSpeed.toFixed(1)} km/h | ${s.carAvg.toFixed(1)} min | ${s.carSpeed.toFixed(1)} km/h | ${s.winner} | ${gap >= 0 ? '+' : ''}${gap.toFixed(1)} min |`;
 }).join('\n')}
 
 ## Day-of-Week Performance
 
-| Day | N | Metro | Car |
+| Day | N | Metro (${c.metroKm.toFixed(1)} km) | Car (${c.carKm.toFixed(1)} km) |
 |:----|:---:|:-----:|:---:|
 ${dayOrder.map(day => {
   const d = dayStats[day];
   if (!d) return `| ${day} | 0 | — | — |`;
-  return `| **${day}** | ${d.n} | ${d.metro.toFixed(1)} | ${d.car.toFixed(1)} |`;
+  return `| **${day}** | ${d.n} | ${d.metro.toFixed(1)} min | ${d.car.toFixed(1)} min |`;
 }).join('\n')}
 `;
   fs.writeFileSync(path.join(corridorDir, `${seg.id}_report.md`), content);
 });
-console.log('✓ Regenerated all 24 corridor reports (Metro vs. Car)');
+console.log('✓ Regenerated all 24 corridor reports (Metro vs. Car with exact route distances)');
+
+// ─── 6. Generate Master Analysis Report & Executive Conclusion ──────────────
+const sortedByAdvantage = Object.values(corridorStats).sort((a, b) => b.timeSaved - a.timeSaved);
+
+const masterReportContent = `# 📊 KOLKATA METRO vs CAR — MASTER ANALYSIS REPORT (24 VERIFIED CORRIDORS)
+
+**Analysis Period:** August 30, 2026 to September 22, 2026  
+**Total Raw Queries:** ${rawRecords.length} | **Clean Operational:** ${N} | **Walking Fallbacks Excluded:** ${walkingAnomalies.length} | **Missing Metro:** ${missingAnomalies.length}  
+**Active Corridors:** 24 across 4 Operational Metro Lines (Blue, Green, Orange, Purple)  
+**Time Slots:** 12:00 AM (Night Base) | 10:00 AM (Morning Peak) | 1:00 PM (Midday) | 7:00 PM (Evening Peak)
+
+---
+
+## 1. 🏆 Overall Mode Competitiveness (Metro vs. Car: N = ${N})
+
+| Metric | Metro 🚇 | Car 🚗 | Tie 🤝 |
+|:-------|:--------:|:------:|:------:|
+| **Outright Wins** | **${mWins}** | ${cWins} | ${ties} |
+| **Win Rate** | **${((mWins / N) * 100).toFixed(1)}%** | ${((cWins / N) * 100).toFixed(1)}% | ${((ties / N) * 100).toFixed(1)}% |
+| **Avg Time (min)** | **${metroAvg.toFixed(1)} min** | ${carAvg.toFixed(1)} min | — |
+| **Std Dev (min)** | ±${metroSD.toFixed(1)} | ±${carSD.toFixed(1)} | — |
+| **Avg Operating Speed** | **${metroSpeedAvg.toFixed(1)} km/h** | ${carSpeedAvg.toFixed(1)} km/h | — |
+
+- **Average Time Saved by Metro vs Car:** **+${meanDiff.toFixed(1)} min per trip** (${(carAvg / metroAvg).toFixed(2)}× faster)
+- **Paired t-test (Car − Metro):** $t = ${tStat.toFixed(2)},\\; p < 0.0001,\\; \\text{Cohen's } d = ${cohenD.toFixed(2)}$
+
+---
+
+## 2. 🚇 Line-by-Line Performance & Route Distances
+
+| Line | Corridors | N | Avg Metro Dist | Avg Car Dist | Metro Avg | Car Avg | Metro Speed | Car Speed | Time Saved vs Car | Metro Win Rate |
+|:-----|:---------:|:---:|:--------------:|:------------:|:---------:|:-------:|:-----------:|:---------:|:-----------------:|:--------------:|
+${lines.map(l => {
+  const s = lineStats[l];
+  return `| **${l}** | ${s.corridors} | ${s.n} | ${s.avgMetroKm.toFixed(1)} km | ${s.avgCarKm.toFixed(1)} km | **${s.metroAvg.toFixed(1)} min** | ${s.carAvg.toFixed(1)} min | **${s.metroSpeed.toFixed(1)} km/h** | ${s.carSpeed.toFixed(1)} km/h | **+${s.timeSaved.toFixed(1)} min** | **${s.metroWinRate.toFixed(1)}%** |`;
+}).join('\n')}
+
+---
+
+## 3. ⏰ Time-of-Day Impact
+
+| Time Slot | N | Metro Avg | Car Avg | Metro Speed | Car Speed | Metro Win% |
+|:----------|:---:|:---------:|:-------:|:-----------:|:---------:|:----------:|
+${slots.map(slot => {
+  const s = slotStats[slot];
+  return `| **${slot}** | ${s.n} | **${s.metroAvg.toFixed(1)} min** | ${s.carAvg.toFixed(1)} min | **${s.metroSpeed.toFixed(1)} km/h** | ${s.carSpeed.toFixed(1)} km/h | **${s.metroWinRate.toFixed(1)}%** |`;
+}).join('\n')}
+
+---
+
+## 4. 🛣️ Complete 24-Corridor Distance & Performance Table
+
+| ID | Line | Corridor (\`From → To\`) | Metro Dist | Car Dist | Metro Avg | Car Avg | Metro Speed | Car Speed | Saved vs Car | Ratio | Win% |
+|:---|:----:|:-----------------------|:----------:|:--------:|:---------:|:-------:|:-----------:|:---------:|:------------:|:-----:|:----:|
+${segments.map(seg => {
+  const c = corridorStats[seg.id];
+  return `| **${c.id}** | ${c.line} | ${c.from} → ${c.to} | **${c.metroKm.toFixed(1)} km** | **${c.carKm.toFixed(1)} km** | **${c.metroAvg.toFixed(1)} min** | ${c.carAvg.toFixed(1)} min | ${c.metroSpeed.toFixed(1)} km/h | ${c.carSpeed.toFixed(1)} km/h | ${c.timeSaved >= 0 ? '+' : ''}${c.timeSaved.toFixed(1)} min | ${c.ratio.toFixed(2)}x | ${c.metroWinRate.toFixed(1)}% |`;
+}).join('\n')}
+`;
+
+fs.writeFileSync(path.join(summaryDir, 'master_analysis_report.md'), masterReportContent);
+fs.writeFileSync(path.join(conclusionDir, 'EXECUTIVE_CONCLUSION.md'), masterReportContent);
+console.log('✓ Updated master_analysis_report.md and EXECUTIVE_CONCLUSION.md with exact Metro and Car route distances');

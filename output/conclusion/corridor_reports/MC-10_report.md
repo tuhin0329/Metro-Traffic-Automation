@@ -1,39 +1,40 @@
 # MC-10: Howrah → Salt Lake Sector V
 
 **Line:** 🟢 Green | **Type:** 🔴 Macro (Full Line)  
-**Distance:** ~11.7 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Metro Route Distance:** 14.2 km | **Car Route Distance:** 12.4 km  
+**Clean Data Points:** 107 | **Overall Winner:** 🚇 Metro
 
 ---
 
 ## Summary Statistics (Metro vs. Car)
 
-| Mode | Average | Min | Max | Std Dev | Median |
-|:-----|:-------:|:---:|:---:|:-------:|:------:|
-| 🚇 **Metro** | **30.0 min** | 30 | 30 | 0.0 | 30 |
-| 🚗 **Car** | **44.3 min** | 26 | 65 | 11.7 | 46 |
+| Mode | Route Distance | Average Time | Avg Speed | Min | Max | Std Dev | Median |
+|:-----|:--------------:|:------------:|:---------:|:---:|:---:|:-------:|:------:|
+| 🚇 **Metro** | **14.2 km** | **30.0 min** | **28.4 km/h** | 30 | 30 | 0.0 | 30 |
+| 🚗 **Car** | **12.4 km** | **44.3 min** | **16.8 km/h** | 26 | 67 | 11.6 | 46 |
 
 **Metro vs Car:** Metro saves **+14.3 min** per trip (1.48x faster)  
-**Metro Win Rate:** **73.9%** (68/92 trips)
+**Metro Win Rate:** **74.8%** (80/107 trips)
 
 ---
 
 ## Time-of-Day Breakdown
 
-| Slot | Metro | Car | Fastest | Gap (Car - Metro) |
-|:-----|:-----:|:---:|:-------:|:-----------------:|
-| **12:00 AM** | **30.0** | 29.0 | 🚗 Car | -1.0 min |
-| **10:00 AM** | **30.0** | 45.9 | 🚇 Metro | +15.9 min |
-| **1:00 PM** | **30.0** | 47.9 | 🚇 Metro | +17.9 min |
-| **7:00 PM** | **30.0** | 54.7 | 🚇 Metro | +24.7 min |
+| Slot | Metro (14.2 km) | Metro Speed | Car (12.4 km) | Car Speed | Fastest | Gap (Car - Metro) |
+|:-----|:-----:|:-----------:|:---:|:---------:|:-------:|:-----------------:|
+| **12:00 AM** | **30.0 min** | 28.4 km/h | 29.1 min | 25.5 km/h | 🚗 Car | -0.9 min |
+| **10:00 AM** | **30.0 min** | 28.4 km/h | 45.8 min | 16.2 km/h | 🚇 Metro | +15.8 min |
+| **1:00 PM** | **30.0 min** | 28.4 km/h | 47.6 min | 15.6 km/h | 🚇 Metro | +17.6 min |
+| **7:00 PM** | **30.0 min** | 28.4 km/h | 55.3 min | 13.4 km/h | 🚇 Metro | +25.3 min |
 
 ## Day-of-Week Performance
 
-| Day | N | Metro | Car |
+| Day | N | Metro (14.2 km) | Car (12.4 km) |
 |:----|:---:|:-----:|:---:|
-| **Mon** | 15 | 30.0 | 45.8 |
-| **Tue** | 16 | 30.0 | 45.9 |
-| **Wed** | 12 | 30.0 | 48.1 |
-| **Thu** | 12 | 30.0 | 46.8 |
-| **Fri** | 12 | 30.0 | 43.4 |
-| **Sat** | 12 | 30.0 | 42.8 |
-| **Sun** | 13 | 30.0 | 36.7 |
+| **Mon** | 15 | 30.0 min | 45.8 min |
+| **Tue** | 16 | 30.0 min | 45.9 min |
+| **Wed** | 12 | 30.0 min | 48.1 min |
+| **Thu** | 16 | 30.0 min | 47.1 min |
+| **Fri** | 16 | 30.0 min | 44.8 min |
+| **Sat** | 16 | 30.0 min | 42.8 min |
+| **Sun** | 16 | 30.0 min | 36.6 min |

@@ -1,39 +1,40 @@
 # MC-09: Dum Dum → Esplanade
 
 **Line:** 🔵 Blue | **Type:** 🔵 Micro (Segment)  
-**Distance:** ~10.1 km | **Clean Data Points:** 92 | **Overall Winner:** 🚇 Metro
+**Metro Route Distance:** 8.8 km | **Car Route Distance:** 8.8 km  
+**Clean Data Points:** 107 | **Overall Winner:** 🚇 Metro
 
 ---
 
 ## Summary Statistics (Metro vs. Car)
 
-| Mode | Average | Min | Max | Std Dev | Median |
-|:-----|:-------:|:---:|:---:|:-------:|:------:|
-| 🚇 **Metro** | **16.0 min** | 16 | 16 | 0.0 | 16 |
-| 🚗 **Car** | **36.4 min** | 22 | 53 | 8.5 | 37 |
+| Mode | Route Distance | Average Time | Avg Speed | Min | Max | Std Dev | Median |
+|:-----|:--------------:|:------------:|:---------:|:---:|:---:|:-------:|:------:|
+| 🚇 **Metro** | **8.8 km** | **16.0 min** | **33.0 km/h** | 16 | 16 | 0.0 | 16 |
+| 🚗 **Car** | **8.8 km** | **36.4 min** | **14.5 km/h** | 22 | 53 | 8.6 | 37 |
 
-**Metro vs Car:** Metro saves **+20.4 min** per trip (2.27x faster)  
-**Metro Win Rate:** **100.0%** (92/92 trips)
+**Metro vs Car:** Metro saves **+20.4 min** per trip (2.28x faster)  
+**Metro Win Rate:** **100.0%** (107/107 trips)
 
 ---
 
 ## Time-of-Day Breakdown
 
-| Slot | Metro | Car | Fastest | Gap (Car - Metro) |
-|:-----|:-----:|:---:|:-------:|:-----------------:|
-| **12:00 AM** | **16.0** | 25.8 | 🚇 Metro | +9.8 min |
-| **10:00 AM** | **16.0** | 35.3 | 🚇 Metro | +19.3 min |
-| **1:00 PM** | **16.0** | 42.2 | 🚇 Metro | +26.2 min |
-| **7:00 PM** | **16.0** | 42.7 | 🚇 Metro | +26.7 min |
+| Slot | Metro (8.8 km) | Metro Speed | Car (8.8 km) | Car Speed | Fastest | Gap (Car - Metro) |
+|:-----|:-----:|:-----------:|:---:|:---------:|:-------:|:-----------------:|
+| **12:00 AM** | **16.0 min** | 33.0 km/h | 25.7 min | 20.6 km/h | 🚇 Metro | +9.7 min |
+| **10:00 AM** | **16.0 min** | 33.0 km/h | 35.2 min | 15.0 km/h | 🚇 Metro | +19.2 min |
+| **1:00 PM** | **16.0 min** | 33.0 km/h | 42.1 min | 12.5 km/h | 🚇 Metro | +26.1 min |
+| **7:00 PM** | **16.0 min** | 33.0 km/h | 43.3 min | 12.2 km/h | 🚇 Metro | +27.3 min |
 
 ## Day-of-Week Performance
 
-| Day | N | Metro | Car |
+| Day | N | Metro (8.8 km) | Car (8.8 km) |
 |:----|:---:|:-----:|:---:|
-| **Mon** | 15 | 16.0 | 37.5 |
-| **Tue** | 16 | 16.0 | 36.1 |
-| **Wed** | 12 | 16.0 | 39.6 |
-| **Thu** | 12 | 16.0 | 38.2 |
-| **Fri** | 12 | 16.0 | 35.2 |
-| **Sat** | 12 | 16.0 | 37.9 |
-| **Sun** | 13 | 16.0 | 30.5 |
+| **Mon** | 15 | 16.0 min | 37.5 min |
+| **Tue** | 16 | 16.0 min | 36.1 min |
+| **Wed** | 12 | 16.0 min | 39.6 min |
+| **Thu** | 16 | 16.0 min | 38.6 min |
+| **Fri** | 16 | 16.0 min | 36.1 min |
+| **Sat** | 16 | 16.0 min | 37.8 min |
+| **Sun** | 16 | 16.0 min | 30.1 min |

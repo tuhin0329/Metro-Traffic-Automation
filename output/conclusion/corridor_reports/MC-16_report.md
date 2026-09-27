@@ -1,39 +1,40 @@
 # MC-16: Kavi Subhash → Beleghata
 
 **Line:** 🟠 Orange | **Type:** 🔴 Macro (Full Line)  
-**Distance:** ~11.5 km | **Clean Data Points:** 66 | **Overall Winner:** 🚇 Metro
+**Metro Route Distance:** 9.8 km | **Car Route Distance:** 9.8 km  
+**Clean Data Points:** 75 | **Overall Winner:** 🚇 Metro
 
 ---
 
 ## Summary Statistics (Metro vs. Car)
 
-| Mode | Average | Min | Max | Std Dev | Median |
-|:-----|:-------:|:---:|:---:|:-------:|:------:|
-| 🚇 **Metro** | **25.9 min** | 23 | 28 | 2.5 | 28 |
-| 🚗 **Car** | **25.9 min** | 17 | 42 | 5.9 | 25 |
+| Mode | Route Distance | Average Time | Avg Speed | Min | Max | Std Dev | Median |
+|:-----|:--------------:|:------------:|:---------:|:---:|:---:|:-------:|:------:|
+| 🚇 **Metro** | **9.8 km** | **25.9 min** | **22.7 km/h** | 23 | 28 | 2.5 | 28 |
+| 🚗 **Car** | **9.8 km** | **26.2 min** | **22.5 km/h** | 17 | 42 | 6.1 | 25 |
 
-**Metro vs Car:** Metro saves **+0.0 min** per trip (1.00x faster)  
-**Metro Win Rate:** **42.4%** (28/66 trips)
+**Metro vs Car:** Metro saves **+0.2 min** per trip (1.01x faster)  
+**Metro Win Rate:** **44.0%** (33/75 trips)
 
 ---
 
 ## Time-of-Day Breakdown
 
-| Slot | Metro | Car | Fastest | Gap (Car - Metro) |
-|:-----|:-----:|:---:|:-------:|:-----------------:|
-| **12:00 AM** | **24.6** | 19.1 | 🚗 Car | -5.5 min |
-| **10:00 AM** | **23.0** | 27.9 | 🚇 Metro | +4.9 min |
-| **1:00 PM** | **28.0** | 24.8 | 🚗 Car | -3.3 min |
-| **7:00 PM** | **28.0** | 31.5 | 🚇 Metro | +3.5 min |
+| Slot | Metro (9.8 km) | Metro Speed | Car (9.8 km) | Car Speed | Fastest | Gap (Car - Metro) |
+|:-----|:-----:|:-----------:|:---:|:---------:|:-------:|:-----------------:|
+| **12:00 AM** | **24.8 min** | 23.7 km/h | 19.2 min | 30.6 km/h | 🚗 Car | -5.6 min |
+| **10:00 AM** | **23.0 min** | 25.6 km/h | 28.8 min | 20.4 km/h | 🚇 Metro | +5.8 min |
+| **1:00 PM** | **28.0 min** | 21.0 km/h | 25.0 min | 23.5 km/h | 🚗 Car | -3.0 min |
+| **7:00 PM** | **28.0 min** | 21.0 km/h | 31.8 min | 18.5 km/h | 🚇 Metro | +3.8 min |
 
 ## Day-of-Week Performance
 
-| Day | N | Metro | Car |
+| Day | N | Metro (9.8 km) | Car (9.8 km) |
 |:----|:---:|:-----:|:---:|
-| **Mon** | 11 | 26.2 | 30.1 |
-| **Tue** | 16 | 26.1 | 25.8 |
-| **Wed** | 12 | 25.9 | 25.4 |
-| **Thu** | 12 | 25.9 | 25.7 |
-| **Fri** | 12 | 25.9 | 24.4 |
-| **Sat** | 3 | 23.0 | 19.7 |
+| **Mon** | 11 | 26.2 min | 30.1 min |
+| **Tue** | 16 | 26.1 min | 25.8 min |
+| **Wed** | 12 | 25.9 min | 25.4 min |
+| **Thu** | 16 | 25.8 min | 26.4 min |
+| **Fri** | 16 | 26.1 min | 25.8 min |
+| **Sat** | 4 | 24.3 min | 19.8 min |
 | Sun | 0 | — | — |

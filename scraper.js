@@ -269,9 +269,28 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
             let rawTripText = rawText.replace(/\n+/g, ' | ').trim();
             const isDirectSingleLeg = (expected === 'bus' && (busBadgesCount <= 1 && busIconsCount <= 1));
 
+            let distanceKm = null;
+            let distanceText = "N/A";
+            const tripKmMatch = rawText.match(/(\d+(?:\.\d+)?)\s*km/i);
+            if (tripKmMatch) {
+              distanceKm = parseFloat(tripKmMatch[1]);
+              distanceText = `${distanceKm} km`;
+            } else {
+              try {
+                const stateStr = JSON.stringify(window.APP_INITIALIZATION_STATE || []);
+                const stateKmMatch = stateStr.match(/(\d+),\s*\\+"(\d+(?:\.\d+)?)\s*km\\+"/i);
+                if (stateKmMatch) {
+                  distanceKm = parseFloat(stateKmMatch[2]);
+                  distanceText = `${distanceKm} km`;
+                }
+              } catch (e) {}
+            }
+
             candidateTrips.push({
                tripIndex: index,
                durationText: candidates[0],
+               distanceKm: distanceKm,
+               distanceText: distanceText,
                actualBus: actualBus,
                actualMetro: actualMetro,
                walkTime: walkTime,

@@ -188,6 +188,7 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
           const metroData = {
             timeRaw: metroResult.success ? metroResult.durationText : "N/A",
             timeMin: metroResult.success ? metroResult.minutes : null,
+            distanceKm: (metroResult.success && metroResult.distanceKm) ? metroResult.distanceKm : route.metro_km,
             actualMetro: metroResult.success ? metroResult.actualMetro : "N/A",
             walkTime: metroResult.success ? metroResult.walkTime : "N/A",
             fullRoute: metroResult.success ? metroResult.fullRoute : "N/A",
@@ -195,20 +196,22 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
             url: metroResult.url || "",
             screenshotPath: metroResult.success && fs.existsSync(metroSsPath) ? metroSsPath : null
           };
-          console.log(`      🚇 Metro: ${metroData.timeRaw} | Metro Used: ${metroData.actualMetro} | Walk: ${metroData.walkTime} ${metroResult.success ? "" : "(Failed)"}`);
+          console.log(`      🚇 Metro: ${metroData.timeRaw} (${metroData.distanceKm} km) | Metro Used: ${metroData.actualMetro} | Walk: ${metroData.walkTime} ${metroResult.success ? "" : "(Failed)"}`);
 
           const carData = {
             timeRaw: carResult.success ? carResult.durationText : "N/A",
             timeMin: carResult.success ? carResult.minutes : null,
+            distanceKm: (carResult.success && carResult.distanceKm) ? carResult.distanceKm : route.car_km,
             rawDetails: carResult.success ? carResult.rawDetails : "N/A",
             url: carResult.url || "",
             screenshotPath: carResult.success && fs.existsSync(carSsPath) ? carSsPath : null
           };
-          console.log(`      🚗 Car: ${carData.timeRaw} ${carResult.success ? "" : "(Failed)"}`);
+          console.log(`      🚗 Car: ${carData.timeRaw} (${carData.distanceKm} km) ${carResult.success ? "" : "(Failed)"}`);
 
           const scrapedAtStr = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
           resultsByRoute[route.id][targetTime] = {
             scrapedAt: scrapedAtStr,
+            metroKm: metroData.distanceKm,
             metroTimeRaw: metroData.timeRaw,
             metroMin: metroData.timeMin,
             metroUsed: metroData.actualMetro,
@@ -217,6 +220,7 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
             metroRawDetails: metroData.rawDetails,
             metroUrl: metroData.url,
             metroSsPath: metroData.screenshotPath,
+            carKm: carData.distanceKm,
             carTimeRaw: carData.timeRaw,
             carMin: carData.timeMin,
             carRawDetails: carData.rawDetails,
@@ -271,6 +275,7 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
 
     const headers = [
       "Date", "Day of Week", "Scraped At", "Corridor ID", "Metro Line", "Macro/Micro", "From", "To",
+      "Metro Distance (km)", "Car Distance (km)",
       "Time Slot", "Peak Classification",
       "Actual Metro Taken", "Metro Walk (min)", "Metro Time (min)", "Metro Route Details", "Metro Raw Details",
       "Car Time (min)", "Car Raw Details",
@@ -313,6 +318,8 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
         route.is_master ? "Macro (Full)" : "Micro (Segment)",
         route.from,
         route.to,
+        sData.metroKm || route.metro_km || "",
+        sData.carKm || route.car_km || "",
         slot,
         getPeakClassification(slot),
         sData.metroUsed || "N/A",
@@ -334,7 +341,7 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
       const addedRow = sheet.addRow(rowData);
 
       addedRow.eachCell((cell, colNumber) => {
-        if (colNumber === 18 || colNumber === 20) {
+        if (colNumber === 20 || colNumber === 22) {
           const val = String(cell.value || "");
           if (val.includes("Metro Faster") || val === "Metro") {
             cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFC6E0B4" } };
@@ -364,7 +371,7 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
   }
   const allSlots = Array.from(allSlotsSet);
 
-  const sumHeaders = ["Corridor ID", "Metro Line", "From", "To"];
+  const sumHeaders = ["Corridor ID", "Metro Line", "From", "To", "Metro Distance (km)", "Car Distance (km)"];
   allSlots.forEach(slot => {
     sumHeaders.push(
       `${slot} Scraped At`,
@@ -388,7 +395,9 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
       route.id,
       route.line,
       route.from,
-      route.to
+      route.to,
+      route.metro_km || "",
+      route.car_km || ""
     ];
     allSlots.forEach(slot => {
       const sData = rRes[slot] || {};

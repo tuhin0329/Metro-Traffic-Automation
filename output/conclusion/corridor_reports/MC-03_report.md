@@ -1,39 +1,40 @@
 # MC-03: Shyambazar → Dum Dum
 
 **Line:** 🔵 Blue | **Type:** 🔵 Micro (Segment)  
-**Distance:** ~4.1 km | **Clean Data Points:** 66 | **Overall Winner:** 🚇 Metro
+**Metro Route Distance:** 3.8 km | **Car Route Distance:** 3.5 km  
+**Clean Data Points:** 77 | **Overall Winner:** 🚇 Metro
 
 ---
 
 ## Summary Statistics (Metro vs. Car)
 
-| Mode | Average | Min | Max | Std Dev | Median |
-|:-----|:-------:|:---:|:---:|:-------:|:------:|
-| 🚇 **Metro** | **7.7 min** | 7 | 15 | 1.7 | 7 |
-| 🚗 **Car** | **14.7 min** | 10 | 25 | 3.0 | 15 |
+| Mode | Route Distance | Average Time | Avg Speed | Min | Max | Std Dev | Median |
+|:-----|:--------------:|:------------:|:---------:|:---:|:---:|:-------:|:------:|
+| 🚇 **Metro** | **3.8 km** | **7.6 min** | **30.0 km/h** | 7 | 15 | 1.6 | 7 |
+| 🚗 **Car** | **3.5 km** | **14.6 min** | **14.4 km/h** | 10 | 25 | 3.0 | 15 |
 
-**Metro vs Car:** Metro saves **+7.1 min** per trip (1.92x faster)  
-**Metro Win Rate:** **97.0%** (64/66 trips)
+**Metro vs Car:** Metro saves **+7.0 min** per trip (1.92x faster)  
+**Metro Win Rate:** **97.4%** (75/77 trips)
 
 ---
 
 ## Time-of-Day Breakdown
 
-| Slot | Metro | Car | Fastest | Gap (Car - Metro) |
-|:-----|:-----:|:---:|:-------:|:-----------------:|
-| **12:00 AM** | **7.0** | 11.2 | 🚇 Metro | +4.2 min |
-| **10:00 AM** | **7.0** | 15.0 | 🚇 Metro | +8.0 min |
-| 1:00 PM | — | — | No data | — |
-| **7:00 PM** | **8.9** | 17.5 | 🚇 Metro | +8.6 min |
+| Slot | Metro (3.8 km) | Metro Speed | Car (3.5 km) | Car Speed | Fastest | Gap (Car - Metro) |
+|:-----|:-----:|:-----------:|:---:|:---------:|:-------:|:-----------------:|
+| **12:00 AM** | **7.0 min** | 32.6 km/h | 11.2 min | 18.7 km/h | 🚇 Metro | +4.2 min |
+| **10:00 AM** | **7.0 min** | 32.6 km/h | 14.9 min | 14.1 km/h | 🚇 Metro | +7.9 min |
+| 1:00 PM | — | — | — | — | No data | — |
+| **7:00 PM** | **8.8 min** | 25.9 km/h | 17.4 min | 12.1 km/h | 🚇 Metro | +8.6 min |
 
 ## Day-of-Week Performance
 
-| Day | N | Metro | Car |
+| Day | N | Metro (3.8 km) | Car (3.5 km) |
 |:----|:---:|:-----:|:---:|
-| **Mon** | 12 | 7.3 | 14.8 |
-| **Tue** | 12 | 7.3 | 13.8 |
-| **Wed** | 8 | 7.4 | 15.6 |
-| **Thu** | 8 | 7.4 | 16.9 |
-| **Fri** | 8 | 7.4 | 14.6 |
-| **Sat** | 9 | 7.3 | 14.6 |
-| **Sun** | 9 | 9.7 | 13.7 |
+| **Mon** | 12 | 7.3 min | 14.8 min |
+| **Tue** | 12 | 7.3 min | 13.8 min |
+| **Wed** | 8 | 7.4 min | 15.6 min |
+| **Thu** | 11 | 7.4 min | 16.2 min |
+| **Fri** | 11 | 7.4 min | 14.5 min |
+| **Sat** | 12 | 7.3 min | 14.4 min |
+| **Sun** | 11 | 9.2 min | 13.5 min |
