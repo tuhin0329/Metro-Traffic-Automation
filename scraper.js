@@ -292,22 +292,28 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
   }, expectedMode, allowedBuses);
 }
 
+function buildDirectionsUrl(origin, destination, mode = "driving", waypoints = []) {
+  if (mode === "bus") {
+    return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&travelmode=transit&transit_mode=bus`;
+  } else if (mode === "metro") {
+    return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&travelmode=transit&transit_mode=subway`;
+  } else {
+    const wpParam = Array.isArray(waypoints) && waypoints.length > 0
+      ? `&waypoints=${encodeURIComponent(waypoints.join('|'))}`
+      : '';
+    return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}${wpParam}&travelmode=driving`;
+  }
+}
+
 async function getTravelTime(
   browser,
   origin,
   destination,
   mode = "driving",
-  { retries = 2, keepPageOpen = false, onReady = null, allowedBuses = [], targetTime = null, screenshotPath = null } = {}
+  { retries = 2, keepPageOpen = false, onReady = null, allowedBuses = [], targetTime = null, screenshotPath = null, waypoints = [] } = {}
 ) {
-  // Determine URL based on mode
-  let url;
-  if (mode === "bus") {
-    url = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&travelmode=transit&transit_mode=bus`;
-  } else if (mode === "metro") {
-    url = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&travelmode=transit&transit_mode=subway`;
-  } else {
-    url = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&travelmode=driving`;
-  }
+  // Determine URL based on mode and full untrimmed coordinates + waypoints
+  const url = buildDirectionsUrl(origin, destination, mode, waypoints);
 
   for (let attempt = 1; attempt <= retries + 1; attempt++) {
     let page;
@@ -333,16 +339,16 @@ async function getTravelTime(
       await page.waitForSelector("body", { timeout: 10000 }).catch(() => {});
       await new Promise(r => setTimeout(r, 400));
       
-      // Select main travel mode explicitly from UI
+      // Select main travel mode explicitly from UI if not already active
       try {
          await page.evaluate((mode) => {
-            const btns = Array.from(document.querySelectorAll('button'));
+            const btns = Array.from(document.querySelectorAll('button, div[role="radio"]'));
             if (mode === 'driving') {
                const driveBtn = btns.find(b => (b.getAttribute('data-tooltip')||'').includes('Driving'));
-               if (driveBtn) driveBtn.click();
+               if (driveBtn && driveBtn.getAttribute('aria-checked') !== 'true') driveBtn.click();
             } else {
                const transitBtn = btns.find(b => (b.getAttribute('data-tooltip')||'').includes('Transit'));
-               if (transitBtn) transitBtn.click();
+               if (transitBtn && transitBtn.getAttribute('aria-checked') !== 'true') transitBtn.click();
             }
          }, mode);
          await new Promise(r => setTimeout(r, 400));
@@ -494,4 +500,4 @@ function parseDurationToMinutes(text) {
   return hrs * 60 + mins;
 }
 
-module.exports = { getTravelTime, randomDelay };
+module.exports = { getTravelTime, randomDelay, buildDirectionsUrl };

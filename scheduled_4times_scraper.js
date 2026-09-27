@@ -34,26 +34,16 @@ function loadSegments() {
   return JSON.parse(content);
 }
 
-function timeToMin(str) {
-  if (!str) return null;
-  let m = 0;
-  const hr = str.match(/(\d+)\s*(?:hr|hour|h)/i);
-  const mn = str.match(/(\d+)\s*(?:min|m)/i);
-  if (hr) m += parseInt(hr[1], 10) * 60;
-  if (mn) m += parseInt(mn[1], 10);
-  return m > 0 ? m : null;
+function calcRatio(carMin, metroMin) {
+  if (!carMin || !metroMin || metroMin <= 0) return "N/A";
+  return (carMin / metroMin).toFixed(2) + "x";
 }
 
-function calcRatio(busMin, metroMin) {
-  if (!busMin || !metroMin || metroMin <= 0) return "N/A";
-  return (busMin / metroMin).toFixed(2) + "x";
-}
-
-function calcDiff(busMin, metroMin) {
-  if (!busMin || !metroMin) return "N/A";
-  const diff = busMin - metroMin;
+function calcDiff(carMin, metroMin) {
+  if (!carMin || !metroMin) return "N/A";
+  const diff = carMin - metroMin;
   if (diff > 0) return `${diff} min (Metro Faster)`;
-  if (diff < 0) return `${Math.abs(diff)} min (Bus Faster)`;
+  if (diff < 0) return `${Math.abs(diff)} min (Car Faster)`;
   return "Equal";
 }
 
@@ -100,7 +90,7 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
     : segments;
 
   console.log(`\n==============================================================================`);
-  console.log(` ⏰ METRO SCRAPER ENGINE (${targetSlots.join(" | ")})`);
+  console.log(` ⏰ METRO vs. CAR SCRAPER ENGINE (${targetSlots.join(" | ")})`);
   console.log(`==============================================================================`);
   console.log(`🛣️ Routes to process: ${routesToScrape.length} corridors`);
   console.log(`🎯 Time Slots:        ${targetSlots.join(" | ")}`);
@@ -133,7 +123,7 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
   const dateStamp = `${dateIST}_${dayName}`; 
 
   const checkpointPath = path.join(checkpointDir, `checkpoint_${dateStamp}.json`);
-  const filePath = path.join(excelDir, `Bus_vs_Metro_Data_${dateStamp}.xlsx`);
+  const filePath = path.join(excelDir, `Metro_vs_Car_Data_${dateStamp}.xlsx`);
 
   let resultsByRoute = {};
   if (fs.existsSync(checkpointPath)) {
@@ -165,56 +155,35 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
             console.log(`   ⏰ Slot: [${targetTime}] — Already completed. Skipping.`);
             continue;
           }
-          console.log(`\n   ⏰ Slot: [${targetTime}] — Searching synchronized Bus vs Metro data...`);
+          console.log(`\n   ⏰ Slot: [${targetTime}] — Searching synchronized Metro vs Car data...`);
 
-          let allowedBuses = [];
-          if (route.primary_bus) allowedBuses.push(route.primary_bus);
-          if (route.backup_buses && route.backup_buses.length) allowedBuses.push(...route.backup_buses);
-
-          // Organized screenshot paths: output/screenshots/YYYY-MM-DD/slot/MC-01/bus.jpg
+          // Organized screenshot paths: output/screenshots/YYYY-MM-DD/slot/MC-01/{metro.jpg, car.jpg}
           const ssDir = getScreenshotDir(dateIST, targetTime, route.id);
-          const busSsPath = path.join(ssDir, `bus.jpg`);
           const metroSsPath = path.join(ssDir, `metro.jpg`);
           const carSsPath = path.join(ssDir, `car.jpg`);
 
-          const busFrom = route.from_bus || route.from;
-          const busTo = route.to_bus || route.to;
           const isNow = customTimeArg && customTimeArg.toLowerCase() === "now";
 
           const metroFrom = route.from_metro || route.from;
           const metroTo = route.to_metro || route.to;
+          const carFrom = route.from_car || route.from;
+          const carTo = route.to_car || route.to;
+          const carWaypoints = Array.isArray(route.car_waypoints) ? route.car_waypoints : [];
 
-          // Fetch Bus, Metro, and Car in PARALLEL for maximum speed
-          const [busResult, metroResult, carResult] = await Promise.all([
-            getTravelTime(browser, busFrom, busTo, "bus", {
-              allowedBuses,
-              keepPageOpen: false,
-              targetTime: isNow ? null : targetTime,
-              screenshotPath: busSsPath
-            }),
+          // Fetch Metro and Car in PARALLEL for maximum speed
+          const [metroResult, carResult] = await Promise.all([
             getTravelTime(browser, metroFrom, metroTo, "metro", {
               keepPageOpen: false,
               targetTime: isNow ? null : targetTime,
               screenshotPath: metroSsPath
             }),
-            getTravelTime(browser, busFrom, busTo, "driving", {
+            getTravelTime(browser, carFrom, carTo, "driving", {
               keepPageOpen: false,
               targetTime: isNow ? null : targetTime,
-              screenshotPath: carSsPath
+              screenshotPath: carSsPath,
+              waypoints: carWaypoints
             })
           ]);
-
-          const busData = {
-            timeRaw: busResult.success ? busResult.durationText : "N/A",
-            timeMin: busResult.success ? busResult.minutes : null,
-            actualBus: busResult.success ? busResult.actualBus : "N/A",
-            walkTime: busResult.success ? busResult.walkTime : "N/A",
-            fullRoute: busResult.success ? busResult.fullRoute : "N/A",
-            rawDetails: busResult.success ? busResult.rawDetails : "N/A",
-            url: busResult.url || "",
-            screenshotPath: busResult.success && fs.existsSync(busSsPath) ? busSsPath : null
-          };
-          console.log(`      🚌 Bus: ${busData.timeRaw} | Bus Used: ${busData.actualBus} | Walk: ${busData.walkTime} ${busResult.success ? "" : "(Failed)"}`);
 
           const metroData = {
             timeRaw: metroResult.success ? metroResult.durationText : "N/A",
@@ -231,6 +200,7 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
           const carData = {
             timeRaw: carResult.success ? carResult.durationText : "N/A",
             timeMin: carResult.success ? carResult.minutes : null,
+            rawDetails: carResult.success ? carResult.rawDetails : "N/A",
             url: carResult.url || "",
             screenshotPath: carResult.success && fs.existsSync(carSsPath) ? carSsPath : null
           };
@@ -239,14 +209,6 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
           const scrapedAtStr = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
           resultsByRoute[route.id][targetTime] = {
             scrapedAt: scrapedAtStr,
-            busTimeRaw: busData.timeRaw,
-            busMin: busData.timeMin,
-            busUsed: busData.actualBus,
-            busWalk: busData.walkTime,
-            busFullRoute: busData.fullRoute,
-            busRawDetails: busData.rawDetails,
-            busUrl: busData.url,
-            busSsPath: busData.screenshotPath,
             metroTimeRaw: metroData.timeRaw,
             metroMin: metroData.timeMin,
             metroUsed: metroData.actualMetro,
@@ -257,10 +219,11 @@ function getScreenshotDir(dateIST, slotStr, routeId) {
             metroSsPath: metroData.screenshotPath,
             carTimeRaw: carData.timeRaw,
             carMin: carData.timeMin,
+            carRawDetails: carData.rawDetails,
             carUrl: carData.url,
             carSsPath: carData.screenshotPath,
-            diffText: calcDiff(busData.timeMin, metroData.timeMin),
-            ratioText: calcRatio(busData.timeMin, metroData.timeMin)
+            diffText: calcDiff(carData.timeMin, metroData.timeMin),
+            ratioText: calcRatio(carData.timeMin, metroData.timeMin)
           };
           
           await randomDelay(2000, 4000);
@@ -307,13 +270,12 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
     sheet = workbook.addWorksheet(sheetName);
 
     const headers = [
-      "Date", "Day of Week", "Scraped At", "Corridor ID", "Metro Line", "Primary Bus", "Macro/Micro", "From", "To",
+      "Date", "Day of Week", "Scraped At", "Corridor ID", "Metro Line", "Macro/Micro", "From", "To",
       "Time Slot", "Peak Classification",
-      "Actual Bus Taken", "Bus Walk (min)", "Bus Time (min)", "Bus Route Details", "Bus Raw Details",
       "Actual Metro Taken", "Metro Walk (min)", "Metro Time (min)", "Metro Route Details", "Metro Raw Details",
-      "Car Time (min)",
-      "Time Difference", "Ratio (Bus/Metro)", "Winning Mode", "Time Savings (%)",
-      "Bus Link", "Metro Link", "Car Link", "Bus Screenshot", "Metro Screenshot", "Car Screenshot"
+      "Car Time (min)", "Car Raw Details",
+      "Time Difference (Car vs Metro)", "Ratio (Car/Metro)", "Winning Mode", "Time Savings (%)",
+      "Metro Link", "Car Link", "Metro Screenshot", "Car Screenshot"
     ];
     const hdrRow = sheet.addRow(headers);
     hdrRow.font = { bold: true, color: { argb: "FFFFFFFF" }, name: 'Segoe UI', size: 11 };
@@ -329,15 +291,11 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
       let winningMode = "N/A";
       let timeSavings = "N/A";
 
-      if (sData.busMin && sData.metroMin && sData.carMin) {
-        const minTime = Math.min(sData.busMin, sData.metroMin, sData.carMin);
-        if (minTime === sData.busMin && minTime < sData.metroMin && minTime < sData.carMin) {
-          winningMode = "Bus";
-          timeSavings = (((sData.metroMin - sData.busMin) / sData.metroMin) * 100).toFixed(1) + "% (vs Metro)";
-        } else if (minTime === sData.metroMin && minTime < sData.busMin && minTime < sData.carMin) {
+      if (sData.metroMin && sData.carMin) {
+        if (sData.metroMin < sData.carMin) {
           winningMode = "Metro";
-          timeSavings = (((sData.busMin - sData.metroMin) / sData.busMin) * 100).toFixed(1) + "% (vs Bus)";
-        } else if (minTime === sData.carMin && minTime < sData.busMin && minTime < sData.metroMin) {
+          timeSavings = (((sData.carMin - sData.metroMin) / sData.carMin) * 100).toFixed(1) + "% (vs Car)";
+        } else if (sData.carMin < sData.metroMin) {
           winningMode = "Car";
           timeSavings = (((sData.metroMin - sData.carMin) / sData.metroMin) * 100).toFixed(1) + "% (vs Metro)";
         } else {
@@ -352,44 +310,35 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
         sData.scrapedAt || "N/A",
         route.id,
         route.line,
-        route.primary_bus || "N/A",
         route.is_master ? "Macro (Full)" : "Micro (Segment)",
         route.from,
         route.to,
         slot,
         getPeakClassification(slot),
-        sData.busUsed || "N/A",
-        sData.busWalk || "N/A",
-        sData.busMin || "",
-        sData.busFullRoute || "N/A",
-        sData.busRawDetails || "N/A",
         sData.metroUsed || "N/A",
         sData.metroWalk || "N/A",
         sData.metroMin || "",
         sData.metroFullRoute || "N/A",
         sData.metroRawDetails || "N/A",
         sData.carMin || "",
+        sData.carRawDetails || "N/A",
         sData.diffText || "",
         sData.ratioText || "",
         winningMode,
         timeSavings,
-        sData.busUrl ? { text: "Open Maps", hyperlink: sData.busUrl } : "",
         sData.metroUrl ? { text: "Open Maps", hyperlink: sData.metroUrl } : "",
         sData.carUrl ? { text: "Open Maps", hyperlink: sData.carUrl } : "",
-        sData.busSsPath || "",
         sData.metroSsPath || "",
         sData.carSsPath || ""
       ];
       const addedRow = sheet.addRow(rowData);
 
       addedRow.eachCell((cell, colNumber) => {
-        if (colNumber === 23 || colNumber === 25) {
+        if (colNumber === 18 || colNumber === 20) {
           const val = String(cell.value || "");
           if (val.includes("Metro Faster") || val === "Metro") {
             cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFC6E0B4" } };
-          } else if (val.includes("Bus Faster") || val === "Bus") {
-            cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFFCE4D6" } };
-          } else if (val === "Car") {
+          } else if (val.includes("Car Faster") || val === "Car") {
             cell.fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFD9E1F2" } };
           }
         }
@@ -419,11 +368,6 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
   allSlots.forEach(slot => {
     sumHeaders.push(
       `${slot} Scraped At`,
-      `${slot} Actual Bus`,
-      `${slot} Bus Walk`,
-      `${slot} Bus (min)`,
-      `${slot} Bus Route`,
-      `${slot} Bus Raw Details`,
       `${slot} Actual Metro`,
       `${slot} Metro Walk`,
       `${slot} Metro (min)`,
@@ -451,15 +395,11 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
       let fasterMode = "N/A";
       let timeSavings = "N/A";
       
-      if (sData.busMin && sData.metroMin && sData.carMin) {
-        const minTime = Math.min(sData.busMin, sData.metroMin, sData.carMin);
-        if (minTime === sData.busMin && minTime < sData.metroMin && minTime < sData.carMin) {
-          fasterMode = "Bus";
-          timeSavings = (((sData.metroMin - sData.busMin) / sData.metroMin) * 100).toFixed(1) + "% (vs Metro)";
-        } else if (minTime === sData.metroMin && minTime < sData.busMin && minTime < sData.carMin) {
+      if (sData.metroMin && sData.carMin) {
+        if (sData.metroMin < sData.carMin) {
           fasterMode = "Metro";
-          timeSavings = (((sData.busMin - sData.metroMin) / sData.busMin) * 100).toFixed(1) + "% (vs Bus)";
-        } else if (minTime === sData.carMin && minTime < sData.busMin && minTime < sData.metroMin) {
+          timeSavings = (((sData.carMin - sData.metroMin) / sData.carMin) * 100).toFixed(1) + "% (vs Car)";
+        } else if (sData.carMin < sData.metroMin) {
           fasterMode = "Car";
           timeSavings = (((sData.metroMin - sData.carMin) / sData.metroMin) * 100).toFixed(1) + "% (vs Metro)";
         } else {
@@ -470,11 +410,6 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
 
       rowData.push(
         sData.scrapedAt || "",
-        sData.busUsed || "",
-        sData.busWalk || "",
-        sData.busMin || "",
-        sData.busFullRoute || "",
-        sData.busRawDetails || "",
         sData.metroUsed || "",
         sData.metroWalk || "",
         sData.metroMin || "",
@@ -488,12 +423,10 @@ async function exportToExcel(routesToScrape, targetSlots, resultsByRoute, filePa
     const addedRow = summarySheet.addRow(rowData);
     
     addedRow.eachCell((cell, colNumber) => {
-      if (colNumber >= 17 && (colNumber - 17) % 14 === 0) { 
+      if (colNumber >= 12 && (colNumber - 12) % 9 === 0) { 
         const val = String(cell.value || "");
         if (val === "Metro") {
           cell.font = { bold: true, color: { argb: "FF38761D" } };
-        } else if (val === "Bus") {
-          cell.font = { bold: true, color: { argb: "FFA64D79" } };
         } else if (val === "Car") {
           cell.font = { bold: true, color: { argb: "FF2F5597" } };
         }
