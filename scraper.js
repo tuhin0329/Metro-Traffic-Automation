@@ -74,6 +74,7 @@ async function setArriveByTime(page, timeStr) {
       await page.keyboard.press('Backspace');
       await inputEl.type(timeStr, { delay: 100 });
       await page.keyboard.press('Enter');
+      await page.keyboard.press('Escape');
       
       // Wait for results to reload
       try {
@@ -451,18 +452,13 @@ async function getTravelTime(
 
       if (screenshotPath) {
          try {
-            // Click the trip card to ensure the route is focused, highlighted, and fitted onto the map canvas
-            if (tripData && tripData.tripIndex !== undefined) {
-               await page.evaluate((idx) => {
-                  const trips = document.querySelectorAll('div[id^="section-directions-trip-"], div[data-trip-index]');
-                  if (trips && trips[idx]) {
-                     trips[idx].click();
-                  }
-               }, tripData.tripIndex).catch(() => {});
-            }
+            // Dismiss any open menus or popups to ensure clean overview directions layout
+            await page.keyboard.press('Escape').catch(() => {});
+            await new Promise(r => setTimeout(r, 600));
+
             // Allow complete WebGL map tiles, road labels, and colored route polyline to finish painting
             await new Promise(r => setTimeout(r, 2000));
-            await page.screenshot({ path: screenshotPath, type: 'jpeg', quality: 85 });
+            await page.screenshot({ path: screenshotPath, type: 'jpeg', quality: 90 });
          } catch(e) {
             console.error("Failed to take screenshot:", e);
          }
