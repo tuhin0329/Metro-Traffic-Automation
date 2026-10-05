@@ -299,9 +299,14 @@ console.log('✓ Regenerated all 24 corridor reports (Metro vs. Car with exact r
 // ─── 6. Generate Master Analysis Report & Executive Conclusion ──────────────
 const sortedByAdvantage = Object.values(corridorStats).sort((a, b) => b.timeSaved - a.timeSaved);
 
+const allDates = [...new Set(rawRecords.map(r => r.date))].sort();
+const minDate = allDates[0] || '2026-08-30';
+const maxDate = allDates[allDates.length - 1] || '2026-09-27';
+const totalDays = allDates.length;
+
 const masterReportContent = `# 📊 KOLKATA METRO vs CAR — MASTER ANALYSIS REPORT (24 VERIFIED CORRIDORS)
 
-**Analysis Period:** August 30, 2026 to September 22, 2026  
+**Analysis Period:** ${minDate} to ${maxDate} (${totalDays} Active Days)  
 **Total Raw Queries:** ${rawRecords.length} | **Clean Operational:** ${N} | **Walking Fallbacks Excluded:** ${walkingAnomalies.length} | **Missing Metro:** ${missingAnomalies.length}  
 **Active Corridors:** 24 across 4 Operational Metro Lines (Blue, Green, Orange, Purple)  
 **Time Slots:** 12:00 AM (Night Base) | 10:00 AM (Morning Peak) | 1:00 PM (Midday) | 7:00 PM (Evening Peak)

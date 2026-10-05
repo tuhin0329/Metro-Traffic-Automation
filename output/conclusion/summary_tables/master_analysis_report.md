@@ -1,6 +1,6 @@
 # 📊 KOLKATA METRO vs CAR — MASTER ANALYSIS REPORT (24 VERIFIED CORRIDORS)
 
-**Analysis Period:** August 30, 2026 to September 22, 2026  
+**Analysis Period:** 2026-08-30 to 2026-09-27 (28 Active Days)  
 **Total Raw Queries:** 2568 | **Clean Operational:** 2180 | **Walking Fallbacks Excluded:** 170 | **Missing Metro:** 218  
 **Active Corridors:** 24 across 4 Operational Metro Lines (Blue, Green, Orange, Purple)  
 **Time Slots:** 12:00 AM (Night Base) | 10:00 AM (Morning Peak) | 1:00 PM (Midday) | 7:00 PM (Evening Peak)
