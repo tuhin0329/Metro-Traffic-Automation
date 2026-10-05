@@ -2,7 +2,7 @@
 
 **Line:** 🟠 Orange | **Type:** 🔵 Micro (Segment)  
 **Metro Route Distance:** 4.4 km | **Car Route Distance:** 4.4 km  
-**Clean Data Points:** 75 | **Overall Winner:** 🚗 Car
+**Clean Data Points:** 97 | **Overall Winner:** 🚗 Car
 
 ---
 
@@ -10,11 +10,11 @@
 
 | Mode | Route Distance | Average Time | Avg Speed | Min | Max | Std Dev | Median |
 |:-----|:--------------:|:------------:|:---------:|:---:|:---:|:-------:|:------:|
-| 🚇 **Metro** | **4.4 km** | **13.3 min** | **19.9 km/h** | 12 | 17 | 2.2 | 12 |
-| 🚗 **Car** | **4.4 km** | **12.4 min** | **21.3 km/h** | 7 | 34 | 5.0 | 11 |
+| 🚇 **Metro** | **4.4 km** | **13.2 min** | **19.9 km/h** | 12 | 17 | 2.2 | 12 |
+| 🚗 **Car** | **4.4 km** | **12.1 min** | **21.8 km/h** | 7 | 34 | 4.9 | 11 |
 
-**Metro vs Car:** Metro saves **+-0.9 min** per trip (0.93x faster)  
-**Metro Win Rate:** **26.7%** (20/75 trips)
+**Metro vs Car:** Metro saves **+-1.1 min** per trip (0.92x faster)  
+**Metro Win Rate:** **24.7%** (24/97 trips)
 
 ---
 
@@ -22,19 +22,19 @@
 
 | Slot | Metro (4.4 km) | Metro Speed | Car (4.4 km) | Car Speed | Fastest | Gap (Car - Metro) |
 |:-----|:-----:|:-----------:|:---:|:---------:|:-------:|:-----------------:|
-| **12:00 AM** | **12.0 min** | 22.0 km/h | 8.1 min | 32.6 km/h | 🚗 Car | -3.9 min |
-| **10:00 AM** | **12.0 min** | 22.0 km/h | 15.2 min | 17.4 km/h | 🚇 Metro | +3.2 min |
-| **1:00 PM** | **12.0 min** | 22.0 km/h | 11.0 min | 24.0 km/h | 🚗 Car | -1.0 min |
-| **7:00 PM** | **17.0 min** | 15.5 km/h | 15.4 min | 17.1 km/h | 🚗 Car | -1.6 min |
+| **12:00 AM** | **12.0 min** | 22.0 km/h | 8.1 min | 32.7 km/h | 🚗 Car | -3.9 min |
+| **10:00 AM** | **12.0 min** | 22.0 km/h | 15.3 min | 17.3 km/h | 🚇 Metro | +3.3 min |
+| **1:00 PM** | **12.0 min** | 22.0 km/h | 10.7 min | 24.7 km/h | 🚗 Car | -1.3 min |
+| **7:00 PM** | **17.0 min** | 15.5 km/h | 14.5 min | 18.2 km/h | 🚗 Car | -2.5 min |
 
 ## Day-of-Week Performance
 
 | Day | N | Metro (4.4 km) | Car (4.4 km) |
 |:----|:---:|:-----:|:---:|
-| **Mon** | 11 | 13.8 min | 16.1 min |
-| **Tue** | 16 | 13.3 min | 12.2 min |
-| **Wed** | 12 | 13.3 min | 11.5 min |
-| **Thu** | 16 | 13.3 min | 12.4 min |
-| **Fri** | 16 | 13.3 min | 11.6 min |
-| **Sat** | 4 | 12.0 min | 8.3 min |
+| **Mon** | 16 | 13.6 min | 15.9 min |
+| **Tue** | 20 | 13.3 min | 11.9 min |
+| **Wed** | 16 | 13.3 min | 11.1 min |
+| **Thu** | 20 | 13.3 min | 12.2 min |
+| **Fri** | 20 | 13.3 min | 11.1 min |
+| **Sat** | 5 | 12.0 min | 8.2 min |
 | Sun | 0 | — | — |
