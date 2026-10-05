@@ -306,6 +306,11 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
 
     if (candidateTrips.length === 0) return null;
 
+    if (expected === 'metro') {
+      const namedMetroTrip = candidateTrips.find(t => t.actualMetro && /Line|Blue|Green|Purple|Orange/i.test(t.actualMetro));
+      if (namedMetroTrip) return namedMetroTrip;
+    }
+
     // Priority 1: Pick direct single-leg continuous route if available
     const directTrip = candidateTrips.find(t => t.isDirectSingleLeg);
     return directTrip || candidateTrips[0];
