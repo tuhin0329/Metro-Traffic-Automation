@@ -59,6 +59,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-05/1_00_PM/MC-01/car.jpg",
       "diffText": "25 min (Metro Faster)",
       "ratioText": "1.81x"
+    },
+    "3:14 PM": {
+      "scrapedAt": "10/5/2026, 3:15:00 PM",
+      "metroKm": 15,
+      "metroTimeRaw": "28 min",
+      "metroMin": 28,
+      "metroUsed": "Blue Line",
+      "metroWalk": "N/A",
+      "metroFullRoute": "Metro",
+      "metroRawDetails": " | 28 min | 3:21 PM—3:49 PM | Blue Line | 3:21 PM from Dakshineswar | ₹20.00 every 7 min | Details",
+      "metroUrl": "https://www.google.com/maps/dir/22.65408622426736,+88.3638931615659/22.56332388578194,+88.35097323696145/@22.6090002,88.3313997,13z/data=!4m13!4m12!1m3!2m2!1d88.3638932!2d22.6540862!1m3!2m2!1d88.3509732!2d22.5633239!2m2!4e3!5e1!3e3?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+      "metroSsPath": "D:\\Traffic\\Metro\\output\\screenshots\\2026-10-05\\3_14_PM\\MC-01\\metro.jpg",
+      "carKm": 12.6,
+      "carTimeRaw": "1 hr 11 min",
+      "carMin": 71,
+      "carRawDetails": " | 1 hr 11 min | 12.6 km | via Barrackpore Trunk Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.653470631102078,+88.36329672160596/22.62156059698968,+88.37914833394781/22.565526630304912,+88.35191115008645/@22.6094933,88.3244004,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3632967!2d22.6534706!1m3!2m2!1d88.3791483!2d22.6215606!1m3!2m2!1d88.3519112!2d22.5655266!3e0?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "D:\\Traffic\\Metro\\output\\screenshots\\2026-10-05\\3_14_PM\\MC-01\\car.jpg",
+      "diffText": "43 min (Metro Faster)",
+      "ratioText": "2.54x"
     }
   },
   "MC-02": {
@@ -93,14 +113,14 @@
       "metroRawDetails": " | 28 min | 10:03 AM—10:31 AM | Blue Line | 10:03 AM from Shahid Khudiram | ₹20.00 | Details",
       "metroUrl": "https://www.google.com/maps/dir/22.465946339146456,+88.39148389484731/22.563407258913113,+88.35082136993195/@22.5136756,88.3254443,13z/am=t/data=!4m16!4m15!1m3!2m2!1d88.3914839!2d22.4659463!1m3!2m2!1d88.3508214!2d22.5634073!2m5!4e3!5e1!6e0!7e2!8j1791194400!3e3?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D",
       "metroSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-05/10_00_AM/MC-02/metro.jpg",
-      "carKm": 16.5,
-      "carTimeRaw": "N/A",
-      "carMin": null,
-      "carRawDetails": "N/A",
+      "carKm": 15.1,
+      "carTimeRaw": "1 hr",
+      "carMin": 60,
+      "carRawDetails": " | 1 hr | 15.1 km | via Netaji Subhas Chandra Bose Rd | Fastest route now due to traffic conditions | Details | Preview",
       "carUrl": "",
-      "carSsPath": null,
-      "diffText": "N/A",
-      "ratioText": "N/A"
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-05/10_00_AM/MC-02/car.jpg",
+      "diffText": "32 min (Metro Faster)",
+      "ratioText": "2.14x"
     },
     "1:00 PM": {
       "scrapedAt": "10/5/2026, 1:03:52 PM",

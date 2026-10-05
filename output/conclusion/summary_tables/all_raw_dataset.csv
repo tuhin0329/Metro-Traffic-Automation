@@ -2788,7 +2788,7 @@ Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,IsWalk
 2026-09-30,Wed,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.2,1:00 PM,31,55,false,false,CleanOperational
 2026-09-30,Wed,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.4,7:00 PM,28,50,false,false,CleanOperational
 2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,17.3,14.7,12:00 AM,28,37,false,false,CleanOperational
-2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,16.5,10:00 AM,28,0,false,false,CleanOperational
+2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,15.1,10:00 AM,28,60,false,false,CleanOperational
 2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,15.5,1:00 PM,30,66,false,false,CleanOperational
 2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,14.7,7:00 PM,29,69,false,false,CleanOperational
 2026-09-30,Wed,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,12:00 AM,7,10,false,false,CleanOperational
@@ -3077,7 +3077,7 @@ Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,IsWalk
 2026-10-03,Sat,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.4,7:00 PM,28,54,false,false,CleanOperational
 2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,17.3,14.7,12:00 AM,30,37,false,false,CleanOperational
 2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.1,10:00 AM,28,56,false,false,CleanOperational
-2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,16.5,1:00 PM,30,0,false,false,CleanOperational
+2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.1,1:00 PM,30,60,false,false,CleanOperational
 2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,14.7,7:00 PM,29,68,false,false,CleanOperational
 2026-10-03,Sat,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,12:00 AM,54,11,true,false,WalkingFallback
 2026-10-03,Sat,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,10:00 AM,7,15,false,false,CleanOperational
@@ -3268,7 +3268,7 @@ Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,IsWalk
 2026-10-05,Mon,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.2,1:00 PM,31,56,false,false,CleanOperational
 2026-10-05,Mon,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.6,3:14 PM,28,71,false,false,CleanOperational
 2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,17.3,14.7,12:00 AM,30,37,false,false,CleanOperational
-2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,16.5,10:00 AM,28,0,false,false,CleanOperational
+2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.1,10:00 AM,28,60,false,false,CleanOperational
 2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.5,1:00 PM,30,65,false,false,CleanOperational
 2026-10-05,Mon,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,12:00 AM,7,11,false,false,CleanOperational
 2026-10-05,Mon,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,10:00 AM,7,16,false,false,CleanOperational

@@ -1,24 +1,24 @@
 # 📊 KOLKATA METRO vs CAR — MASTER ANALYSIS REPORT (24 VERIFIED CORRIDORS)
 
 **Analysis Period:** 2026-08-30 to 2026-10-05 (36 Active Days)  
-**Total Raw Queries:** 3337 | **Clean Operational:** 2823 | **Walking Fallbacks Excluded:** 222 | **Missing Metro:** 289  
+**Total Raw Queries:** 3337 | **Clean Operational:** 2826 | **Walking Fallbacks Excluded:** 222 | **Missing Metro:** 289  
 **Active Corridors:** 24 across 4 Operational Metro Lines (Blue, Green, Orange, Purple)  
 **Time Slots:** 12:00 AM (Night Base) | 10:00 AM (Morning Peak) | 1:00 PM (Midday) | 7:00 PM (Evening Peak)
 
 ---
 
-## 1. 🏆 Overall Mode Competitiveness (Metro vs. Car: N = 2823)
+## 1. 🏆 Overall Mode Competitiveness (Metro vs. Car: N = 2826)
 
 | Metric | Metro 🚇 | Car 🚗 | Tie 🤝 |
 |:-------|:--------:|:------:|:------:|
-| **Outright Wins** | **2323** | 362 | 138 |
+| **Outright Wins** | **2326** | 362 | 138 |
 | **Win Rate** | **82.3%** | 12.8% | 4.9% |
 | **Avg Time (min)** | **16.9 min** | 26.1 min | — |
-| **Std Dev (min)** | ±7.4 | ±12.9 | — |
+| **Std Dev (min)** | ±7.4 | ±13.0 | — |
 | **Avg Operating Speed** | **28.6 km/h** | 19.2 km/h | — |
 
 - **Average Time Saved by Metro vs Car:** **+9.1 min per trip** (1.54× faster)
-- **Paired t-test (Car − Metro):** $t = 49.28,\; p < 0.0001,\; \text{Cohen's } d = 0.93$
+- **Paired t-test (Car − Metro):** $t = 49.33,\; p < 0.0001,\; \text{Cohen's } d = 0.93$
 
 ---
 
@@ -26,7 +26,7 @@
 
 | Line | Corridors | N | Avg Metro Dist | Avg Car Dist | Metro Avg | Car Avg | Metro Speed | Car Speed | Time Saved vs Car | Metro Win Rate |
 |:-----|:---------:|:---:|:--------------:|:------------:|:---------:|:-------:|:-----------:|:---------:|:-----------------:|:--------------:|
-| **Blue** | 9 | 1195 | 8.2 km | 8.1 km | **17.1 min** | 29.4 min | **29.6 km/h** | 17.6 km/h | **+12.3 min** | **95.6%** |
+| **Blue** | 9 | 1198 | 8.2 km | 8.1 km | **17.2 min** | 29.5 min | **29.6 km/h** | 17.6 km/h | **+12.3 min** | **95.7%** |
 | **Green** | 6 | 834 | 9.0 km | 8.8 km | **19.4 min** | 30.2 min | **29.2 km/h** | 18.9 km/h | **+10.8 min** | **78.5%** |
 | **Orange** | 3 | 291 | 7.7 km | 7.7 km | **20.2 min** | 20.7 min | **25.0 km/h** | 23.7 km/h | **+0.5 min** | **40.2%** |
 | **Purple** | 6 | 503 | 4.3 km | 4.3 km | **10.4 min** | 14.2 min | **27.3 km/h** | 20.8 km/h | **+3.8 min** | **81.1%** |
@@ -38,8 +38,8 @@
 | Time Slot | N | Metro Avg | Car Avg | Metro Speed | Car Speed | Metro Win% |
 |:----------|:---:|:---------:|:-------:|:-----------:|:---------:|:----------:|
 | **12:00 AM** | 754 | **16.4 min** | 17.8 min | **30.1 km/h** | 25.5 km/h | **58.2%** |
-| **10:00 AM** | 724 | **15.9 min** | 26.1 min | **28.9 km/h** | 17.8 km/h | **92.8%** |
-| **1:00 PM** | 598 | **19.2 min** | 31.3 min | **27.4 km/h** | 17.0 km/h | **87.6%** |
+| **10:00 AM** | 726 | **15.9 min** | 26.2 min | **28.9 km/h** | 17.8 km/h | **92.8%** |
+| **1:00 PM** | 599 | **19.2 min** | 31.3 min | **27.4 km/h** | 17.0 km/h | **87.6%** |
 | **7:00 PM** | 722 | **16.7 min** | 30.3 min | **27.7 km/h** | 15.9 km/h | **92.1%** |
 
 ---
@@ -49,7 +49,7 @@
 | ID | Line | Corridor (`From → To`) | Metro Dist | Car Dist | Metro Avg | Car Avg | Metro Speed | Car Speed | Saved vs Car | Ratio | Win% |
 |:---|:----:|:-----------------------|:----------:|:--------:|:---------:|:-------:|:-----------:|:---------:|:------------:|:-----:|:----:|
 | **MC-01** | Blue | Dakshineswar → Esplanade | **15.0 km** | **12.4 km** | **28.9 min** | 44.3 min | 31.1 km/h | 16.8 km/h | +15.4 min | 1.53x | 95.7% |
-| **MC-02** | Blue | Shahid Khudiram → Esplanade | **14.9 km** | **16.5 km** | **28.9 min** | 45.5 min | 30.9 km/h | 21.8 km/h | +16.6 min | 1.57x | 97.8% |
+| **MC-02** | Blue | Shahid Khudiram → Esplanade | **14.9 km** | **16.5 km** | **28.9 min** | 45.8 min | 30.9 km/h | 21.6 km/h | +16.9 min | 1.59x | 97.8% |
 | **MC-03** | Blue | Shyambazar → Dum Dum | **3.8 km** | **3.5 km** | **7.7 min** | 14.8 min | 29.6 km/h | 14.2 km/h | +7.1 min | 1.92x | 98.0% |
 | **MC-04** | Blue | Shyambazar → Esplanade | **5.1 km** | **5.2 km** | **11.0 min** | 22.6 min | 27.8 km/h | 13.8 km/h | +11.6 min | 2.05x | 100.0% |
 | **MC-05** | Blue | Kalighat → Esplanade | **5.2 km** | **5.1 km** | **11.0 min** | 19.1 min | 28.4 km/h | 16.0 km/h | +8.1 min | 1.73x | 92.8% |

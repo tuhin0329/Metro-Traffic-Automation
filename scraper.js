@@ -178,7 +178,7 @@ async function getValidTripDuration(page, expectedMode, allowedBuses = []) {
                if (rangeMatch && (rangeMatch[0].includes('min') || rangeMatch[0].includes('hr'))) {
                  return rangeMatch[0].trim();
                }
-               const singleMatch = cleaned.match(/(?:about\s+)?((\d+\s*(?:hr|hour|h))?\s*(\d+\s*(?:min|m|mins)))/i);
+               const singleMatch = cleaned.match(/(?:about\s+)?((\d+\s*(?:hr|hour|h))(?:\s*(\d+\s*(?:min|m|mins)))?|(\d+\s*(?:min|m|mins)))/i);
                if (singleMatch) {
                  return singleMatch[1].trim();
                }

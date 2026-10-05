@@ -113,14 +113,14 @@
       "metroRawDetails": " | 28 min | 10:03 AM—10:31 AM | Blue Line | 10:03 AM from Shahid Khudiram | ₹20.00 | Details",
       "metroUrl": "https://www.google.com/maps/dir/22.465946339146456,+88.39148389484731/22.563407258913113,+88.35082136993195/@22.5136756,88.3254443,13z/am=t/data=!4m16!4m15!1m3!2m2!1d88.3914839!2d22.4659463!1m3!2m2!1d88.3508214!2d22.5634073!2m5!4e3!5e1!6e0!7e2!8j1790762400!3e3?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D",
       "metroSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-09-30/10_00_AM/MC-02/metro.jpg",
-      "carKm": 16.5,
-      "carTimeRaw": "N/A",
-      "carMin": null,
-      "carRawDetails": "N/A",
+      "carKm": 15.1,
+      "carTimeRaw": "1 hr",
+      "carMin": 60,
+      "carRawDetails": " | 1 hr | 15.1 km | via Netaji Subhas Chandra Bose Rd | Fastest route now due to traffic conditions | Details | Preview",
       "carUrl": "",
-      "carSsPath": null,
-      "diffText": "N/A",
-      "ratioText": "N/A"
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-09-30/10_00_AM/MC-02/car.jpg",
+      "diffText": "32 min (Metro Faster)",
+      "ratioText": "2.14x"
     },
     "1:00 PM": {
       "scrapedAt": "9/30/2026, 1:03:14 PM",

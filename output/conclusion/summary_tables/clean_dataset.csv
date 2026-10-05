@@ -2372,6 +2372,7 @@ Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,MetroS
 2026-09-30,Wed,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.2,1:00 PM,31,55,29.0,13.3,1.77,Metro,24
 2026-09-30,Wed,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.4,7:00 PM,28,50,32.1,14.9,1.79,Metro,22
 2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,17.3,14.7,12:00 AM,28,37,37.1,23.8,1.32,Metro,9
+2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,15.1,10:00 AM,28,60,31.9,15.1,2.14,Metro,32
 2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,15.5,1:00 PM,30,66,29.8,14.1,2.20,Metro,36
 2026-09-30,Wed,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.9,14.7,7:00 PM,29,69,30.8,12.8,2.38,Metro,40
 2026-09-30,Wed,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,12:00 AM,7,10,32.6,21.0,1.43,Metro,3
@@ -2642,6 +2643,7 @@ Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,MetroS
 2026-10-03,Sat,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.4,7:00 PM,28,54,32.1,13.8,1.93,Metro,26
 2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,17.3,14.7,12:00 AM,30,37,34.6,23.8,1.23,Metro,7
 2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.1,10:00 AM,28,56,31.7,16.2,2.00,Metro,28
+2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.1,1:00 PM,30,60,29.6,15.1,2.00,Metro,30
 2026-10-03,Sat,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,14.7,7:00 PM,29,68,30.6,13.0,2.34,Metro,39
 2026-10-03,Sat,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,10:00 AM,7,15,32.6,14.0,2.14,Metro,8
 2026-10-03,Sat,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,7:00 PM,8,18,28.5,11.7,2.25,Metro,10
@@ -2769,6 +2771,7 @@ Date,Day,RouteId,Line,From,To,IsMaster,MetroKm,CarKm,Slot,MetroMin,CarMin,MetroS
 2026-10-05,Mon,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.2,1:00 PM,31,56,29.0,13.1,1.81,Metro,25
 2026-10-05,Mon,MC-01,Blue,"Dakshineswar","Esplanade",true,15,12.6,3:14 PM,28,71,32.1,10.6,2.54,Metro,43
 2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,17.3,14.7,12:00 AM,30,37,34.6,23.8,1.23,Metro,7
+2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.1,10:00 AM,28,60,31.7,15.1,2.14,Metro,32
 2026-10-05,Mon,MC-02,Blue,"Shahid Khudiram","Esplanade",true,14.8,15.5,1:00 PM,30,65,29.6,14.3,2.17,Metro,35
 2026-10-05,Mon,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,12:00 AM,7,11,32.6,19.1,1.57,Metro,4
 2026-10-05,Mon,MC-03,Blue,"Shyambazar","Dum Dum",false,3.8,3.5,10:00 AM,7,16,32.6,13.1,2.29,Metro,9
