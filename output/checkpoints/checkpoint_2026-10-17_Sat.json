@@ -39,6 +39,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-01/car.jpg",
       "diffText": "33 min (Metro Faster)",
       "ratioText": "2.10x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:04:36 PM",
+      "metroKm": 15,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 14.1,
+      "carTimeRaw": "1 hr 5 min",
+      "carMin": 65,
+      "carRawDetails": " | 1 hr 5 min | 14.1 km | via Barrackpore Trunk Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.653470631102078,+88.36329672160596/22.62156059698968,+88.37914833394781/22.565526630304912,+88.35191115008645/@22.6094933,88.3250726,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3632967!2d22.6534706!1m3!2m2!1d88.3791483!2d22.6215606!1m3!2m2!1d88.3519112!2d22.5655266!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-01/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-02": {
@@ -81,6 +101,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-02/car.jpg",
       "diffText": "36 min (Metro Faster)",
       "ratioText": "2.09x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:06:19 PM",
+      "metroKm": 14.9,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 17.2,
+      "carTimeRaw": "1 hr 13 min",
+      "carMin": 73,
+      "carRawDetails": " | 1 hr 13 min | 17.2 km | via Baghajatin Station Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.465770952297937,+88.39125459325328/22.505314359877794,+88.34526732887224/22.565704822386092,+88.34815657385649/@22.5157247,88.3224812,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3912546!2d22.465771!1m3!2m2!1d88.3452673!2d22.5053144!1m3!2m2!1d88.3481566!2d22.5657048!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-02/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-03": {
@@ -123,6 +163,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-03/car.jpg",
       "diffText": "31 min (Car Faster)",
       "ratioText": "0.43x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:08:05 PM",
+      "metroKm": 3.8,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 4.1,
+      "carTimeRaw": "27 min",
+      "carMin": 27,
+      "carRawDetails": " | 27 min | 4.1 km | via Belgachia Rd/Khudiram Bose Sarani | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.601522130350652,+88.37274939675014/22.60444538237183,+88.38128080833515/22.612728623213552,+88.38610649947843/22.619679989906405,+88.39236012864889/@22.6106391,88.3619551,14z/data=!3m1!4b1!4m18!4m17!1m3!2m2!1d88.3727494!2d22.6015221!1m3!2m2!1d88.3812808!2d22.6044454!1m3!2m2!1d88.3861065!2d22.6127286!1m3!2m2!1d88.3923601!2d22.61968!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-03/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-04": {
@@ -165,6 +225,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-04/car.jpg",
       "diffText": "28 min (Metro Faster)",
       "ratioText": "3.55x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:09:47 PM",
+      "metroKm": 5.1,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 5.7,
+      "carTimeRaw": "50 min",
+      "carMin": 50,
+      "carRawDetails": " | 50 min | 5.7 km | via Bidhan Sarani Rd and Central Ave/Chittaranjan Ave | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.60124264043918,+88.37214562837053/22.580621677959357,+88.36133537357239/22.56277475918881,+88.35123017998633/@22.5820167,88.3413618,14z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3721456!2d22.6012426!1m3!2m2!1d88.3613354!2d22.5806217!1m3!2m2!1d88.3512302!2d22.5627748!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-04/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-05": {
@@ -207,6 +287,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-05/car.jpg",
       "diffText": "12 min (Metro Faster)",
       "ratioText": "2.09x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:11:28 PM",
+      "metroKm": 5.2,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 5.1,
+      "carTimeRaw": "26 min",
+      "carMin": 26,
+      "carRawDetails": " | 26 min | 5.1 km | via Shyama Prasad Mukherjee Rd and Ashutosh Mukherjee Rd | Fastest route, despite heavier traffic than usual | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.51769869506588,+88.34577944660832/22.54116465398506,+88.34708214746988/22.56310259775771,+88.35081410441231/@22.5403908,88.327573,14z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3457794!2d22.5176987!1m3!2m2!1d88.3470821!2d22.5411647!1m3!2m2!1d88.3508141!2d22.5631026!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-05/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-06": {
@@ -249,6 +349,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-06/car.jpg",
       "diffText": "2 min (Metro Faster)",
       "ratioText": "1.08x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:11:46 PM",
+      "metroKm": 6.2,
+      "metroTimeRaw": "18 min",
+      "metroMin": 18,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "Train Walk",
+      "metroRawDetails": " | 18 min | 7:24 AM—7:42 AM | 32218 - Dankuni - Sealdah Local   | 7:27 AM from Dakshineswar 8 min late |  8 min | Details",
+      "metroUrl": "https://www.google.com/maps/dir/22.6540923709464,+88.36389061652439/22.621089600101637,+88.3928950448739/@22.6367095,88.368405,15z/data=!3m1!4b1!4m16!4m15!1m3!2m2!1d88.3638906!2d22.6540924!1m3!2m2!1d88.392895!2d22.6210896!2m5!4e3!5e1!6e0!7e2!8j1792220400!3e3?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "metroSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-06/metro.jpg",
+      "carKm": 7,
+      "carTimeRaw": "29 min",
+      "carMin": 29,
+      "carRawDetails": " | 29 min | 7.0 km | via Barrackpore Trunk Rd | Fastest route, despite the usual traffic | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.65347920625951,+88.36329287332482/22.619170212646978,+88.38587143368247/22.620263585465377,+88.39507060497814/@22.6361269,88.3586055,14z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3632929!2d22.6534792!1m3!2m2!1d88.3858714!2d22.6191702!1m3!2m2!1d88.3950706!2d22.6202636!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-06/car.jpg",
+      "diffText": "11 min (Metro Faster)",
+      "ratioText": "1.61x"
     }
   },
   "MC-07": {
@@ -291,6 +411,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-07/car.jpg",
       "diffText": "11 min (Metro Faster)",
       "ratioText": "1.46x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:13:30 PM",
+      "metroKm": 7.8,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 8.3,
+      "carTimeRaw": "40 min",
+      "carMin": 40,
+      "carRawDetails": " | 40 min | 8.3 km | via Chowringee Rd/Jawaharlal Nehru Rd and Ashutosh Mukherjee Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.562779408035617,+88.35122852665252/22.52712566617058,+88.34612133365039/22.49353449492922,+88.34552701463664/@22.5281607,88.3064765,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3512285!2d22.5627794!1m3!2m2!1d88.3461213!2d22.5271257!1m3!2m2!1d88.345527!2d22.4935345!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-07/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-08": {
@@ -333,6 +473,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-08/car.jpg",
       "diffText": "12 min (Metro Faster)",
       "ratioText": "1.71x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:15:20 PM",
+      "metroKm": 7.1,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 6.4,
+      "carTimeRaw": "37 min",
+      "carMin": 37,
+      "carRawDetails": " | 37 min | 6.4 km | via Netaji Subhas Chandra Bose Rd | Fastest route, despite the usual traffic | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.49353226917245,+88.34552508357254/22.473109049753603,+88.3635614058907/22.46577477054952,+88.39125178068097/@22.4781568,88.3271245,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3455251!2d22.4935323!1m3!2m2!1d88.3635614!2d22.473109!1m3!2m2!1d88.3912518!2d22.4657748!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-08/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-09": {
@@ -375,6 +535,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-09/car.jpg",
       "diffText": "41 min (Metro Faster)",
       "ratioText": "3.56x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:17:05 PM",
+      "metroKm": 8.8,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 9.5,
+      "carTimeRaw": "1 hr 5 min",
+      "carMin": 65,
+      "carRawDetails": " | 1 hr 5 min | 9.5 km | via Raja Dinendra St | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.619691373499503,+88.39238432779209/22.589031318922988,+88.36354469068283/22.562776551520415,+88.35122934709021/@22.5912439,88.3305463,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3923843!2d22.6196914!1m3!2m2!1d88.3635447!2d22.5890313!1m3!2m2!1d88.3512293!2d22.5627766!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-09/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-10": {
@@ -417,6 +597,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-10/car.jpg",
       "diffText": "26 min (Metro Faster)",
       "ratioText": "1.87x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:18:50 PM",
+      "metroKm": 14.2,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 12,
+      "carTimeRaw": "56 min",
+      "carMin": 56,
+      "carRawDetails": " | 56 min | 12.0 km | via Kali Krishna Tagore St | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.585481422882026,+88.34319081340925/22.585662031406073,+88.36820254626498/22.580843556005224,+88.42912547963125/@22.5786536,88.3027688,12z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3431908!2d22.5854814!1m3!2m2!1d88.3682025!2d22.585662!1m3!2m2!1d88.4291255!2d22.5808436!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-10/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-11": {
@@ -459,6 +659,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-11/car.jpg",
       "diffText": "4 min (Metro Faster)",
       "ratioText": "1.19x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:20:34 PM",
+      "metroKm": 8.6,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 8,
+      "carTimeRaw": "29 min",
+      "carMin": 29,
+      "carRawDetails": " | 29 min | 8.0 km | via Beleghata Main Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.565377208618216,+88.37030316255107/22.563433768712635,+88.3935251784991/22.580843556005224,+88.42912547963125/@22.5694284,88.3585106,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3703032!2d22.5653772!1m3!2m2!1d88.3935252!2d22.5634338!1m3!2m2!1d88.4291255!2d22.5808436!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-11/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-12": {
@@ -501,6 +721,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-12/car.jpg",
       "diffText": "34 min (Metro Faster)",
       "ratioText": "4.78x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:22:15 PM",
+      "metroKm": 5.6,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 7.2,
+      "carTimeRaw": "45 min",
+      "carMin": 45,
+      "carRawDetails": " | 45 min | 7.2 km | via Kali Krishna Tagore St | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.583404191074106,+88.34084207585394/22.586379900253018,+88.36039501763601/22.566255086518705,+88.37012437107938/@22.5763786,88.3358837,14z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3408421!2d22.5834042!1m3!2m2!1d88.360395!2d22.5863799!1m3!2m2!1d88.3701244!2d22.5662551!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-12/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-13": {
@@ -543,6 +783,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-13/car.jpg",
       "diffText": "Equal",
       "ratioText": "1.00x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:23:59 PM",
+      "metroKm": 6.6,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 4.9,
+      "carTimeRaw": "18 min",
+      "carMin": 18,
+      "carRawDetails": " | 18 min | 4.9 km | via Narkeldanga Main Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.572127611506733,+88.38940052181917/22.570938535100822,+88.40023122809994/22.569680837930107,+88.41710669127025/22.58084532719121,+88.42912590709349/@22.5750573,88.3680504,13z/data=!3m1!4b1!4m18!4m17!1m3!2m2!1d88.3894005!2d22.5721276!1m3!2m2!1d88.4002312!2d22.5709385!1m3!2m2!1d88.4171067!2d22.5696808!1m3!2m2!1d88.4291259!2d22.5808453!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-13/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-14": {
@@ -585,6 +845,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-14/car.jpg",
       "diffText": "30 min (Metro Faster)",
       "ratioText": "3.50x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:25:44 PM",
+      "metroKm": 7.7,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 7.6,
+      "carTimeRaw": "42 min",
+      "carMin": 42,
+      "carRawDetails": " | 42 min | 7.6 km | via Kali Krishna Tagore St | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.58340361704593,+88.34084374552198/22.585514405944277,+88.37027119434248/22.572126224181527,+88.38939982775283/@22.5796696,88.3244678,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3408437!2d22.5834036!1m3!2m2!1d88.3702712!2d22.5855144!1m3!2m2!1d88.3893998!2d22.5721262!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-14/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-15": {
@@ -627,6 +907,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-15/car.jpg",
       "diffText": "6 min (Metro Faster)",
       "ratioText": "1.24x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:27:28 PM",
+      "metroKm": 11.3,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 15.5,
+      "carTimeRaw": "39 min",
+      "carMin": 39,
+      "carRawDetails": " | 39 min | 15.5 km | via AJC Bose Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.564313554746203,+88.34997573769101/22.54571299015017,+88.36288796924995/22.58084371690095,+88.42912775955199/@22.5599643,88.3024873,12z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3499757!2d22.5643136!1m3!2m2!1d88.362888!2d22.545713!1m3!2m2!1d88.4291278!2d22.5808437!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-15/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-16": {
@@ -667,6 +967,26 @@
       "carRawDetails": " | 21 min | 9.8 km | via New Garia Sta Rd/Panchasyar Main Rd | Fastest route, the usual traffic | Details | Preview",
       "carUrl": "https://www.google.com/maps/dir/22.472541039912844,+88.39853545260681/22.479675553846793,+88.39077825571555/22.551096686254574,+88.403692873648/@22.5118136,88.3556283,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3985355!2d22.472541!1m3!2m2!1d88.3907783!2d22.4796756!1m3!2m2!1d88.4036929!2d22.5510967!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-16/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:29:13 PM",
+      "metroKm": 9.8,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 9.8,
+      "carTimeRaw": "25 min",
+      "carMin": 25,
+      "carRawDetails": " | 25 min | 9.8 km | via New Garia Sta Rd/Panchasyar Main Rd | Fastest route, the usual traffic | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.472541039912844,+88.39853545260681/22.479675553846793,+88.39077825571555/22.551096686254574,+88.403692873648/@22.5118136,88.3556283,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3985355!2d22.472541!1m3!2m2!1d88.3907783!2d22.4796756!1m3!2m2!1d88.4036929!2d22.5510967!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-16/car.jpg",
       "diffText": "N/A",
       "ratioText": "N/A"
     }
@@ -711,6 +1031,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-17/car.jpg",
       "diffText": "N/A",
       "ratioText": "N/A"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:30:55 PM",
+      "metroKm": 4.4,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 4.4,
+      "carTimeRaw": "10 min",
+      "carMin": 10,
+      "carRawDetails": " | 10 min | 4.4 km | via Bangaon - Kulpi Rd/Biswa Bangla Sarani/Eastern Metropolitan Bypass/Thakurnagar - Panchpota Rd | Fastest route, despite the usual traffic | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.5147860299177,+88.40140349332457/22.551097142805936,+88.40369512481651/@22.53294,88.3787094,14z/data=!3m1!4b1!4m10!4m9!1m3!2m2!1d88.4014035!2d22.514786!1m3!2m2!1d88.4036951!2d22.5510971!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-17/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-18": {
@@ -751,6 +1091,26 @@
       "carRawDetails": " | 19 min | 8.8 km | via New Garia Sta Rd/Panchasyar Main Rd | Fastest route, the usual traffic | Details | Preview",
       "carUrl": "https://www.google.com/maps/dir/22.472526781432506,+88.39857360257338/22.48057968794946,+88.39014305686813/22.543934946683734,+88.39873677389043/@22.508226,88.3546984,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3985736!2d22.4725268!1m3!2m2!1d88.3901431!2d22.4805797!1m3!2m2!1d88.3987368!2d22.5439349!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-18/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:32:35 PM",
+      "metroKm": 8.9,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 8.8,
+      "carTimeRaw": "23 min",
+      "carMin": 23,
+      "carRawDetails": " | 23 min | 8.8 km | via New Garia Sta Rd/Panchasyar Main Rd | Fastest route now due to traffic conditions | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.472526781432506,+88.39857360257338/22.48057968794946,+88.39014305686813/22.543934946683734,+88.39873677389043/@22.508226,88.3546984,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3985736!2d22.4725268!1m3!2m2!1d88.3901431!2d22.4805797!1m3!2m2!1d88.3987368!2d22.5439349!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-18/car.jpg",
       "diffText": "N/A",
       "ratioText": "N/A"
     }
@@ -795,6 +1155,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-19/car.jpg",
       "diffText": "9 min (Metro Faster)",
       "ratioText": "1.47x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:34:18 PM",
+      "metroKm": 7.9,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 7.8,
+      "carTimeRaw": "28 min",
+      "carMin": 28,
+      "carRawDetails": " | 28 min | 7.8 km | via NH 12 | Fastest route, despite the usual traffic | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.45241202694395,+88.30178595764629/22.46777641706022,+88.30871078153143/22.519028466957995,+88.32384942989775/@22.485715,88.2716199,13z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.301786!2d22.452412!1m3!2m2!1d88.3087108!2d22.4677764!1m3!2m2!1d88.3238494!2d22.5190285!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-19/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-20": {
@@ -837,6 +1217,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-20/car.jpg",
       "diffText": "39 min (Car Faster)",
       "ratioText": "0.28x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:36:00 PM",
+      "metroKm": 3.7,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 3.7,
+      "carTimeRaw": "14 min",
+      "carMin": 14,
+      "carRawDetails": " | 14 min | 3.7 km | via NH 12 | Fastest route, despite slowdown on NH 12 causing 6-min delay | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.487142185451983,+88.31318265264049/22.51902028012756,+88.32384642885732/@22.5030797,88.2979175,14z/data=!3m1!4b1!4m10!4m9!1m3!2m2!1d88.3131827!2d22.4871422!1m3!2m2!1d88.3238464!2d22.5190203!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-20/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-21": {
@@ -879,6 +1279,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-21/car.jpg",
       "diffText": "44 min (Car Faster)",
       "ratioText": "0.23x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:37:44 PM",
+      "metroKm": 4.2,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 4.1,
+      "carTimeRaw": "14 min",
+      "carMin": 14,
+      "carRawDetails": " | 14 min | 4.1 km | via NH 12 | Fastest route, despite slowdown on NH 12 causing 5-min delay | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.45241202694395,+88.30178595764629/22.487142185451983,+88.31318265264049/@22.4697758,88.2868854,14z/data=!3m1!4b1!4m10!4m9!1m3!2m2!1d88.301786!2d22.452412!1m3!2m2!1d88.3131827!2d22.4871422!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-21/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-22": {
@@ -919,6 +1339,26 @@
       "carRawDetails": " | 24 min | 6.5 km | via NH 12 | Fastest route, despite the usual traffic | Details | Preview",
       "carUrl": "https://www.google.com/maps/dir/22.452416134761656,+88.30178390174278/22.481564183455504,+88.31068021669246/22.50774716411069,+88.32031812858844/@22.4800795,88.2904545,14z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3017839!2d22.4524161!1m3!2m2!1d88.3106802!2d22.4815642!1m3!2m2!1d88.3203181!2d22.5077472!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-22/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:39:25 PM",
+      "metroKm": 6.6,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 6.5,
+      "carTimeRaw": "26 min",
+      "carMin": 26,
+      "carRawDetails": " | 26 min | 6.5 km | via NH 12 | Fastest route, despite heavier traffic than usual | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.452416134761656,+88.30178390174278/22.481564183455504,+88.31068021669246/22.50774716411069,+88.32031812858844/@22.4800795,88.2904545,14z/data=!3m1!4b1!4m14!4m13!1m3!2m2!1d88.3017839!2d22.4524161!1m3!2m2!1d88.3106802!2d22.4815642!1m3!2m2!1d88.3203181!2d22.5077472!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-22/car.jpg",
       "diffText": "N/A",
       "ratioText": "N/A"
     }
@@ -963,6 +1403,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-23/car.jpg",
       "diffText": "22 min (Car Faster)",
       "ratioText": "0.33x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:41:05 PM",
+      "metroKm": 2.4,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 2.4,
+      "carTimeRaw": "11 min",
+      "carMin": 11,
+      "carRawDetails": " | 11 min | 2.4 km | via NH 12 | Fastest route, despite slowdown on NH 12 causing 6-min delay | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.487142185451983,+88.31318265264049/22.50774716411069,+88.32031812858844/@22.4974442,88.3064538,15z/data=!3m1!4b1!4m10!4m9!1m3!2m2!1d88.3131827!2d22.4871422!1m3!2m2!1d88.3203181!2d22.5077472!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-23/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   },
   "MC-24": {
@@ -1005,6 +1465,26 @@
       "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/1_00_PM/MC-24/car.jpg",
       "diffText": "19 min (Car Faster)",
       "ratioText": "0.14x"
+    },
+    "7:00 PM": {
+      "scrapedAt": "10/17/2026, 7:42:47 PM",
+      "metroKm": 1.3,
+      "metroTimeRaw": "N/A",
+      "metroMin": null,
+      "metroUsed": "N/A",
+      "metroWalk": "N/A",
+      "metroFullRoute": "N/A",
+      "metroRawDetails": "N/A",
+      "metroUrl": "",
+      "metroSsPath": null,
+      "carKm": 1.3,
+      "carTimeRaw": "3 min",
+      "carMin": 3,
+      "carRawDetails": " | 3 min | 1.3 km | via NH 12 | Fastest route, the usual traffic | Details | Preview",
+      "carUrl": "https://www.google.com/maps/dir/22.50774716411069,+88.32031812858844/22.51902028012756,+88.32384642885732/@22.5133826,88.3169349,16z/data=!3m1!4b1!4m10!4m9!1m3!2m2!1d88.3203181!2d22.5077472!1m3!2m2!1d88.3238464!2d22.5190203!3e0?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+      "carSsPath": "/home/runner/work/Metro-Traffic-Automation/Metro-Traffic-Automation/output/screenshots/2026-10-17/7_00_PM/MC-24/car.jpg",
+      "diffText": "N/A",
+      "ratioText": "N/A"
     }
   }
 }
