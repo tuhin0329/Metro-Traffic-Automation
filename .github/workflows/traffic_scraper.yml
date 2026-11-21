@@ -41,10 +41,14 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y wget gnupg xvfb
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          if ! command -v google-chrome > /dev/null 2>&1; then
+            sudo mkdir -p /etc/apt/keyrings
+            wget -q -O- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor --yes -o /etc/apt/keyrings/google-chrome.gpg
+            echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+            sudo apt-get update
+            sudo apt-get install -y google-chrome-stable
+          fi
+          google-chrome --version
 
       - name: Run Traffic Scraper
         env:
